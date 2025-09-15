@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: DEFAULT_SEO.title,
     description: DEFAULT_SEO.description,
     url: BASE_URL,
-    siteName: 'H-Séchement',
+    siteName: 'H-Sèchement',
     locale: 'fr_CH',
     type: 'website',
     // Images OG temporairement supprimées pour éviter 404s
@@ -113,12 +113,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "H-Séchement",
+              "name": "H-Sèchement Sàrl",
               "url": BASE_URL,
               "logo": `${BASE_URL}/images/logo.png`,
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+41 79 123 45 67",
+                "telephone": "021 882 29 52",
                 "contactType": "emergency",
                 "availableLanguage": ["French"],
                 "serviceArea": {
@@ -127,7 +127,11 @@ export default function RootLayout({
                 }
               },
               "sameAs": [
-                // Réseaux sociaux si applicable
+                "https://www.youtube.com/channel/UC8Z-XkDRD1rGgwK9WJsDqOg",
+                "https://x.com/HSechement",
+                "https://www.linkedin.com/company/h-sechement/",
+                "https://www.instagram.com/hsechement_ch/",
+                "https://www.facebook.com/profile.php?id=61573832616234"
               ]
             })
           }}

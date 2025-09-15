@@ -2,15 +2,15 @@ import { ContactInfo, Service, LocalArea, CompanyInfo, Testimonial } from '@/typ
 
 // === INFORMATIONS CONTACT ===
 export const CONTACT: ContactInfo = {
-  phone: '+41 79 123 45 67', // TODO: Remplacer par le vrai numéro
-  emergencyPhone: '+41 79 123 45 67',
+  phone: '021 882 29 52',
+  emergencyPhone: '021 882 29 52',
   email: 'contact@hsechement.ch',
-  address: 'Arc Lémanique, Suisse romande'
+  address: 'Route de Daillens 14, 1042 Bettens'
 };
 
 // === INFORMATIONS ENTREPRISE ===
 export const COMPANY: CompanyInfo = {
-  name: 'H-Séchement',
+  name: 'H-Sèchement Sàrl',
   description: 'Spécialiste de l\'assèchement d\'urgence en Suisse romande. Intervention rapide 24h/24, 7j/7 pour tous vos dégâts d\'eau.',
   founded: '2020',
   experience: '5+ ans',
@@ -178,7 +178,7 @@ export const BASE_URL = 'https://www.hsechement.ch';
 
 // === MÉTA-DONNÉES PAR DÉFAUT ===
 export const DEFAULT_SEO = {
-  title: 'H-Séchement | Assèchement Urgence 24h/7 Suisse Romande',
+  title: 'H-Sèchement | Assèchement Urgence 24h/7 Suisse Romande',
   description: 'Spécialiste assèchement d\'urgence en Suisse romande. Intervention sous 30 min, 24h/7j. Dégât d\'eau, inondation, fuite. Agréé assurances.',
   keywords: [
     'assèchement urgence',
