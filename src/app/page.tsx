@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Clock, CheckCircle, Phone, Users, Award, Shield } from 'lucide-react';
 import CTAUrgence from '@/components/CTAUrgence';
 import LocalSchema from '@/components/LocalSchema';
+import HeroAlternatingText from '@/components/HeroAlternatingText';
 import { COMPANY, SERVICES, TESTIMONIALS, LOCAL_AREAS, BASE_URL } from '@/data/site-config';
 
 // SEO metadata pour la homepage
@@ -31,11 +32,7 @@ export default function HomePage() {
 
             {/* Contenu principal */}
             <div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-corporate-dark mb-6">
-                <span className="text-hsechement-red">Urgence dégât d&apos;eau</span>
-                <br />
-                <span className="text-hsechement-orange">en Suisse romande ?</span>
-              </h1>
+              <HeroAlternatingText />
 
               <p className="text-xl md:text-2xl text-corporate-gray mb-8">
                 <strong className="text-corporate-dark">Intervention en 30 minutes</strong>
