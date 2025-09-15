@@ -12,10 +12,10 @@ const QUARTIERS = [
 
 export const metadata: Metadata = {
   title: `Assainissement Yverdon | Assèchement d'Urgence 24h/7j - Nord Vaudois`,
-  description: `URGENCE assainissement Yverdon? ⚡ Intervention sous 30min dans tout Yverdon (${CODE_POSTAL}). Spécialiste Nord Vaudois. Agréé assurances. Devis gratuit.`,
+  description: `URGENCE assainissement Yverdon? ⚡ Intervention en 30min dans tout Yverdon (${CODE_POSTAL}). Spécialiste Nord Vaudois. Agréé assurances. Devis gratuit.`,
   openGraph: {
     title: `Assèchement d'Urgence Yverdon | Assainissement Nord Vaudois`,
-    description: `Service assainissement urgence Yverdon sous 30min. Spécialiste dégâts d'eau Nord Vaudois 24h/7j. Équipe agréée assurances.`,
+    description: `Service assainissement urgence Yverdon en 30min. Spécialiste dégâts d'eau Nord Vaudois 24h/7j. Équipe agréée assurances.`,
     url: `${BASE_URL}/assechement-urgence-yverdon`,
   },
   alternates: {
@@ -77,7 +77,7 @@ export default function AssechementUrgenceYverdonPage() {
               Assèchement d&apos;Urgence Nord Vaudois - Service 30min
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Région Yverdon ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Région Yverdon ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
@@ -162,7 +162,7 @@ export default function AssechementUrgenceYverdonPage() {
                       <div>
                         <div className="font-bold text-lg mb-2">Couverture Étendue</div>
                         <p className="text-gray-700">
-                          <strong>Rayon 15km autour d&apos;Yverdon</strong> garanti sous 30 minutes.
+                          <strong>Rayon 15km autour d&apos;Yverdon</strong> garanti en 30 minutes.
                           Grandson, Yvonand, Champagne, toutes communes limitrophes.
                         </p>
                       </div>
@@ -390,7 +390,7 @@ export default function AssechementUrgenceYverdonPage() {
             </div>
 
             <div className="mt-8 text-lg">
-              <strong>Spécialiste industriel + rural</strong> • Intervention ≤ 30min dans tout le Nord Vaudois
+              <strong>Spécialiste industriel + rural</strong> • Intervention en 30min dans tout le Nord Vaudois
             </div>
           </div>
         </div>

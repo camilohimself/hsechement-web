@@ -7,10 +7,10 @@ import { COMPANY, SERVICES, TESTIMONIALS, LOCAL_AREAS, BASE_URL } from '@/data/s
 // SEO metadata pour la homepage
 export const metadata: Metadata = {
   title: 'H-Séchement | Assèchement Urgence 24h/7 Suisse Romande',
-  description: 'Spécialiste assèchement d\'urgence en Suisse romande. Intervention sous 30 min, 24h/7j. Dégât d\'eau, inondation, fuite. Agréé assurances.',
+  description: 'Spécialiste assèchement d\'urgence en Suisse romande. Intervention en 30 min, 24h/7j. Dégât d\'eau, inondation, fuite. Agréé assurances.',
   openGraph: {
     title: 'H-Séchement | Assèchement Urgence 24h/7 Suisse Romande',
-    description: 'Intervention d\'urgence sous 30 minutes pour tous vos dégâts d\'eau en Suisse romande. Service professionnel 24h/24.',
+    description: 'Intervention d\'urgence en 30 minutes pour tous vos dégâts d\'eau en Suisse romande. Service professionnel 24h/24.',
     url: BASE_URL,
   },
   alternates: {
@@ -38,7 +38,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-xl md:text-2xl text-corporate-gray mb-8">
-                <strong className="text-corporate-dark">Intervention sous 30 minutes</strong>
+                <strong className="text-corporate-dark">Intervention en 30 minutes</strong>
                 <br />
                 Service professionnel 24h/24, 7j/7
               </p>
@@ -47,7 +47,7 @@ export default function HomePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
-                  <span className="text-corporate-dark">Intervention sous 30 min</span>
+                  <span className="text-corporate-dark">Intervention en 30 min</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
@@ -283,7 +283,7 @@ export default function HomePage() {
               APPELER MAINTENANT
             </a>
             <p className="mt-4 text-lg">
-              Service disponible 24h/24 • Intervention sous 30 min
+              Service disponible 24h/24 • Intervention en 30 min
             </p>
           </div>
         </div>

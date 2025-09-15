@@ -12,7 +12,7 @@ const QUARTIERS = [
 
 export const metadata: Metadata = {
   title: `Humidité Traitement Montreux | Assèchement Urgence Riviera - Service Premium`,
-  description: `EXPERT humidité Montreux Riviera! ⚡ Traitement professionnel sous 30min (${CODE_POSTAL}). Spécialiste climat lacustre. Service premium. Devis gratuit.`,
+  description: `EXPERT humidité Montreux Riviera! ⚡ Traitement professionnel en 30min (${CODE_POSTAL}). Spécialiste climat lacustre. Service premium. Devis gratuit.`,
   openGraph: {
     title: `Traitement Humidité Montreux | Expert Riviera Vaudoise`,
     description: `Spécialiste traitement humidité Montreux. Expert climat Riviera, intervention premium 30min. Service 24h/7j région Montreux-Vevey.`,
@@ -77,7 +77,7 @@ export default function AssechementUrgenceMontreuxPage() {
               Assèchement d&apos;Urgence Riviera - Service Premium
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Riviera Vaudoise ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Riviera Vaudoise ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">

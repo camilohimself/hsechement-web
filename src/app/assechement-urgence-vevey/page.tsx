@@ -12,10 +12,10 @@ const QUARTIERS = [
 
 export const metadata: Metadata = {
   title: `Assainissement Vevey | Assèchement d'Urgence 24h/7j - Service 30min`,
-  description: `URGENCE assainissement Vevey? ⚡ Intervention sous 30min dans tout Vevey (${CODE_POSTAL}). Traitement moisissures, dégât d'eau. Agréé assurances. Devis gratuit.`,
+  description: `URGENCE assainissement Vevey? ⚡ Intervention en 30min dans tout Vevey (${CODE_POSTAL}). Traitement moisissures, dégât d'eau. Agréé assurances. Devis gratuit.`,
   openGraph: {
     title: `Assèchement d'Urgence Vevey | Assainissement 24h/7j`,
-    description: `Service assainissement urgence Vevey sous 30min. Traitement humidité, moisissures 24h/7j dans tout Vevey. Équipe agréée assurances.`,
+    description: `Service assainissement urgence Vevey en 30min. Traitement humidité, moisissures 24h/7j dans tout Vevey. Équipe agréée assurances.`,
     url: `${BASE_URL}/assechement-urgence-vevey`,
   },
   alternates: {
@@ -77,7 +77,7 @@ export default function AssechementUrgenceVeveyPage() {
               Assèchement d&apos;Urgence Vevey - Traitement Humidité
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Riviera Vevey ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Riviera Vevey ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
@@ -390,7 +390,7 @@ export default function AssechementUrgenceVeveyPage() {
             </div>
 
             <div className="mt-8 text-lg">
-              <strong>Spécialiste humidité région Riviera</strong> • Intervention sous 30min
+              <strong>Spécialiste humidité région Riviera</strong> • Intervention en 30min
             </div>
           </div>
         </div>

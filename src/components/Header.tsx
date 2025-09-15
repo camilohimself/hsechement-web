@@ -44,7 +44,7 @@ export default function Header() {
               </div>
             </div>
             <div className="font-semibold">
-              Intervention sous 30 minutes
+              Intervention en 30 minutes
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function Header() {
                   {CONTACT.phone}
                 </div>
                 <div className="text-sm text-hsechement-orange mt-1">
-                  Intervention sous 30 minutes
+                  Intervention en 30 minutes
                 </div>
               </div>
             </div>

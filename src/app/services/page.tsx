@@ -36,7 +36,7 @@ export default function ServicesPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="flex items-center justify-center space-x-2 text-corporate-dark">
                 <Clock className="w-6 h-6 text-hsechement-orange" />
-                <span className="font-semibold">Intervention sous 30min</span>
+                <span className="font-semibold">Intervention en 30min</span>
               </div>
               <div className="flex items-center justify-center space-x-2 text-corporate-dark">
                 <CheckCircle className="w-6 h-6 text-hsechement-orange" />
@@ -152,7 +152,7 @@ export default function ServicesPage() {
               {
                 step: '2',
                 title: 'Arrivée sur site',
-                description: 'Intervention sous 30 minutes avec tout le matériel professionnel nécessaire.'
+                description: 'Intervention en 30 minutes avec tout le matériel professionnel nécessaire.'
               },
               {
                 step: '3',

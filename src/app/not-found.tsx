@@ -71,7 +71,7 @@ export default function NotFound() {
             </a>
 
             <div className="mt-4 text-sm opacity-90">
-              Intervention sous 30 minutes • Service 24h/7j
+              Intervention en 30 minutes • Service 24h/7j
             </div>
           </div>
 

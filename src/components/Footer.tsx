@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2 text-hsechement-orange" />
-                <span>Intervention sous 30 min</span>
+                <span>Intervention en 30 min</span>
               </div>
             </div>
           </div>

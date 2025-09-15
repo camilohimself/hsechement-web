@@ -350,7 +350,7 @@ export default function ContactPage() {
             {[
               {
                 question: "Dans combien de temps pouvez-vous intervenir ?",
-                answer: "En cas d'urgence, nous intervenons sous 30 minutes maximum partout en Suisse romande. Notre service d'urgence est disponible 24h/24, 7j/7."
+                answer: "En cas d'urgence, nous intervenons en 30 minutes maximum partout en Suisse romande. Notre service d'urgence est disponible 24h/24, 7j/7."
               },
               {
                 question: "Travaillez-vous avec les assurances ?",
@@ -398,7 +398,7 @@ export default function ContactPage() {
           </a>
 
           <div className="mt-6 text-lg">
-            Réponse immédiate • Intervention sous 30 min • Service 24h/7j
+            Réponse immédiate • Intervention en 30 min • Service 24h/7j
           </div>
         </div>
       </section>

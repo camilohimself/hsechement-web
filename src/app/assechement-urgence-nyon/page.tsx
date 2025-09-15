@@ -12,10 +12,10 @@ const QUARTIERS = [
 
 export const metadata: Metadata = {
   title: `Dégât d'Eau Nyon | Assèchement d'Urgence 24h/7j - Service 30min`,
-  description: `URGENCE dégât d'eau Nyon? ⚡ Intervention express sous 30min dans tout Nyon (${CODE_POSTAL}). Équipe professionnelle 24h/7j. Agréé assurances. Devis gratuit.`,
+  description: `URGENCE dégât d'eau Nyon? ⚡ Intervention express en 30min dans tout Nyon (${CODE_POSTAL}). Équipe professionnelle 24h/7j. Agréé assurances. Devis gratuit.`,
   openGraph: {
     title: `Assèchement d'Urgence Nyon | Dégât d'Eau 24h/7j`,
-    description: `Service d'assèchement urgence Nyon sous 30min. Intervention 24h/7j dans tout Nyon et région. Équipe agréée assurances.`,
+    description: `Service d'assèchement urgence Nyon en 30min. Intervention 24h/7j dans tout Nyon et région. Équipe agréée assurances.`,
     url: `${BASE_URL}/assechement-urgence-nyon`,
   },
   alternates: {
@@ -77,7 +77,7 @@ export default function AssechementUrgenceNyonPage() {
               Assèchement d&apos;Urgence Nyon - Service 30min
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Région Nyon ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Région Nyon ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
@@ -232,7 +232,7 @@ export default function AssechementUrgenceNyonPage() {
                   <div className="text-2xl mb-3">📍</div>
                   <h3 className="font-bold text-lg mb-2">{quartier}</h3>
                   <div className="text-sm text-gray-600">
-                    Intervention ≤ 30min
+                    Intervention en 30min
                   </div>
                 </div>
               ))}
@@ -376,7 +376,7 @@ export default function AssechementUrgenceNyonPage() {
             </div>
 
             <div className="mt-8 text-lg">
-              <strong>Intervention garantie sous 30 minutes</strong> dans toute la région Nyon
+              <strong>Intervention garantie en 30 minutes</strong> dans toute la région Nyon
             </div>
           </div>
         </div>

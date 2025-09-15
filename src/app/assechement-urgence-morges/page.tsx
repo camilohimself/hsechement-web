@@ -85,7 +85,7 @@ export default function AssechementUrgenceMorgesPage() {
               🏆 EXPERT #1 RÉGION MORGES DEPUIS {COMPANY.founded} 🏆
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Leader Incontesté ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Leader Incontesté ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">

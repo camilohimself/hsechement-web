@@ -12,10 +12,10 @@ const QUARTIERS = [
 
 export const metadata: Metadata = {
   title: `Assèchement d'Urgence Lausanne | Dégât d'Eau 24h/7j - Intervention 30min`,
-  description: `URGENCE dégât d'eau Lausanne? ⚡ Intervention sous 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j. Agréé assurances. Devis gratuit.`,
+  description: `URGENCE dégât d'eau Lausanne? ⚡ Intervention en 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j. Agréé assurances. Devis gratuit.`,
   openGraph: {
     title: `Dégât d'Eau Lausanne | Assèchement d'Urgence 24h/7j`,
-    description: `Intervention urgence assèchement Lausanne sous 30min. Service professionnel 24h/7j dans tout Lausanne et région. Agréé assurances.`,
+    description: `Intervention urgence assèchement Lausanne en 30min. Service professionnel 24h/7j dans tout Lausanne et région. Agréé assurances.`,
     url: `${BASE_URL}/assechement-urgence-lausanne`,
   },
   alternates: {
@@ -80,7 +80,7 @@ export default function AssechementUrgenceLausannePage() {
               Dégât d&apos;Eau Lausanne - Service Professionnel 30min
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Tout Lausanne ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Tout Lausanne ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
@@ -225,7 +225,7 @@ export default function AssechementUrgenceLausannePage() {
                   <div className="text-2xl mb-3">📍</div>
                   <h3 className="font-bold text-lg mb-2">{quartier}</h3>
                   <div className="text-sm text-gray-600">
-                    Intervention ≤ 30min
+                    Intervention en 30min
                   </div>
                 </div>
               ))}

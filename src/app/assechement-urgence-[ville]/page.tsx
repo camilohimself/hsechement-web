@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const title = `Assèchement Urgence ${area.city} 24h/7 - Intervention Rapide`;
-  const description = `Spécialiste assèchement d'urgence à ${area.city}. Intervention sous 30 min, 24h/7j. Dégât d'eau, inondation, fuite. Service professionnel ${area.zipCode}.`;
+  const description = `Spécialiste assèchement d'urgence à ${area.city}. Intervention en 30 min, 24h/7j. Dégât d'eau, inondation, fuite. Service professionnel ${area.zipCode}.`;
 
   return {
     title,
@@ -391,7 +391,7 @@ export default function LocalPage({ params }: PageProps) {
             </a>
 
             <p className="mt-4 text-lg">
-              {CONTACT.emergencyPhone} • Intervention sous 30 min
+              {CONTACT.emergencyPhone} • Intervention en 30 min
             </p>
 
             <div className="mt-4 text-sm opacity-90">

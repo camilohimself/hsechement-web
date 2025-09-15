@@ -32,7 +32,7 @@ export const SERVICES: Service[] = [
     icon: '💧',
     urgent: true,
     features: [
-      'Intervention sous 30 minutes',
+      'Intervention en 30 minutes',
       'Pompage d\'eau professionnel',
       'Déshumidification industrielle',
       'Surveillance 24h/7j',
@@ -179,7 +179,7 @@ export const BASE_URL = 'https://www.hsechement.ch';
 // === MÉTA-DONNÉES PAR DÉFAUT ===
 export const DEFAULT_SEO = {
   title: 'H-Sèchement | Assèchement Urgence 24h/7 Suisse Romande',
-  description: 'Spécialiste assèchement d\'urgence en Suisse romande. Intervention sous 30 min, 24h/7j. Dégât d\'eau, inondation, fuite. Agréé assurances.',
+  description: 'Spécialiste assèchement d\'urgence en Suisse romande. Intervention en 30 min, 24h/7j. Dégât d\'eau, inondation, fuite. Agréé assurances.',
   keywords: [
     'assèchement urgence',
     'dégât eau',

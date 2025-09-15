@@ -4,10 +4,10 @@ import { CONTACT, SERVICES, BASE_URL } from '@/data/site-config';
 
 export const metadata: Metadata = {
   title: 'URGENCE Dégât d\'Eau 24h/7j | Intervention 30min Suisse Romande',
-  description: 'URGENCE dégât d\'eau ? Appelez maintenant ! Intervention sous 30 minutes, 24h/7j en Suisse romande. Service professionnel agréé assurances.',
+  description: 'URGENCE dégât d\'eau ? Appelez maintenant ! Intervention en 30 minutes, 24h/7j en Suisse romande. Service professionnel agréé assurances.',
   openGraph: {
     title: 'URGENCE Dégât d\'Eau | Intervention Immédiate 24h/7j',
-    description: 'Dégât d\'eau urgent ? Intervention sous 30 minutes, 24h/7j. Service professionnel en Suisse romande, agréé assurances.',
+    description: 'Dégât d\'eau urgent ? Intervention en 30 minutes, 24h/7j. Service professionnel en Suisse romande, agréé assurances.',
     url: `${BASE_URL}/urgence-degat-eau`,
   },
   alternates: {
@@ -28,7 +28,7 @@ export default function UrgenceDegatEauPage() {
               URGENCE DÉGÂT D&apos;EAU
             </h1>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention sous 30 minutes • 24h/7j • Suisse Romande
+              Intervention en 30 minutes • 24h/7j • Suisse Romande
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
