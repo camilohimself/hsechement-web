@@ -52,11 +52,6 @@ export default function HeroAlternatingText() {
             : 'opacity-0 -translate-y-2'
         }`}
       >
-        {currentMessage.icon && (
-          <span className="text-5xl mb-4 inline-block animate-bounce">
-            {currentMessage.icon}
-          </span>
-        )}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-corporate-dark mb-6">
           <span className="text-hsechement-red block">
             {currentMessage.highlight}
