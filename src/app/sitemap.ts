@@ -46,6 +46,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.9, // Priorité max pour Lausanne
     },
+    {
+      url: `${BASE_URL}/assechement-urgence-nyon`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/assechement-urgence-vevey`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/assechement-urgence-yverdon`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
   ];
 
   // Pages locales SEO pour chaque ville (template dynamique)
