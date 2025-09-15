@@ -66,7 +66,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
       />
 
       {/* Hero Section RURAL Gros-de-Vaud */}
-      <section className="bg-gradient-to-br from-green-700 to-emerald-800 text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🌾</div>
@@ -100,13 +100,13 @@ export default function AssechementUrgenceGrosDeVaudPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-green-700 px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
               >
                 🌾 ENTREPRISE RURALE
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-green-700 transition-colors shadow-xl"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
                 Devis Agricole Gratuit
               </a>
@@ -125,7 +125,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-green-700">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   🌾 Spécialiste Agriculture Gros-de-Vaud
                 </h3>
                 <div className="space-y-6">
@@ -174,7 +174,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-green-700">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Services Spécialisés Ruraux
                 </h3>
                 <div className="space-y-4">
@@ -187,7 +187,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                       Rupture abreuvoir, fuite système irrigation, inondation étable.
                       Impact immédiat sur le bétail et les cultures.
                     </p>
-                    <div className="text-sm text-green-600 font-semibold">
+                    <div className="text-sm text-hsechement-red font-semibold">
                       Bétail • Cultures • Systèmes irrigation
                     </div>
                   </div>
@@ -201,7 +201,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                       Assèchement silos, granges, hangars stockage céréales.
                       Préservation qualité récoltes, prévention moisissures.
                     </p>
-                    <div className="text-sm text-emerald-600 font-semibold">
+                    <div className="text-sm text-hsechement-orange font-semibold">
                       Silos • Granges • Céréales • Conservation
                     </div>
                   </div>
@@ -245,7 +245,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   <div className="text-sm text-gray-600">
                     Service rural ≤ 30min
                   </div>
-                  <div className="text-xs text-green-600 mt-1 font-semibold">
+                  <div className="text-xs text-hsechement-red mt-1 font-semibold">
                     Zone agricole
                   </div>
                 </div>
@@ -253,20 +253,20 @@ export default function AssechementUrgenceGrosDeVaudPage() {
             </div>
 
             <div className="bg-gradient-to-r from-green-100 to-emerald-100 rounded-xl p-8 border border-green-200">
-              <h3 className="text-2xl font-bold mb-6 text-green-700">
+              <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                 🌾 Temps d&apos;Intervention Rural
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-green-700">≤ 20min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 20min</div>
                   <div className="text-sm text-gray-700">Échallens • Centre région</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-emerald-600">≤ 25min</div>
+                  <div className="text-3xl font-bold text-hsechement-orange">≤ 25min</div>
                   <div className="text-sm text-gray-700">La Sarraz • Pompaples • Bavois</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-green-600">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
                   <div className="text-sm text-gray-700">Communes périphériques</div>
                 </div>
               </div>
@@ -340,7 +340,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   H-Séchement a compris l&apos;urgence: 60 vaches à traire!
                   Intervention express, respect total des animaux. Merci!&quot;
                 </p>
-                <div className="text-sm text-green-600 font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   🚜 Exploitation Laitière - Février 2025
                 </div>
               </div>
@@ -355,7 +355,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   délicate réussie: vins sauvés, cave assainie. Expertise
                   œnologique remarquable. Recommandons vivement!&quot;
                 </p>
-                <div className="text-sm text-emerald-600 font-semibold">
+                <div className="text-sm text-hsechement-orange font-semibold">
                   🍷 Cave Vinicole - Septembre 2024
                 </div>
               </div>
@@ -374,7 +374,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
 
             <div className="space-y-6">
               <div className="bg-green-50 rounded-xl p-6 shadow-sm border border-green-200">
-                <h3 className="text-xl font-bold mb-3 text-green-700">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Comprenez-vous les contraintes agricoles?
                 </h3>
                 <p className="text-gray-700">
@@ -411,7 +411,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
       </section>
 
       {/* CTA Final Rural */}
-      <section className="section-padding bg-gradient-to-r from-green-700 to-emerald-800 text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
@@ -425,13 +425,13 @@ export default function AssechementUrgenceGrosDeVaudPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-green-700 px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
               >
                 🌾 URGENCE RURALE
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-green-700 transition-colors"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
                 Devis Agricole
               </a>

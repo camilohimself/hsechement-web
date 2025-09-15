@@ -66,7 +66,7 @@ export default function AssechementUrgenceMontreuxPage() {
       />
 
       {/* Hero Section PREMIUM Montreux */}
-      <section className="bg-gradient-to-br from-purple-600 to-pink-600 text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🎼</div>
@@ -100,13 +100,13 @@ export default function AssechementUrgenceMontreuxPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-purple-600 px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
               >
                 🎼 URGENCE MONTREUX
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-purple-600 transition-colors shadow-xl"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
                 Service Premium Riviera
               </a>
@@ -125,7 +125,7 @@ export default function AssechementUrgenceMontreuxPage() {
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-purple-600">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Spécialiste Climat Lacustre Montreux
                 </h3>
                 <div className="space-y-6">
@@ -174,7 +174,7 @@ export default function AssechementUrgenceMontreuxPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-purple-600">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Types d&apos;Interventions Montreux
                 </h3>
                 <div className="space-y-4">
@@ -187,7 +187,7 @@ export default function AssechementUrgenceMontreuxPage() {
                       Intervention discrète établissements de luxe. Aucune gêne
                       pour la clientèle, travail nocturne si nécessaire.
                     </p>
-                    <div className="text-sm text-purple-600 font-semibold">
+                    <div className="text-sm text-hsechement-red font-semibold">
                       5 étoiles • Luxury • Confidentialité absolue
                     </div>
                   </div>
@@ -201,7 +201,7 @@ export default function AssechementUrgenceMontreuxPage() {
                       Villas avec vue lac, propriétés d&apos;exception Clarens-Territet.
                       Service personnalisé, respect intimité propriétaires.
                     </p>
-                    <div className="text-sm text-pink-600 font-semibold">
+                    <div className="text-sm text-hsechement-orange font-semibold">
                       Vue lac • Propriétés exception • Service VIP
                     </div>
                   </div>
@@ -245,7 +245,7 @@ export default function AssechementUrgenceMontreuxPage() {
                   <div className="text-sm text-gray-600">
                     Service premium ≤ 30min
                   </div>
-                  <div className="text-xs text-purple-600 mt-1 font-semibold">
+                  <div className="text-xs text-hsechement-red mt-1 font-semibold">
                     Riviera exclusive
                   </div>
                 </div>
@@ -253,16 +253,16 @@ export default function AssechementUrgenceMontreuxPage() {
             </div>
 
             <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-xl p-8 border border-purple-200">
-              <h3 className="text-2xl font-bold mb-6 text-purple-600">
+              <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                 🎼 Temps d&apos;Intervention Riviera
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-purple-600">≤ 20min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 20min</div>
                   <div className="text-sm text-gray-700">Centre Montreux • Clarens</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-pink-600">≤ 25min</div>
+                  <div className="text-3xl font-bold text-hsechement-orange">≤ 25min</div>
                   <div className="text-sm text-gray-700">Territet • Glion • Caux</div>
                 </div>
                 <div>
@@ -340,7 +340,7 @@ export default function AssechementUrgenceMontreuxPage() {
                   l&apos;urgence avec une discrétion exemplaire. Aucun client dérangé,
                   intervention de nuit. Service premium digne d&apos;un 5 étoiles.&quot;
                 </p>
-                <div className="text-sm text-purple-600 font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   🏰 Établissement Prestige - Juillet 2025
                 </div>
               </div>
@@ -355,7 +355,7 @@ export default function AssechementUrgenceMontreuxPage() {
                   Diagnostic expert, solution définitive. Enfin débarrassés
                   des moisissures! Tarif correct pour la qualité.&quot;
                 </p>
-                <div className="text-sm text-pink-600 font-semibold">
+                <div className="text-sm text-hsechement-orange font-semibold">
                   🏡 Propriété Vue Lac - Avril 2025
                 </div>
               </div>
@@ -374,7 +374,7 @@ export default function AssechementUrgenceMontreuxPage() {
 
             <div className="space-y-6">
               <div className="bg-purple-50 rounded-xl p-6 shadow-sm border border-purple-200">
-                <h3 className="text-xl font-bold mb-3 text-purple-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Pourquoi tant d&apos;humidité près du lac Léman?
                 </h3>
                 <p className="text-gray-700">
@@ -385,7 +385,7 @@ export default function AssechementUrgenceMontreuxPage() {
               </div>
 
               <div className="bg-pink-50 rounded-xl p-6 shadow-sm border border-pink-200">
-                <h3 className="text-xl font-bold mb-3 text-pink-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-orange">
                   Intervenez-vous dans les palaces de Montreux?
                 </h3>
                 <p className="text-gray-700">
@@ -411,7 +411,7 @@ export default function AssechementUrgenceMontreuxPage() {
       </section>
 
       {/* CTA Final Premium Montreux */}
-      <section className="section-padding bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
@@ -425,13 +425,13 @@ export default function AssechementUrgenceMontreuxPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-purple-600 px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
               >
                 🎼 EXPERT RIVIERA
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-purple-600 transition-colors"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
                 Service Premium
               </a>

@@ -71,7 +71,7 @@ export default function AssechementUrgenceMorgesPage() {
       />
 
       {/* Hero Section LEADER Morges */}
-      <section className="bg-gradient-to-br from-yellow-500 to-amber-600 text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
             <div className="flex justify-center items-center mb-6">
@@ -108,13 +108,13 @@ export default function AssechementUrgenceMorgesPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-yellow-600 px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce border-4 border-yellow-300"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce border-4 border-yellow-300"
               >
                 👑 EXPERT #1 MORGES
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-yellow-600 transition-colors shadow-xl"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
                 Devis Expert Gratuit
               </a>
@@ -141,7 +141,7 @@ export default function AssechementUrgenceMorgesPage() {
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-yellow-600">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   🏆 Leadership Incontesté Morges
                 </h3>
                 <div className="space-y-6">
@@ -190,7 +190,7 @@ export default function AssechementUrgenceMorgesPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-yellow-600">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   🌟 Service Premium Morges
                 </h3>
                 <div className="space-y-4">
@@ -203,7 +203,7 @@ export default function AssechementUrgenceMorgesPage() {
                       Intervention premium avec équipe senior expérimentée.
                       Matériel de pointe, techniques avancées, finitions soignées.
                     </p>
-                    <div className="text-sm text-yellow-600 font-semibold">
+                    <div className="text-sm text-hsechement-red font-semibold">
                       Équipe certifiée • Matériel premium • Garantie étendue
                     </div>
                   </div>
@@ -217,7 +217,7 @@ export default function AssechementUrgenceMorgesPage() {
                       <strong>127+ interventions Morges</strong> avec note moyenne 4.9/5.
                       Suivi personnalisé, conseil expert, relation de confiance.
                     </p>
-                    <div className="text-sm text-amber-600 font-semibold">
+                    <div className="text-sm text-hsechement-orange font-semibold">
                       Note 4.9/5 • Recommandations • Fidélité client
                     </div>
                   </div>
@@ -261,7 +261,7 @@ export default function AssechementUrgenceMorgesPage() {
                   <div className="text-sm text-gray-600">
                     Service expert ≤ 20min
                   </div>
-                  <div className="text-xs text-yellow-600 mt-1 font-semibold">
+                  <div className="text-xs text-hsechement-red mt-1 font-semibold">
                     Zone premium
                   </div>
                 </div>
@@ -269,20 +269,20 @@ export default function AssechementUrgenceMorgesPage() {
             </div>
 
             <div className="bg-gradient-to-r from-yellow-100 to-amber-100 rounded-xl p-8 border-2 border-yellow-300">
-              <h3 className="text-2xl font-bold mb-6 text-yellow-700">
+              <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                 🏆 Temps d&apos;Intervention Expert Morges
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-4xl font-bold text-yellow-600">≤ 12min</div>
+                  <div className="text-4xl font-bold text-hsechement-red">≤ 12min</div>
                   <div className="text-sm text-gray-700 font-semibold">Centre Morges • Record établi</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-amber-600">≤ 18min</div>
+                  <div className="text-4xl font-bold text-hsechement-orange">≤ 18min</div>
                   <div className="text-sm text-gray-700 font-semibold">Vertou • Beausobre • Saint-Prex</div>
                 </div>
                 <div>
-                  <div className="text-4xl font-bold text-yellow-500">≤ 20min</div>
+                  <div className="text-4xl font-bold text-hsechement-red">≤ 20min</div>
                   <div className="text-sm text-gray-700 font-semibold">Communes limitrophes • Garantie</div>
                 </div>
               </div>
@@ -310,7 +310,7 @@ export default function AssechementUrgenceMorgesPage() {
                   H-Séchement est arrivé en 15 minutes avec une équipe exceptionnelle.
                   Travail de maître, respect total du patrimoine. RECOMMANDE VIVEMENT!&quot;
                 </p>
-                <div className="text-sm text-yellow-600 font-bold">
+                <div className="text-sm text-hsechement-red font-bold">
                   ⭐ Intervention Premium Villa Historique - Janvier 2025
                 </div>
               </div>
@@ -325,7 +325,7 @@ export default function AssechementUrgenceMorgesPage() {
                   a géré l&apos;urgence de A à Z. Professionnalisme exemplaire,
                   aucun arrêt d&apos;activité. Notre partenaire de confiance!&quot;
                 </p>
-                <div className="text-sm text-amber-600 font-bold">
+                <div className="text-sm text-hsechement-orange font-bold">
                   🏆 Client Entreprise Fidèle - Mars 2025
                 </div>
               </div>
@@ -337,15 +337,15 @@ export default function AssechementUrgenceMorgesPage() {
               </h3>
               <div className="grid md:grid-cols-4 gap-6">
                 <div>
-                  <div className="text-3xl font-bold text-yellow-600">127+</div>
+                  <div className="text-3xl font-bold text-hsechement-red">127+</div>
                   <div className="text-sm text-gray-700">Interventions réussies</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-amber-600">4.9/5</div>
+                  <div className="text-3xl font-bold text-hsechement-orange">4.9/5</div>
                   <div className="text-sm text-gray-700">Note satisfaction</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-yellow-500">{COMPANY.experience}</div>
+                  <div className="text-3xl font-bold text-hsechement-red">{COMPANY.experience}</div>
                   <div className="text-sm text-gray-700">Années d&apos;excellence</div>
                 </div>
                 <div>
@@ -368,7 +368,7 @@ export default function AssechementUrgenceMorgesPage() {
 
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-yellow-500">
-                <h3 className="text-xl font-bold mb-3 text-yellow-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   🏛️ Spécialiste Patrimoine Morgien
                 </h3>
                 <p className="text-gray-700">
@@ -379,7 +379,7 @@ export default function AssechementUrgenceMorgesPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-amber-500">
-                <h3 className="text-xl font-bold mb-3 text-amber-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-orange">
                   🏠 Architecture Résidentielle Morges
                 </h3>
                 <p className="text-gray-700">
@@ -405,7 +405,7 @@ export default function AssechementUrgenceMorgesPage() {
       </section>
 
       {/* CTA Final Expert Morges */}
-      <section className="section-padding bg-gradient-to-r from-yellow-500 to-amber-600 text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
@@ -434,13 +434,13 @@ export default function AssechementUrgenceMorgesPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-yellow-600 px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse border-4 border-yellow-300"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse border-4 border-yellow-300"
               >
                 👑 EXPERT #1 MORGES
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-yellow-600 transition-colors"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
                 Service Premium Gratuit
               </a>

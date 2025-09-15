@@ -66,7 +66,7 @@ export default function AssechementUrgenceVeveyPage() {
       />
 
       {/* Hero Section URGENCE Vevey */}
-      <section className="bg-gradient-to-br from-blue-600 to-teal-600 text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🏔️</div>
@@ -100,13 +100,13 @@ export default function AssechementUrgenceVeveyPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-blue-600 px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
               >
                 📞 URGENCE VEVEY
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-blue-600 transition-colors shadow-xl"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
                 Devis Gratuit Vevey
               </a>
@@ -125,7 +125,7 @@ export default function AssechementUrgenceVeveyPage() {
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-blue-600">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Spécialiste Humidité Région Vevey
                 </h3>
                 <div className="space-y-6">
@@ -172,11 +172,11 @@ export default function AssechementUrgenceVeveyPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-blue-600">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Services Assainissement Vevey
                 </h3>
                 <div className="space-y-4">
-                  <div className="border border-blue-200 rounded-xl p-6">
+                  <div className="border border-hsechement-red/20 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">🦠</span>
                       <h4 className="font-bold text-lg">Traitement Moisissures Vevey</h4>
@@ -185,12 +185,12 @@ export default function AssechementUrgenceVeveyPage() {
                       Élimination complète moisissures, désinfection, traitement préventif.
                       Respect normes sanitaires strictes.
                     </p>
-                    <div className="text-sm text-blue-600 font-semibold">
+                    <div className="text-sm text-hsechement-red font-semibold">
                       Cave • Salle bain • Chambre • Salon
                     </div>
                   </div>
 
-                  <div className="border border-teal-200 rounded-xl p-6">
+                  <div className="border border-hsechement-orange/20 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">💨</span>
                       <h4 className="font-bold text-lg">Déshumidification Vevey</h4>
@@ -199,7 +199,7 @@ export default function AssechementUrgenceVeveyPage() {
                       Assèchement professionnel avec matériel industriel.
                       Surveillance continue taux d&apos;humidité.
                     </p>
-                    <div className="text-sm text-teal-600 font-semibold">
+                    <div className="text-sm text-hsechement-orange font-semibold">
                       Déshumidificateurs • Ventilation • Séchage
                     </div>
                   </div>
@@ -247,21 +247,21 @@ export default function AssechementUrgenceVeveyPage() {
               ))}
             </div>
 
-            <div className="bg-blue-600/10 rounded-xl p-8 border border-blue-200">
-              <h3 className="text-2xl font-bold mb-6 text-blue-600">
+            <div className="bg-hsechement-red/5 rounded-xl p-8 border border-hsechement-red/20">
+              <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                 Temps d&apos;Intervention Assainissement Vevey
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-blue-600">≤ 20min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 20min</div>
                   <div className="text-sm text-gray-700">Centre Vevey • Gilamont</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-teal-600">≤ 25min</div>
+                  <div className="text-3xl font-bold text-hsechement-orange">≤ 25min</div>
                   <div className="text-sm text-gray-700">Clarens • La Tour-de-Peilz</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-blue-500">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
                   <div className="text-sm text-gray-700">Corsier • Corseaux • Montreux-Est</div>
                 </div>
               </div>
@@ -280,7 +280,7 @@ export default function AssechementUrgenceVeveyPage() {
 
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="bg-blue-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🌊</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Proximité Lac Léman</h3>
@@ -291,7 +291,7 @@ export default function AssechementUrgenceVeveyPage() {
               </div>
 
               <div className="text-center">
-                <div className="bg-teal-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                <div className="bg-hsechement-orange/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🏘️</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Bâtiments Anciens Vevey</h3>
@@ -326,7 +326,7 @@ export default function AssechementUrgenceVeveyPage() {
 
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-blue-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Comment traiter l&apos;humidité récurrente à Vevey?
                 </h3>
                 <p className="text-gray-700">
@@ -337,7 +337,7 @@ export default function AssechementUrgenceVeveyPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-blue-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Les moisissures reviennent toujours dans ma cave à Vevey?
                 </h3>
                 <p className="text-gray-700">
@@ -348,7 +348,7 @@ export default function AssechementUrgenceVeveyPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-blue-600">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Intervenez-vous dans les bâtiments historiques de Vevey?
                 </h3>
                 <p className="text-gray-700">
@@ -363,7 +363,7 @@ export default function AssechementUrgenceVeveyPage() {
       </section>
 
       {/* CTA Final Vevey */}
-      <section className="section-padding bg-gradient-to-r from-blue-600 to-teal-600 text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
@@ -377,13 +377,13 @@ export default function AssechementUrgenceVeveyPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-blue-600 px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
               >
                 📞 URGENCE VEVEY
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-blue-600 transition-colors"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
                 Diagnostic Gratuit
               </a>
