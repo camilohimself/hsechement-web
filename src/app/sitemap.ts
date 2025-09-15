@@ -64,6 +64,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
+    {
+      url: `${BASE_URL}/assechement-urgence-morges`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95, // QUICK WIN - Priorité maximale
+    },
+    {
+      url: `${BASE_URL}/assechement-urgence-montreux`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/assechement-urgence-gros-de-vaud`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    },
   ];
 
   // Pages locales SEO pour chaque ville (template dynamique)
