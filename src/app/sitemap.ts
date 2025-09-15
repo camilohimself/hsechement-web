@@ -38,7 +38,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Pages locales SEO pour chaque ville
+  // Pages locales SEO spécifiques (priorité SEO)
+  const specificLocalPages = [
+    {
+      url: `${BASE_URL}/assechement-urgence-lausanne`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9, // Priorité max pour Lausanne
+    },
+  ];
+
+  // Pages locales SEO pour chaque ville (template dynamique)
   const localPages = LOCAL_AREAS.map((area) => ({
     url: `${BASE_URL}/assechement-urgence-${area.slug}`,
     lastModified: currentDate,
@@ -46,5 +56,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...mainPages, ...localPages];
+  return [...mainPages, ...specificLocalPages, ...localPages];
 }
