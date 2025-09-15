@@ -91,7 +91,7 @@ export default function AssechementUrgenceMorgesPage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center border border-white/20">
                 <div className="text-4xl mb-3">🏆</div>
-                <div className="font-bold text-lg">Leader Morges</div>
+                <div className="font-bold text-lg">Leader morges</div>
                 <div className="text-sm mt-2">
                   Position #1 • {COMPANY.experience} d&apos;excellence
                 </div>
@@ -163,7 +163,7 @@ export default function AssechementUrgenceMorgesPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🏠</div>
                       <div>
-                        <div className="font-bold text-xl mb-2">Connaissance Parfaite Morges</div>
+                        <div className="font-bold text-xl mb-2">Connaissance parfaite Morges</div>
                         <p className="text-gray-700">
                           <strong>Chaque rue, chaque bâtiment connu.</strong>
                           Expertise unique architecture morgienne: villas Belle Époque,
@@ -177,7 +177,7 @@ export default function AssechementUrgenceMorgesPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">⚡</div>
                       <div>
-                        <div className="font-bold text-xl mb-2">Intervention Express Morges</div>
+                        <div className="font-bold text-xl mb-2">Intervention express Morges</div>
                         <p className="text-gray-700">
                           <strong>Record: 12 minutes</strong> pour atteindre centre Morges.
                           Équipe locale dédiée, matériel stocké sur place.
@@ -425,7 +425,7 @@ export default function AssechementUrgenceMorgesPage() {
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6">
                 <div className="text-4xl mb-3">⚡</div>
-                <div className="font-bold text-xl mb-2">Intervention Express</div>
+                <div className="font-bold text-xl mb-2">Intervention express</div>
                 <div className="text-lg font-semibold">Record: 12 minutes</div>
                 <div className="text-sm mt-2">Centre Morges • Équipe dédiée</div>
               </div>

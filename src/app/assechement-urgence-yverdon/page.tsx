@@ -90,7 +90,7 @@ export default function AssechementUrgenceYverdonPage() {
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">🏭</div>
-                <div className="font-bold text-lg">Zone Industrielle</div>
+                <div className="font-bold text-lg">Zone industrielle</div>
                 <div className="text-sm mt-2">
                   Entreprises • Industries • Commerces • Résidentiel
                 </div>
@@ -133,7 +133,7 @@ export default function AssechementUrgenceYverdonPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🏭</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Expertise Industrielle</div>
+                        <div className="font-bold text-lg mb-2">Expertise industrielle</div>
                         <p className="text-gray-700">
                           Spécialisation secteur industriel yverdon. Grands volumes d&apos;eau,
                           contraintes techniques, arrêts de production minimisés.

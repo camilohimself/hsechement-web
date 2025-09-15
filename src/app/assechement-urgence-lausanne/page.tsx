@@ -86,7 +86,7 @@ export default function AssechementUrgenceLausannePage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">📍</div>
-                <div className="font-bold text-lg">Zone Lausanne</div>
+                <div className="font-bold text-lg">Zone lausanne</div>
                 <div className="text-sm mt-2">
                   {QUARTIERS.slice(0, 6).join(' • ')}
                 </div>
@@ -669,7 +669,7 @@ export default function AssechementUrgenceLausannePage() {
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6">
                 <div className="text-3xl mb-3">⚡</div>
-                <div className="font-bold text-xl mb-2">Intervention Express</div>
+                <div className="font-bold text-xl mb-2">Intervention express</div>
                 <div className="text-lg font-semibold">≤ 30 minutes</div>
                 <div className="text-sm mt-2">Partout dans le Grand Lausanne</div>
               </div>

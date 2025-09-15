@@ -83,14 +83,14 @@ export default function AssechementUrgenceMontreuxPage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">🎼</div>
-                <div className="font-bold text-lg">Riviera Prestigieuse</div>
+                <div className="font-bold text-lg">Riviera prestigieuse</div>
                 <div className="text-sm mt-2">
                   Montreux • Clarens • Territet • Glion
                 </div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">🏔️</div>
-                <div className="font-bold text-lg">Climat Lacustre</div>
+                <div className="font-bold text-lg">Climat lacustre</div>
                 <div className="text-sm mt-2">
                   Expert humidité • Lac Léman • Microclima
                 </div>
@@ -147,7 +147,7 @@ export default function AssechementUrgenceMontreuxPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🏰</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Patrimoine Riviera</div>
+                        <div className="font-bold text-lg mb-2">Patrimoine riviera</div>
                         <p className="text-gray-700">
                           <strong>Savoir-faire bâtiments prestige:</strong>
                           palaces, villas Belle Époque, chalets traditionnels.
@@ -348,7 +348,7 @@ export default function AssechementUrgenceMontreuxPage() {
               <div className="bg-white rounded-xl p-8 shadow-lg border border-pink-200">
                 <div className="flex items-center mb-4">
                   <div className="text-purple-400 text-xl mr-2">⭐⭐⭐⭐⭐</div>
-                  <div className="font-semibold">Propriétaire Villa Clarens</div>
+                  <div className="font-semibold">Propriétaire villa Clarens</div>
                 </div>
                 <p className="text-gray-700 italic mb-4">
                   &quot;Problème humidité récurrent dans notre villa vue lac.

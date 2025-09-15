@@ -147,7 +147,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🍷</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Caves Vinicoles</div>
+                        <div className="font-bold text-lg mb-2">Caves vinicoles</div>
                         <p className="text-gray-700">
                           <strong>Savoir-faire caves à vin région.</strong>
                           Préservation conditions œnologiques, température, humidité
@@ -161,7 +161,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🏡</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Habitat Rural</div>
+                        <div className="font-bold text-lg mb-2">Habitat rural</div>
                         <p className="text-gray-700">
                           <strong>Maisons de maître, fermes rénovées.</strong>
                           Respect architecture traditionnelle, matériaux locaux,

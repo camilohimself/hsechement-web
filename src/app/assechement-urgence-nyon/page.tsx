@@ -83,14 +83,14 @@ export default function AssechementUrgenceNyonPage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">📍</div>
-                <div className="font-bold text-lg">Zone Nyon</div>
+                <div className="font-bold text-lg">Zone nyon</div>
                 <div className="text-sm mt-2">
                   Nyon • Gland • Rolle • Crans • Prangins
                 </div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">⚡</div>
-                <div className="font-bold text-lg">Intervention Express</div>
+                <div className="font-bold text-lg">Intervention express</div>
                 <div className="text-sm mt-2">
                   Équipe locale Nyon en moins de 30 minutes
                 </div>
@@ -132,7 +132,7 @@ export default function AssechementUrgenceNyonPage() {
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">🏠</div>
                     <div>
-                      <div className="font-bold">Connaissance Locale Nyon</div>
+                      <div className="font-bold">Connaissance locale Nyon</div>
                       <div className="text-gray-700">
                         Parfaite maîtrise du réseau d&apos;eau nyonnais et des spécificités architecturales
                         de la région. Interventions dans toute la commune de Nyon et environs.
@@ -143,7 +143,7 @@ export default function AssechementUrgenceNyonPage() {
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">⚡</div>
                     <div>
-                      <div className="font-bold">Temps Intervention Nyon</div>
+                      <div className="font-bold">Temps intervention Nyon</div>
                       <div className="text-gray-700">
                         <strong>Moins de 30 minutes</strong> pour rejoindre n&apos;importe quel point
                         de Nyon, Gland, Rolle ou Prangins. Équipe locale dédiée région.
@@ -154,7 +154,7 @@ export default function AssechementUrgenceNyonPage() {
                   <div className="flex items-start">
                     <div className="text-2xl mr-4">👥</div>
                     <div>
-                      <div className="font-bold">Équipe Experte Nyon</div>
+                      <div className="font-bold">Équipe experte Nyon</div>
                       <div className="text-gray-700">
                         {COMPANY.experience} d&apos;expérience dans la région nyonnaise.
                         Certifications professionnelles et agréments assurances suisses.

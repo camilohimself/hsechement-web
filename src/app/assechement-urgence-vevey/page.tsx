@@ -83,7 +83,7 @@ export default function AssechementUrgenceVeveyPage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">🏔️</div>
-                <div className="font-bold text-lg">Riviera Vevey</div>
+                <div className="font-bold text-lg">Riviera vevey</div>
                 <div className="text-sm mt-2">
                   Vevey • Montreux • Clarens • La Tour-de-Peilz
                 </div>
@@ -147,7 +147,7 @@ export default function AssechementUrgenceVeveyPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🔬</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Diagnostic Précis Vevey</div>
+                        <div className="font-bold text-lg mb-2">Diagnostic précis Vevey</div>
                         <p className="text-gray-700">
                           Caméra thermique, hygromètre professionnel, détection fuites non destructive.
                           Analyse complète des causes d&apos;humidité avant traitement.
@@ -160,7 +160,7 @@ export default function AssechementUrgenceVeveyPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">⚡</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Intervention Rapide Vevey</div>
+                        <div className="font-bold text-lg mb-2">Intervention rapide Vevey</div>
                         <p className="text-gray-700">
                           <strong>Moins de 30 minutes</strong> pour rejoindre Vevey centre,
                           Clarens, La Tour-de-Peilz. Équipe locale spécialisée.
