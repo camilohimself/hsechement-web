@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Assèchement d&apos;Urgence Lausanne | Dégât d'Eau 24h/7j - Intervention 30min`,
+  title: `Assèchement d&apos;Urgence Lausanne | Dégât d.eau 24h/7j - Intervention 30min`,
   description: `🚨 URGENCE dégât d&apos;eau Lausanne? Intervention en 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j agréé assurances. Devis gratuit immédiat.`,
   openGraph: {
-    title: `Dégât d'Eau Lausanne | Assèchement d&apos;Urgence 24h/7j`,
+    title: `Dégât d.eau Lausanne | Assèchement d&apos;Urgence 24h/7j`,
     description: `Intervention urgence assèchement Lausanne en 30min. Service professionnel 24h/7j dans tout Lausanne et région. Agréé assurances.`,
     url: `${BASE_URL}/assechement-urgence-lausanne`,
   },
@@ -93,7 +93,7 @@ export default function AssechementUrgenceLausannePage() {
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">⚡</div>
-                <div className="font-bold text-lg">Intervention Rapide</div>
+                <div className="font-bold text-lg">Intervention rapide</div>
                 <div className="text-sm mt-2">
                   Équipe sur place en moins de 30 minutes
                 </div>
@@ -139,7 +139,7 @@ export default function AssechementUrgenceLausannePage() {
                 <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">⚡</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Intervention Express Lausanne</h3>
+                <h3 className="text-xl font-bold mb-4">Intervention express Lausanne</h3>
                 <p className="text-gray-700 mb-4">
                   <strong>Moins de 30 minutes</strong> pour rejoindre n&apos;importe quel point de Lausanne.
                   Du Centre-ville à Ouchy, de Chailly à Renens.
@@ -153,7 +153,7 @@ export default function AssechementUrgenceLausannePage() {
                 <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">👥</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Équipe Locale Lausanne</h3>
+                <h3 className="text-xl font-bold mb-4">Équipe locale Lausanne</h3>
                 <p className="text-gray-700 mb-4">
                   <strong>Connaissance parfaite</strong> du réseau d&apos;eau lausannois.
                   Interventions déjà réalisées dans tous les quartiers.
@@ -167,7 +167,7 @@ export default function AssechementUrgenceLausannePage() {
                 <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">✅</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Agréé Assurances Lausanne</h3>
+                <h3 className="text-xl font-bold mb-4">Agréé assurances Lausanne</h3>
                 <p className="text-gray-700 mb-4">
                   <strong>Prise en charge directe</strong> par votre assurance.
                   Partenariats avec les principales compagnies suisses.
@@ -180,7 +180,7 @@ export default function AssechementUrgenceLausannePage() {
 
             {/* Témoignages spécifiques Lausanne */}
             <div className="bg-gradient-to-r from-blue-50 to-teal-50 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-center mb-8">Témoignages Clients Lausanne</h3>
+              <h3 className="text-2xl font-bold text-center mb-8">Témoignages clients Lausanne</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg p-6 shadow-sm">
                   <div className="flex items-center mb-4">

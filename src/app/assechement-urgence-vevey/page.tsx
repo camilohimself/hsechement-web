@@ -179,7 +179,7 @@ export default function AssechementUrgenceVeveyPage() {
                   <div className="border border-hsechement-red/20 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">🦠</span>
-                      <h4 className="font-bold text-lg">Traitement Moisissures Vevey</h4>
+                      <h4 className="font-bold text-lg">Traitement moisissures Vevey</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Élimination complète moisissures, désinfection, traitement préventif.
@@ -294,7 +294,7 @@ export default function AssechementUrgenceVeveyPage() {
                 <div className="bg-hsechement-orange/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🏘️</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Bâtiments Anciens Vevey</h3>
+                <h3 className="text-xl font-bold mb-4">Bâtiments anciens Vevey</h3>
                 <p className="text-gray-700">
                   Architecture traditionnelle vevey nécessite expertise spécifique.
                   Isolation moderne + respect patrimoine historique.
@@ -305,7 +305,7 @@ export default function AssechementUrgenceVeveyPage() {
                 <div className="bg-gray-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">❄️</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Variations Climatiques</h3>
+                <h3 className="text-xl font-bold mb-4">Variations climatiques</h3>
                 <p className="text-gray-700">
                   Alternance chaud/froid, gel/dégel fragilise les canalisations.
                   Prévention et intervention rapide cruciales.

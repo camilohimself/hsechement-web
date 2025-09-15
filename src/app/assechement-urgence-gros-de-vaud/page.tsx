@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Entreprise Assèchement Gros-de-Vaud | Service Rural Professionnel 24h/7j`,
+  title: `Entreprise Assèchement Gros-de-Vaud | Service rural Professionnel 24h/7j`,
   description: `ENTREPRISE assèchement Gros-de-Vaud depuis ${COMPANY.founded}! ⚡ Expert rural (${CODE_POSTAL}). Fermes, caves, bâtiments agricoles. Service spécialisé. Devis gratuit.`,
   openGraph: {
-    title: `Entreprise Assèchement Gros-de-Vaud | Expert Rural`,
+    title: `Entreprise Assèchement Gros-de-Vaud | Expert rural`,
     description: `Entreprise spécialisée assèchement Gros-de-Vaud. Expert bâtiments ruraux, fermes, caves agricoles. Service professionnel région rurale.`,
     url: `${BASE_URL}/assechement-urgence-gros-de-vaud`,
   },
@@ -74,7 +74,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
               Entreprise Assèchement Gros-de-Vaud
             </h1>
             <div className="text-2xl md:text-3xl font-bold mb-4">
-              Service Rural Professionnel - Expert Agriculture
+              Service rural Professionnel - Expert Agriculture
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
               Intervention en 30 minutes • 24h/7j • Région Agricole ({CODE_POSTAL})
@@ -90,7 +90,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
               </div>
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">🏭</div>
-                <div className="font-bold text-lg">Expert Rural</div>
+                <div className="font-bold text-lg">Expert rural</div>
                 <div className="text-sm mt-2">
                   Fermes • Caves • Étables • Silos
                 </div>
@@ -181,7 +181,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   <div className="border border-green-200 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">💧</span>
-                      <h4 className="font-bold text-lg">Urgences Eau Agricoles</h4>
+                      <h4 className="font-bold text-lg">Urgences eau agricoles</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Rupture abreuvoir, fuite système irrigation, inondation étable.
@@ -209,7 +209,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   <div className="border border-gray-200 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">🔧</span>
-                      <h4 className="font-bold text-lg">Maintenance Préventive</h4>
+                      <h4 className="font-bold text-lg">Maintenance préventive</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Contrôles saisonniers, entretien étanchéité, surveillance
@@ -288,7 +288,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                 <div className="bg-green-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🚜</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Contraintes Agricoles</h3>
+                <h3 className="text-xl font-bold mb-4">Contraintes agricoles</h3>
                 <p className="text-gray-700">
                   Intervention sans perturber activité agricole. Respect cycles
                   saisonniers, bien-être animal, normes sanitaires strictes.

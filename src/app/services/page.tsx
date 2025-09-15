@@ -4,10 +4,10 @@ import CTAUrgence from '@/components/CTAUrgence';
 import { COMPANY, CONTACT, BASE_URL } from '@/data/site-config';
 
 export const metadata: Metadata = {
-  title: 'Services Assèchement Urgence | H-Sèchement Suisse Romande',
+  title: 'Services Assèchement urgence | H-Sèchement Suisse romande',
   description: 'Détection fuites, assèchement expert et assainissement après dégât d\'eau. Technologies avancées, intervention 24h/7j en Suisse romande.',
   openGraph: {
-    title: 'Services Assèchement Urgence | H-Sèchement Suisse Romande',
+    title: 'Services Assèchement urgence | H-Sèchement Suisse romande',
     description: 'Détection fuites, assèchement expert et assainissement. Technologies de pointe pour tous dégâts d\'eau.',
     url: `${BASE_URL}/services`,
   },
@@ -111,7 +111,7 @@ export default function ServicesPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-corporate-dark mb-6">
               <span className="text-hsechement-red">Services d&apos;Urgence</span>
               <br />
-              <span className="text-hsechement-orange">Assèchement Suisse Romande</span>
+              <span className="text-hsechement-orange">Assèchement Suisse romande</span>
             </h1>
             <p className="text-xl md:text-2xl text-corporate-gray max-w-4xl mx-auto mb-8">
               <strong className="text-corporate-dark">Intervention en 30 minutes</strong> pour tous vos dégâts d&apos;eau.

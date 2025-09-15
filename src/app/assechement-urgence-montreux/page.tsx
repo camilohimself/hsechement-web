@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Humidité Traitement Montreux | Assèchement Urgence Riviera - Service Premium`,
+  title: `Humidité Traitement Montreux | Assèchement urgence Riviera - Service premium`,
   description: `EXPERT humidité Montreux Riviera! ⚡ Traitement professionnel en 30min (${CODE_POSTAL}). Spécialiste climat lacustre. Service premium. Devis gratuit.`,
   openGraph: {
-    title: `Traitement Humidité Montreux | Expert Riviera Vaudoise`,
+    title: `Traitement Humidité Montreux | Expert riviera vaudoise`,
     description: `Spécialiste traitement humidité Montreux. Expert climat Riviera, intervention premium 30min. Service 24h/7j région Montreux-Vevey.`,
     url: `${BASE_URL}/assechement-urgence-montreux`,
   },
@@ -74,10 +74,10 @@ export default function AssechementUrgenceMontreuxPage() {
               Humidité Traitement Montreux
             </h1>
             <div className="text-2xl md:text-3xl font-bold mb-4">
-              Assèchement d&apos;Urgence Riviera - Service Premium
+              Assèchement d&apos;Urgence Riviera - Service premium
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention en 30 minutes • 24h/7j • Riviera Vaudoise ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Riviera vaudoise ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
@@ -108,7 +108,7 @@ export default function AssechementUrgenceMontreuxPage() {
                 href="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
-                Service Premium Riviera
+                Service premium Riviera
               </a>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function AssechementUrgenceMontreuxPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">🎼</div>
                       <div>
-                        <div className="font-bold text-lg mb-2">Service Premium Montreux</div>
+                        <div className="font-bold text-lg mb-2">Service premium Montreux</div>
                         <p className="text-gray-700">
                           <strong>Intervention haut de gamme</strong> adaptée au standing
                           Riviera. Discrétion, élégance, finitions parfaites.
@@ -195,7 +195,7 @@ export default function AssechementUrgenceMontreuxPage() {
                   <div className="border border-pink-200 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">🏡</span>
-                      <h4 className="font-bold text-lg">Villas Riviera Premium</h4>
+                      <h4 className="font-bold text-lg">Villas riviera premium</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Villas avec vue lac, propriétés d&apos;exception Clarens-Territet.
@@ -299,7 +299,7 @@ export default function AssechementUrgenceMontreuxPage() {
                 <div className="bg-pink-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🏔️</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Microclima Montagne</h3>
+                <h3 className="text-xl font-bold mb-4">Microclima montagne</h3>
                 <p className="text-gray-700">
                   Contraste lac-montagne crée variations thermiques brutales.
                   Choc thermique, dilatation, infiltrations saisonnières.
@@ -310,7 +310,7 @@ export default function AssechementUrgenceMontreuxPage() {
                 <div className="bg-gray-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🏰</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Patrimoine Exigeant</h3>
+                <h3 className="text-xl font-bold mb-4">Patrimoine exigeant</h3>
                 <p className="text-gray-700">
                   Bâtiments historiques, palaces, villas prestige nécessitent
                   techniques spécialisées + matériaux nobles.
@@ -433,7 +433,7 @@ export default function AssechementUrgenceMontreuxPage() {
                 href="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
-                Service Premium
+                Service premium
               </a>
             </div>
 

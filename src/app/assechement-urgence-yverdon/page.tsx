@@ -11,11 +11,11 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Assainissement Yverdon | Assèchement d'Urgence 24h/7j - Nord Vaudois`,
-  description: `URGENCE assainissement Yverdon? ⚡ Intervention en 30min dans tout Yverdon (${CODE_POSTAL}). Spécialiste Nord Vaudois. Agréé assurances. Devis gratuit.`,
+  title: `Assainissement Yverdon | Assèchement d'Urgence 24h/7j - Nord vaudois`,
+  description: `URGENCE assainissement Yverdon? ⚡ Intervention en 30min dans tout Yverdon (${CODE_POSTAL}). Spécialiste Nord vaudois. Agréé assurances. Devis gratuit.`,
   openGraph: {
-    title: `Assèchement d'Urgence Yverdon | Assainissement Nord Vaudois`,
-    description: `Service assainissement urgence Yverdon en 30min. Spécialiste dégâts d'eau Nord Vaudois 24h/7j. Équipe agréée assurances.`,
+    title: `Assèchement d'Urgence Yverdon | Assainissement Nord vaudois`,
+    description: `Service assainissement urgence Yverdon en 30min. Spécialiste dégâts d'eau Nord vaudois 24h/7j. Équipe agréée assurances.`,
     url: `${BASE_URL}/assechement-urgence-yverdon`,
   },
   alternates: {
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
 const yverdonBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "H-Séchement Yverdon - Assainissement Nord Vaudois",
-  "description": "Service d'assainissement d'urgence à Yverdon-les-Bains. Spécialiste Nord Vaudois, intervention 24h/7j pour dégâts d'eau, assèchement. Équipe agréée assurances.",
+  "name": "H-Séchement Yverdon - Assainissement Nord vaudois",
+  "description": "Service d'assainissement d'urgence à Yverdon-les-Bains. Spécialiste Nord vaudois, intervention 24h/7j pour dégâts d'eau, assèchement. Équipe agréée assurances.",
   "url": `${BASE_URL}/assechement-urgence-yverdon`,
   "telephone": CONTACT.emergencyPhone,
   "email": CONTACT.email,
@@ -74,7 +74,7 @@ export default function AssechementUrgenceYverdonPage() {
               Assainissement Yverdon
             </h1>
             <div className="text-2xl md:text-3xl font-bold mb-4">
-              Assèchement d&apos;Urgence Nord Vaudois - Service en 30min
+              Assèchement d&apos;Urgence Nord vaudois - Service en 30min
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
               Intervention en 30 minutes • 24h/7j • Région Yverdon ({CODE_POSTAL})
@@ -83,7 +83,7 @@ export default function AssechementUrgenceYverdonPage() {
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur rounded-xl p-6 text-center">
                 <div className="text-4xl mb-3">🏛️</div>
-                <div className="font-bold text-lg">Nord Vaudois</div>
+                <div className="font-bold text-lg">Nord vaudois</div>
                 <div className="text-sm mt-2">
                   Yverdon • Grandson • Yvonand • Champagne
                 </div>
@@ -108,19 +108,19 @@ export default function AssechementUrgenceYverdonPage() {
                 href="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
-                Devis Gratuit Nord Vaudois
+                Devis Gratuit Nord vaudois
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Expertise Nord Vaudois */}
+      {/* Expertise Nord vaudois */}
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-corporate-dark">
-              Spécialiste Assainissement Nord Vaudois
+              Spécialiste Assainissement Nord vaudois
             </h2>
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
@@ -149,7 +149,7 @@ export default function AssechementUrgenceYverdonPage() {
                       <div>
                         <div className="font-bold text-lg mb-2">Région Agricole</div>
                         <p className="text-gray-700">
-                          Connaissance parfaite spécificités Nord Vaudois: bâtiments agricoles,
+                          Connaissance parfaite spécificités Nord vaudois: bâtiments agricoles,
                           fermes, caves vinicoles. Matériel adapté milieu rural.
                         </p>
                       </div>
@@ -179,7 +179,7 @@ export default function AssechementUrgenceYverdonPage() {
                   <div className="border border-hsechement-red/20 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">🏭</span>
-                      <h4 className="font-bold text-lg">Dégâts Eau Industriels</h4>
+                      <h4 className="font-bold text-lg">Dégâts eau industriels</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Rupture canalisation industrielle, inondation atelier, panne système.
@@ -224,15 +224,15 @@ export default function AssechementUrgenceYverdonPage() {
         </div>
       </section>
 
-      {/* Zone Intervention Nord Vaudois */}
+      {/* Zone Intervention Nord vaudois */}
       <section className="section-padding bg-gradient-to-br from-green-50 to-emerald-50">
         <div className="container-custom">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-corporate-dark">
-              Zone d&apos;Intervention Nord Vaudois
+              Zone d&apos;Intervention Nord vaudois
             </h2>
             <p className="text-xl text-gray-700 mb-12">
-              Service assainissement 24h/7j dans tout le Nord Vaudois depuis Yverdon
+              Service assainissement 24h/7j dans tout le Nord vaudois depuis Yverdon
             </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -249,7 +249,7 @@ export default function AssechementUrgenceYverdonPage() {
 
             <div className="bg-hsechement-red/5 rounded-xl p-8 border border-hsechement-red/20">
               <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
-                Temps d&apos;Intervention Nord Vaudois
+                Temps d&apos;Intervention Nord vaudois
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
@@ -270,12 +270,12 @@ export default function AssechementUrgenceYverdonPage() {
         </div>
       </section>
 
-      {/* Spécificités Nord Vaudois */}
+      {/* Spécificités Nord vaudois */}
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-corporate-dark">
-              Défis Spécifiques Nord Vaudois
+              Défis Spécifiques Nord vaudois
             </h2>
 
             <div className="grid lg:grid-cols-3 gap-8">
@@ -283,7 +283,7 @@ export default function AssechementUrgenceYverdonPage() {
                 <div className="bg-green-100 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">🏭</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4">Secteur Industriel</h3>
+                <h3 className="text-xl font-bold mb-4">Secteur industriel</h3>
                 <p className="text-gray-700">
                   Zone industrielle yverdon concentre de nombreuses entreprises.
                   Dégâts d&apos;eau = arrêt production coûteux. Intervention express cruciale.
@@ -321,7 +321,7 @@ export default function AssechementUrgenceYverdonPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-corporate-dark">
-              Questions Fréquentes Nord Vaudois
+              Questions Fréquentes Nord vaudois
             </h2>
 
             <div className="space-y-6">
@@ -349,7 +349,7 @@ export default function AssechementUrgenceYverdonPage() {
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
                 <h3 className="text-xl font-bold mb-3 text-hsechement-red">
-                  Avez-vous des références dans le Nord Vaudois?
+                  Avez-vous des références dans le Nord vaudois?
                 </h3>
                 <p className="text-gray-700">
                   <strong>{COMPANY.experience} d&apos;expérience région.</strong>
@@ -367,11 +367,11 @@ export default function AssechementUrgenceYverdonPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
-              Dégât d&apos;Eau dans le Nord Vaudois? Action Immédiate!
+              Dégât d&apos;Eau dans le Nord vaudois? Action Immédiate!
             </h2>
             <p className="text-xl mb-8">
               Secteur industriel ou résidentiel: chaque minute compte.
-              Notre équipe Nord Vaudois répond immédiatement.
+              Notre équipe Nord vaudois répond immédiatement.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -390,7 +390,7 @@ export default function AssechementUrgenceYverdonPage() {
             </div>
 
             <div className="mt-8 text-lg">
-              <strong>Spécialiste industriel + rural</strong> • Intervention en 30min dans tout le Nord Vaudois
+              <strong>Spécialiste industriel + rural</strong> • Intervention en 30min dans tout le Nord vaudois
             </div>
           </div>
         </div>

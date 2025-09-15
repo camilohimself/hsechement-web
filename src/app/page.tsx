@@ -7,10 +7,10 @@ import { COMPANY, SERVICES, TESTIMONIALS, LOCAL_AREAS, BASE_URL } from '@/data/s
 
 // SEO metadata pour la homepage
 export const metadata: Metadata = {
-  title: 'H-Séchement | Assèchement Urgence 24h/7 Suisse Romande',
+  title: 'H-Séchement | Assèchement urgence 24h/7 Suisse romande',
   description: 'Spécialiste assèchement d\'urgence en Suisse romande. Intervention en 30 min, 24h/7j. Dégât d\'eau, inondation, fuite. Agréé assurances.',
   openGraph: {
-    title: 'H-Séchement | Assèchement Urgence 24h/7 Suisse Romande',
+    title: 'H-Séchement | Assèchement urgence 24h/7 Suisse romande',
     description: 'Intervention d\'urgence en 30 minutes pour tous vos dégâts d\'eau en Suisse romande. Service professionnel 24h/24.',
     url: BASE_URL,
   },

@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Dégât d'Eau Nyon | Assèchement d'Urgence 24h/7j - Service en 30min`,
+  title: `Dégât d.eau Nyon | Assèchement d'Urgence 24h/7j - Service en 30min`,
   description: `URGENCE dégât d'eau Nyon? ⚡ Intervention express en 30min dans tout Nyon (${CODE_POSTAL}). Équipe professionnelle 24h/7j. Agréé assurances. Devis gratuit.`,
   openGraph: {
-    title: `Assèchement d'Urgence Nyon | Dégât d'Eau 24h/7j`,
+    title: `Assèchement d'Urgence Nyon | Dégât d.eau 24h/7j`,
     description: `Service d'assèchement urgence Nyon en 30min. Intervention 24h/7j dans tout Nyon et région. Équipe agréée assurances.`,
     url: `${BASE_URL}/assechement-urgence-nyon`,
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const nyonBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "H-Séchement Nyon - Dégât d'Eau Urgence",
+  "name": "H-Séchement Nyon - Dégât d.eau Urgence",
   "description": "Service d'assèchement d'urgence à Nyon. Intervention rapide 24h/7j pour dégâts d'eau, inondations, fuites. Équipe professionnelle agréée assurances région Nyon.",
   "url": `${BASE_URL}/assechement-urgence-nyon`,
   "telephone": CONTACT.emergencyPhone,

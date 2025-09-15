@@ -3,10 +3,10 @@ import LocalSchema from '@/components/LocalSchema';
 import { COMPANY, BASE_URL } from '@/data/site-config';
 
 export const metadata: Metadata = {
-  title: `À propos de ${COMPANY.name} | Spécialiste Assèchement Suisse Romande`,
+  title: `À propos de ${COMPANY.name} | Spécialiste assèchement Suisse romande`,
   description: `Découvrez H-Séchement, votre spécialiste en assèchement d'urgence depuis ${COMPANY.founded}. ${COMPANY.experience} d'expérience, agréé assurances, intervention 24h/7j.`,
   openGraph: {
-    title: `À propos de ${COMPANY.name} | Expert Assèchement Urgence`,
+    title: `À propos de ${COMPANY.name} | Expert assèchement urgence`,
     description: `Entreprise spécialisée en assèchement d'urgence en Suisse romande. Équipe professionnelle, matériel de pointe, service 24h/7j.`,
     url: `${BASE_URL}/entreprise`,
   },
@@ -47,7 +47,7 @@ export default function EntreprisePage() {
                 <div className="bg-hsechement-orange/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🏠</span>
                 </div>
-                <h3 className="font-bold text-lg mb-2">Intervention Rapide</h3>
+                <h3 className="font-bold text-lg mb-2">Intervention rapide</h3>
                 <p className="text-gray-600">Service 24h/7j dans toute la Suisse romande</p>
               </div>
               <div className="text-center">

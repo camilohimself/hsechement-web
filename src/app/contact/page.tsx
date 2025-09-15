@@ -5,7 +5,7 @@ import LocalSchema from '@/components/LocalSchema';
 import { CONTACT, COMPANY, BASE_URL, LOCAL_AREAS } from '@/data/site-config';
 
 export const metadata: Metadata = {
-  title: 'Contact H-Séchement | Urgence 24h/7j Suisse Romande',
+  title: 'Contact H-Séchement | Urgence 24h/7j Suisse romande',
   description: 'Contactez H-Séchement pour une intervention d\'urgence. Téléphone 24h/7j, devis gratuit. Service assèchement Suisse romande.',
   openGraph: {
     title: 'Contact H-Séchement | Urgence Assèchement 24h/7j',

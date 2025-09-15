@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Assèchement Morges | Expert Dégât d'Eau 24h/7j - Intervention 30min`,
+  title: `Assèchement Morges | Expert Dégât d.eau 24h/7j - Intervention 30min`,
   description: `EXPERT assèchement Morges depuis ${COMPANY.founded}! ⚡ Position #1 région Morges (${CODE_POSTAL}). Intervention 30min, agréé assurances. Leader incontesté!`,
   openGraph: {
-    title: `#1 Assèchement Morges | Expert Reconnu Dégât d'Eau`,
+    title: `#1 Assèchement Morges | Expert reconnu Dégât d.eau`,
     description: `LEADER assèchement Morges depuis ${COMPANY.founded}. Expert reconnu dégâts d'eau région Morges. Service premium 30min. Références exceptionnelles.`,
     url: `${BASE_URL}/assechement-urgence-morges`,
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const morgesBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "H-Séchement Morges - Expert Assèchement #1",
+  "name": "H-Séchement Morges - Expert assèchement #1",
   "description": "LEADER assèchement d'urgence à Morges depuis 2015. Expert reconnu dégâts d'eau, inondations. Service premium 24h/7j. Références exceptionnelles région Morges.",
   "url": `${BASE_URL}/assechement-urgence-morges`,
   "telephone": CONTACT.emergencyPhone,
@@ -149,7 +149,7 @@ export default function AssechementUrgenceMorgesPage() {
                     <div className="flex items-start">
                       <div className="text-3xl mr-4">👑</div>
                       <div>
-                        <div className="font-bold text-xl mb-2">Expert Reconnu depuis {COMPANY.founded}</div>
+                        <div className="font-bold text-xl mb-2">Expert reconnu depuis {COMPANY.founded}</div>
                         <p className="text-gray-700">
                           <strong>Premier intervenant</strong> de la région morgienne.
                           Réputation bâtie sur {COMPANY.experience} d&apos;excellence ininterrompue.
@@ -191,13 +191,13 @@ export default function AssechementUrgenceMorgesPage() {
 
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
-                  🌟 Service Premium Morges
+                  🌟 Service premium Morges
                 </h3>
                 <div className="space-y-4">
                   <div className="border border-yellow-200 rounded-xl p-6 bg-gradient-to-r from-yellow-50 to-amber-50">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">💎</span>
-                      <h4 className="font-bold text-xl">Service Haut de Gamme</h4>
+                      <h4 className="font-bold text-xl">Service haut de gamme</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Intervention premium avec équipe senior expérimentée.
@@ -211,7 +211,7 @@ export default function AssechementUrgenceMorgesPage() {
                   <div className="border border-amber-200 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">⭐</span>
-                      <h4 className="font-bold text-xl">Satisfaction Client Exceptionnelle</h4>
+                      <h4 className="font-bold text-xl">Satisfaction client exceptionnelle</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       <strong>127+ interventions Morges</strong> avec note moyenne 4.9/5.
@@ -442,7 +442,7 @@ export default function AssechementUrgenceMorgesPage() {
                 href="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
-                Service Premium Gratuit
+                Service premium Gratuit
               </a>
             </div>
 

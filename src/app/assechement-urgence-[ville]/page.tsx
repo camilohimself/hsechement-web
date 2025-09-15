@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const title = `Assèchement Urgence ${area.city} 24h/7 - Intervention Rapide`;
+  const title = `Assèchement urgence ${area.city} 24h/7 - Intervention Rapide`;
   const description = `Spécialiste assèchement d'urgence à ${area.city}. Intervention en 30 min, 24h/7j. Dégât d'eau, inondation, fuite. Service professionnel ${area.zipCode}.`;
 
   return {
