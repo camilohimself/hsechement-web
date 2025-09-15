@@ -89,6 +89,55 @@ body {
   animation: bounce-phone 2s infinite;
 }
 
+/* === SUBTLE UX IMPROVEMENTS === */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.card-hover-effect {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card-hover-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s;
+}
+
+.card-hover-effect:hover::before {
+  left: 100%;
+}
+
+/* === SMOOTH FOCUS STATES === */
+.focus-visible-ring {
+  @apply focus-visible:ring-2 focus-visible:ring-hsechement-orange focus-visible:ring-offset-2 focus-visible:outline-none;
+}
+
+/* === LOADING STATE === */
+.loading-dots::after {
+  content: '';
+  animation: loading-dots 1.4s infinite;
+}
+
+@keyframes loading-dots {
+  0%, 20% { content: '.'; }
+  40% { content: '..'; }
+  60%, 100% { content: '...'; }
+}
+
 /* === STICKY CTA MOBILE === */
 .sticky-cta-mobile {
   position: fixed;

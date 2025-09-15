@@ -12,7 +12,7 @@ const QUARTIERS = [
 
 export const metadata: Metadata = {
   title: `Assèchement d'Urgence Lausanne | Dégât d'Eau 24h/7j - Intervention 30min`,
-  description: `URGENCE dégât d'eau Lausanne? ⚡ Intervention en 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j. Agréé assurances. Devis gratuit.`,
+  description: `🚨 URGENCE dégât d'eau Lausanne? Intervention en 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j agréé assurances. Devis gratuit immédiat.`,
   openGraph: {
     title: `Dégât d'Eau Lausanne | Assèchement d'Urgence 24h/7j`,
     description: `Intervention urgence assèchement Lausanne en 30min. Service professionnel 24h/7j dans tout Lausanne et région. Agréé assurances.`,
@@ -72,7 +72,7 @@ export default function AssechementUrgenceLausannePage() {
       <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
-            <div className="animate-pulse text-6xl mb-6">🚨</div>
+            <div className="animate-bounce text-6xl mb-6 filter drop-shadow-lg">🚨</div>
             <h1 className="text-4xl md:text-6xl font-black mb-6">
               Assèchement d&apos;Urgence Lausanne
             </h1>
@@ -103,7 +103,7 @@ export default function AssechementUrgenceLausannePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-xl flex items-center justify-center animate-pulse"
               >
                 📞 APPEL URGENCE LAUSANNE
               </a>
@@ -454,7 +454,7 @@ export default function AssechementUrgenceLausannePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-xl animate-pulse"
               >
                 📞 APPELER MAINTENANT
               </a>
