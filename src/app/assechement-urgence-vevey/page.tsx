@@ -11,7 +11,7 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Assainissement Vevey | Assèchement d'Urgence 24h/7j - Service 30min`,
+  title: `Assainissement Vevey | Assèchement d'Urgence 24h/7j - Service en 30min`,
   description: `URGENCE assainissement Vevey? ⚡ Intervention en 30min dans tout Vevey (${CODE_POSTAL}). Traitement moisissures, dégât d'eau. Agréé assurances. Devis gratuit.`,
   openGraph: {
     title: `Assèchement d'Urgence Vevey | Assainissement 24h/7j`,
@@ -241,7 +241,7 @@ export default function AssechementUrgenceVeveyPage() {
                   <div className="text-2xl mb-3">🏔️</div>
                   <h3 className="font-bold text-lg mb-2">{quartier}</h3>
                   <div className="text-sm text-gray-600">
-                    Service assainissement ≤ 30min
+                    Service assainissement en 30min
                   </div>
                 </div>
               ))}
@@ -261,7 +261,7 @@ export default function AssechementUrgenceVeveyPage() {
                   <div className="text-sm text-gray-700">Clarens • La Tour-de-Peilz</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">en 30min</div>
                   <div className="text-sm text-gray-700">Corsier • Corseaux • Montreux-Est</div>
                 </div>
               </div>

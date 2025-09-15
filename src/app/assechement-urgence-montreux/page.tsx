@@ -243,7 +243,7 @@ export default function AssechementUrgenceMontreuxPage() {
                   <div className="text-2xl mb-3">🎼</div>
                   <h3 className="font-bold text-lg mb-2">{quartier}</h3>
                   <div className="text-sm text-gray-600">
-                    Service premium ≤ 30min
+                    Service premium en 30min
                   </div>
                   <div className="text-xs text-hsechement-red mt-1 font-semibold">
                     Riviera exclusive
@@ -266,7 +266,7 @@ export default function AssechementUrgenceMontreuxPage() {
                   <div className="text-sm text-gray-700">Territet • Glion • Caux</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-purple-500">≤ 30min</div>
+                  <div className="text-3xl font-bold text-purple-500">en 30min</div>
                   <div className="text-sm text-gray-700">Veytaux • Blonay • Région</div>
                 </div>
               </div>

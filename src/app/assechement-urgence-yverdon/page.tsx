@@ -74,7 +74,7 @@ export default function AssechementUrgenceYverdonPage() {
               Assainissement Yverdon
             </h1>
             <div className="text-2xl md:text-3xl font-bold mb-4">
-              Assèchement d&apos;Urgence Nord Vaudois - Service 30min
+              Assèchement d&apos;Urgence Nord Vaudois - Service en 30min
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
               Intervention en 30 minutes • 24h/7j • Région Yverdon ({CODE_POSTAL})
@@ -241,7 +241,7 @@ export default function AssechementUrgenceYverdonPage() {
                   <div className="text-2xl mb-3">🏛️</div>
                   <h3 className="font-bold text-lg mb-2">{quartier}</h3>
                   <div className="text-sm text-gray-600">
-                    Service assainissement ≤ 30min
+                    Service assainissement en 30min
                   </div>
                 </div>
               ))}
@@ -261,7 +261,7 @@ export default function AssechementUrgenceYverdonPage() {
                   <div className="text-sm text-gray-700">Grandson • Yvonand • Champagne</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">en 30min</div>
                   <div className="text-sm text-gray-700">Communes limitrophes • Zone rurale</div>
                 </div>
               </div>

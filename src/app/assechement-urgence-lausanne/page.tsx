@@ -245,7 +245,7 @@ export default function AssechementUrgenceLausannePage() {
                   <div className="text-sm text-gray-700">Chailly • Montbenon • Sauvabelin</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">en 30min</div>
                   <div className="text-sm text-gray-700">Renens • Prilly • Bussigny</div>
                 </div>
               </div>

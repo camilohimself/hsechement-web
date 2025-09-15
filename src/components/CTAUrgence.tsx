@@ -39,7 +39,7 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
             </h2>
 
             <p className="text-white/90 mb-6">
-              Intervention sous <span className="font-bold">30 minutes</span>
+              Intervention en <span className="font-bold">30 minutes</span>
             </p>
 
             <button
@@ -94,7 +94,7 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
       <h3 className="text-xl font-bold mb-2">Urgence 24h/7j</h3>
 
       <p className="mb-4">
-        Intervention sous <span className="font-bold">30 minutes</span>
+        Intervention en <span className="font-bold">30 minutes</span>
       </p>
 
       <button

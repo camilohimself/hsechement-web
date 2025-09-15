@@ -51,7 +51,7 @@ export default function ContactPage() {
                   </h2>
 
                   <p className="text-xl mb-6">
-                    Intervention sous <span className="font-bold">30 minutes</span>
+                    Intervention en <span className="font-bold">30 minutes</span>
                   </p>
 
                   <div className="mb-6">

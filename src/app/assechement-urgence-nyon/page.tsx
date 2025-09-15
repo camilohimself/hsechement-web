@@ -11,7 +11,7 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Dégât d'Eau Nyon | Assèchement d'Urgence 24h/7j - Service 30min`,
+  title: `Dégât d'Eau Nyon | Assèchement d'Urgence 24h/7j - Service en 30min`,
   description: `URGENCE dégât d'eau Nyon? ⚡ Intervention express en 30min dans tout Nyon (${CODE_POSTAL}). Équipe professionnelle 24h/7j. Agréé assurances. Devis gratuit.`,
   openGraph: {
     title: `Assèchement d'Urgence Nyon | Dégât d'Eau 24h/7j`,
@@ -74,7 +74,7 @@ export default function AssechementUrgenceNyonPage() {
               Dégât d&apos;Eau Nyon
             </h1>
             <div className="text-2xl md:text-3xl font-bold mb-4">
-              Assèchement d&apos;Urgence Nyon - Service 30min
+              Assèchement d&apos;Urgence Nyon - Service en 30min
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
               Intervention en 30 minutes • 24h/7j • Région Nyon ({CODE_POSTAL})
@@ -252,7 +252,7 @@ export default function AssechementUrgenceNyonPage() {
                   <div className="text-sm text-gray-700">Gland • Rolle • Prangins</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">en 30min</div>
                   <div className="text-sm text-gray-700">Crans • Eysins • Communes limitrophes</div>
                 </div>
               </div>

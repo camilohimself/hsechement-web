@@ -243,7 +243,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   <div className="text-2xl mb-3">🌾</div>
                   <h3 className="font-bold text-lg mb-2">{commune}</h3>
                   <div className="text-sm text-gray-600">
-                    Service rural ≤ 30min
+                    Service rural en 30min
                   </div>
                   <div className="text-xs text-hsechement-red mt-1 font-semibold">
                     Zone agricole
@@ -266,7 +266,7 @@ export default function AssechementUrgenceGrosDeVaudPage() {
                   <div className="text-sm text-gray-700">La Sarraz • Pompaples • Bavois</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">en 30min</div>
                   <div className="text-sm text-gray-700">Communes périphériques</div>
                 </div>
               </div>
