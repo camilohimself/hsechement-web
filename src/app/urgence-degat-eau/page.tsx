@@ -25,7 +25,7 @@ export default function UrgenceDegatEauPage() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🚨</div>
             <h1 className="text-4xl md:text-6xl font-black mb-6 animate-pulse">
-              URGENCE DÉGÂT D'EAU
+              URGENCE DÉGÂT D&apos;EAU
             </h1>
             <p className="text-xl md:text-2xl mb-8 font-bold">
               Intervention sous 30 minutes • 24h/7j • Suisse Romande
@@ -73,12 +73,12 @@ export default function UrgenceDegatEauPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-8 text-urgent-red">
-              Types d'Urgences que nous traitons
+              Types d&apos;Urgences que nous traitons
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="border border-urgent-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4">💧</div>
-                <h3 className="font-bold mb-2">Fuite d'eau majeure</h3>
+                <h3 className="font-bold mb-2">Fuite d&apos;eau majeure</h3>
                 <p className="text-gray-600">Canalisation percée, robinet cassé</p>
               </div>
               <div className="border border-urgent-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">

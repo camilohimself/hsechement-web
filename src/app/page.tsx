@@ -275,13 +275,13 @@ export default function HomePage() {
           </p>
 
           <div className="max-w-md mx-auto">
-            <button
-              onClick={() => window.location.href = 'tel:+41791234567'}
-              className="w-full bg-white text-urgent-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl hover:scale-105 transform duration-300"
+            <a
+              href={`tel:+41791234567`}
+              className="inline-block w-full bg-white text-urgent-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl hover:scale-105 transform duration-300 text-center"
             >
               <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
               APPELER MAINTENANT
-            </button>
+            </a>
             <p className="mt-4 text-lg">
               Service disponible 24h/24 • Intervention sous 30 min
             </p>

@@ -98,21 +98,21 @@ export default function ServicesPage() {
 
                   {/* CTA pour chaque service */}
                   {service.urgent ? (
-                    <button
-                      onClick={() => window.location.href = 'tel:+41791234567'}
+                    <a
+                      href="tel:+41791234567"
                       className="btn-urgent inline-flex items-center"
                     >
                       <Phone className="w-5 h-5 mr-2" />
                       Appel d&apos;urgence
-                    </button>
+                    </a>
                   ) : (
-                    <button
-                      onClick={() => window.location.href = '/contact'}
+                    <a
+                      href="/contact"
                       className="btn-primary inline-flex items-center hover:bg-osom-primary/90"
                     >
                       Demander un devis
                       <ArrowRight className="w-5 h-5 ml-2" />
-                    </button>
+                    </a>
                   )}
                 </div>
 
@@ -242,23 +242,23 @@ export default function ServicesPage() {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center max-w-2xl mx-auto">
-            <button
-              onClick={() => window.location.href = 'tel:+41791234567'}
+            <a
+              href="tel:+41791234567"
               className="btn-urgent flex items-center text-xl py-4 px-8"
             >
               <Phone className="w-6 h-6 mr-3 animate-bounce-phone" />
               APPEL D&apos;URGENCE
-            </button>
+            </a>
 
             <span className="text-white/80">ou</span>
 
-            <button
-              onClick={() => window.location.href = '/contact'}
+            <a
+              href="/contact"
               className="btn-secondary bg-white text-corporate-dark hover:bg-gray-100 flex items-center"
             >
               Demander un devis
               <ArrowRight className="w-5 h-5 ml-2" />
-            </button>
+            </a>
           </div>
         </div>
       </section>

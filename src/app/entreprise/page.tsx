@@ -27,7 +27,7 @@ export default function EntreprisePage() {
               À propos de {COMPANY.name}
             </h1>
             <p className="text-xl text-gray-700 mb-8">
-              Votre spécialiste en assèchement d'urgence en Suisse romande
+              Votre spécialiste en assèchement d&apos;urgence en Suisse romande
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function EntreprisePage() {
               Notre Expertise
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              Depuis {COMPANY.founded}, {COMPANY.name} intervient 24h/7j pour tous vos dégâts d'eau et problèmes d'assèchement en Suisse romande.
+              Depuis {COMPANY.founded}, {COMPANY.name} intervient 24h/7j pour tous vos dégâts d&apos;eau et problèmes d&apos;assèchement en Suisse romande.
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">

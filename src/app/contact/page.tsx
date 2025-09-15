@@ -18,28 +18,6 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-  const handleUrgentCall = () => {
-    // Analytics tracking
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'phone_call_click', {
-        event_category: 'Contact',
-        event_label: 'contact_page_urgent_call',
-        value: 1
-      });
-    }
-  };
-
-  const handleRegularCall = () => {
-    // Analytics tracking
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'phone_call_click', {
-        event_category: 'Contact',
-        event_label: 'contact_page_regular_call',
-        value: 1
-      });
-    }
-  };
-
   return (
     <>
       <LocalSchema />
@@ -80,7 +58,6 @@ export default function ContactPage() {
                     <div className="text-sm mb-2 text-white/80">Appelez maintenant:</div>
                     <a
                       href={`tel:${CONTACT.emergencyPhone}`}
-                      onClick={handleUrgentCall}
                       className="inline-block bg-white text-urgent-red px-8 py-4 rounded-full font-bold text-3xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
                     >
                       <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
@@ -117,7 +94,6 @@ export default function ContactPage() {
                       <div className="text-sm text-corporate-gray">Téléphone</div>
                       <a
                         href={`tel:${CONTACT.phone}`}
-                        onClick={handleRegularCall}
                         className="font-bold text-lg text-corporate-dark hover:text-osom-secondary transition-colors"
                       >
                         {CONTACT.phone}
@@ -415,7 +391,6 @@ export default function ContactPage() {
 
           <a
             href={`tel:${CONTACT.emergencyPhone}`}
-            onClick={handleUrgentCall}
             className="inline-block bg-white text-urgent-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
           >
             <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />

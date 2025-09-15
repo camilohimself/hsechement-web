@@ -13,7 +13,9 @@ interface PageProps {
 
 // Génération des pages statiques pour chaque ville
 export async function generateStaticParams() {
-  return LOCAL_AREAS.map((area) => ({
+  // Simplify to prevent build timeouts - generate only key cities
+  const keyCities = LOCAL_AREAS.slice(0, 4); // First 4 cities to prevent timeout
+  return keyCities.map((area) => ({
     ville: area.slug,
   }));
 }
