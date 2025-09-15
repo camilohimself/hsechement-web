@@ -48,15 +48,15 @@ body {
 /* === CUSTOM COMPONENTS === */
 @layer components {
   .btn-primary {
-    @apply bg-osom-primary text-corporate-dark px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-yellow-400 hover:shadow-lg;
+    @apply bg-hsechement-red text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-hsechement-red/90 hover:shadow-lg;
   }
 
   .btn-secondary {
-    @apply bg-osom-secondary text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-teal-600 hover:shadow-lg;
+    @apply bg-hsechement-orange text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-hsechement-orange/90 hover:shadow-lg;
   }
 
   .btn-urgent {
-    @apply bg-urgent-red text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-urgent-red-dark hover:shadow-2xl hover:scale-105 animate-pulse-urgent;
+    @apply bg-hsechement-red text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-hsechement-red/90 hover:shadow-2xl hover:scale-105 animate-pulse-urgent;
   }
 
   .container-custom {

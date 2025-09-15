@@ -9,22 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Couleurs OSOM d'après CLAUDE.md et dashboard
-        osom: {
-          primary: '#ffd507', // Jaune OSOM
-          secondary: '#70c1a9', // Teal OSOM
-        },
-        // Urgence (rouge pour CTA mobiles)
-        urgent: {
-          red: '#dc2626',
-          'red-dark': '#b91c1c',
-        },
-        // Corporate colors
-        corporate: {
-          dark: '#2d2d2d',
-          gray: '#6b7280',
-          'gray-light': '#9ca3af',
-          'gray-bg': '#f8fafc',
+        // Couleurs exactes H-Séchement (extraites du site original)
+        hsechement: {
+          red: '#D50309',        // Rouge bouton CTA original
+          orange: '#FF9900',     // Orange navigation original
+          dark: '#272932',       // Gris foncé footer original
+          white: '#FFFFFF',      // Blanc arrière-plan
+          gray: {
+            light: '#F8F9FA',   // Gris clair sections
+            medium: '#6B7280',   // Gris texte secondaire
+          }
         }
       },
       fontFamily: {

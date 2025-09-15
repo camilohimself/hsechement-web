@@ -80,21 +80,21 @@ export default function LocalPage({ params }: PageProps) {
       />
 
       {/* Hero Section Local */}
-      <section className="bg-gradient-to-br from-blue-50 to-osom-secondary/10 section-padding">
+      <section className="bg-gradient-to-br from-blue-50 to-hsechement-orange/10 section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
             {/* Contenu principal */}
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <MapPin className="w-6 h-6 text-osom-secondary" />
-                <span className="text-osom-secondary font-semibold">{area.city} • {area.zipCode}</span>
+                <MapPin className="w-6 h-6 text-hsechement-orange" />
+                <span className="text-hsechement-orange font-semibold">{area.city} • {area.zipCode}</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-corporate-dark mb-6">
-                <span className="text-urgent-red">Urgence dégât d&apos;eau</span>
+                <span className="text-hsechement-red">Urgence dégât d&apos;eau</span>
                 <br />
-                <span className="text-osom-secondary">à {area.city} ?</span>
+                <span className="text-hsechement-orange">à {area.city} ?</span>
               </h1>
 
               <p className="text-xl md:text-2xl text-corporate-gray mb-8">
@@ -106,19 +106,19 @@ export default function LocalPage({ params }: PageProps) {
               {/* Points forts locaux */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-osom-secondary flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
                   <span className="text-corporate-dark">Équipe locale {area.city}</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-osom-secondary flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
                   <span className="text-corporate-dark">Intervention 24h/7j</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-osom-secondary flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
                   <span className="text-corporate-dark">Agréé assurances</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-osom-secondary flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
                   <span className="text-corporate-dark">Devis gratuit</span>
                 </div>
               </div>
@@ -175,14 +175,14 @@ export default function LocalPage({ params }: PageProps) {
                   <ul className="space-y-2 mb-6">
                     {service.features.slice(0, 3).map((feature, index) => (
                       <li key={index} className="flex items-center text-sm">
-                        <CheckCircle className="w-4 h-4 text-osom-secondary mr-2 flex-shrink-0" />
+                        <CheckCircle className="w-4 h-4 text-hsechement-orange mr-2 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
                   </ul>
 
                   {service.urgent && (
-                    <div className="bg-urgent-red/10 text-urgent-red px-4 py-2 rounded-lg text-center font-semibold">
+                    <div className="bg-hsechement-red/10 text-hsechement-red px-4 py-2 rounded-lg text-center font-semibold">
                       🚨 Service d&apos;urgence 24h/7j
                     </div>
                   )}
@@ -205,7 +205,7 @@ export default function LocalPage({ params }: PageProps) {
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-start space-x-3">
-                  <MapPin className="w-6 h-6 text-osom-secondary mt-1 flex-shrink-0" />
+                  <MapPin className="w-6 h-6 text-hsechement-orange mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-semibold text-corporate-dark">
                       {area.city} et environs ({area.zipCode})
@@ -217,7 +217,7 @@ export default function LocalPage({ params }: PageProps) {
                 </div>
 
                 <div className="flex items-start space-x-3">
-                  <Clock className="w-6 h-6 text-osom-primary mt-1 flex-shrink-0" />
+                  <Clock className="w-6 h-6 text-hsechement-red mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-semibold text-corporate-dark">
                       Temps d&apos;intervention
@@ -229,7 +229,7 @@ export default function LocalPage({ params }: PageProps) {
                 </div>
 
                 <div className="flex items-start space-x-3">
-                  <Users className="w-6 h-6 text-osom-secondary mt-1 flex-shrink-0" />
+                  <Users className="w-6 h-6 text-hsechement-orange mt-1 flex-shrink-0" />
                   <div>
                     <div className="font-semibold text-corporate-dark">
                       Équipe dédiée
@@ -241,7 +241,7 @@ export default function LocalPage({ params }: PageProps) {
                 </div>
               </div>
 
-              <div className="bg-osom-primary/10 rounded-lg p-6">
+              <div className="bg-hsechement-red/10 rounded-lg p-6">
                 <h3 className="font-bold text-corporate-dark mb-2">
                   Communes desservies depuis {area.city}:
                 </h3>
@@ -254,7 +254,7 @@ export default function LocalPage({ params }: PageProps) {
             </div>
 
             {/* Visualisation zone */}
-            <div className="bg-gradient-to-br from-osom-secondary/20 to-osom-primary/20 rounded-2xl p-8 h-80 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-hsechement-orange/20 to-hsechement-red/20 rounded-2xl p-8 h-80 flex items-center justify-center">
               <div className="text-center">
                 <div className="text-6xl mb-4">🗺️</div>
                 <div className="font-bold text-2xl text-corporate-dark">
@@ -280,7 +280,7 @@ export default function LocalPage({ params }: PageProps) {
               <div className="flex items-center justify-center space-x-2 mb-4">
                 <div className="flex">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-6 h-6 text-osom-primary fill-current" />
+                    <Star key={i} className="w-6 h-6 text-hsechement-red fill-current" />
                   ))}
                 </div>
                 <span className="text-corporate-gray font-semibold">Avis clients {area.city}</span>
@@ -295,7 +295,7 @@ export default function LocalPage({ params }: PageProps) {
                 >
                   <div className="flex mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-osom-primary fill-current" />
+                      <Star key={i} className="w-5 h-5 text-hsechement-red fill-current" />
                     ))}
                   </div>
                   <p className="text-corporate-gray italic mb-4">
@@ -332,7 +332,7 @@ export default function LocalPage({ params }: PageProps) {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-osom-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-8 h-8 text-corporate-dark" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -344,7 +344,7 @@ export default function LocalPage({ params }: PageProps) {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-osom-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -356,7 +356,7 @@ export default function LocalPage({ params }: PageProps) {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-osom-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-corporate-dark" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -371,7 +371,7 @@ export default function LocalPage({ params }: PageProps) {
       </section>
 
       {/* CTA Final Local */}
-      <section className="section-padding bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Dégât d&apos;eau à {area.city} ? N&apos;attendez pas !
@@ -384,7 +384,7 @@ export default function LocalPage({ params }: PageProps) {
           <div className="max-w-md mx-auto">
             <a
               href={`tel:${CONTACT.emergencyPhone}`}
-              className="inline-block w-full bg-white text-urgent-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
+              className="inline-block w-full bg-white text-hsechement-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
             >
               <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
               URGENCE {area.city.toUpperCase()}

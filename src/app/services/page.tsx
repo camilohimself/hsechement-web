@@ -23,7 +23,7 @@ export default function ServicesPage() {
       <LocalSchema specificServices={SERVICES.map(s => s.id)} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-osom-secondary/10 to-blue-50 section-padding">
+      <section className="bg-gradient-to-br from-hsechement-orange/10 to-blue-50 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-corporate-dark mb-6">
@@ -35,15 +35,15 @@ export default function ServicesPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="flex items-center justify-center space-x-2 text-corporate-dark">
-                <Clock className="w-6 h-6 text-osom-secondary" />
+                <Clock className="w-6 h-6 text-hsechement-orange" />
                 <span className="font-semibold">Intervention sous 30min</span>
               </div>
               <div className="flex items-center justify-center space-x-2 text-corporate-dark">
-                <CheckCircle className="w-6 h-6 text-osom-secondary" />
+                <CheckCircle className="w-6 h-6 text-hsechement-orange" />
                 <span className="font-semibold">Service 24h/7j</span>
               </div>
               <div className="flex items-center justify-center space-x-2 text-corporate-dark">
-                <CheckCircle className="w-6 h-6 text-osom-secondary" />
+                <CheckCircle className="w-6 h-6 text-hsechement-orange" />
                 <span className="font-semibold">Agréé assurances</span>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function ServicesPage() {
                 <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
                   <div className="mb-4">
                     {service.urgent && (
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-urgent-red text-white mb-4">
+                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-hsechement-red text-white mb-4">
                         🚨 Service d&apos;urgence
                       </span>
                     )}
@@ -90,7 +90,7 @@ export default function ServicesPage() {
                   <div className="space-y-3 mb-8">
                     {service.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-start space-x-3">
-                        <CheckCircle className="w-5 h-5 text-osom-secondary mt-0.5 flex-shrink-0" />
+                        <CheckCircle className="w-5 h-5 text-hsechement-orange mt-0.5 flex-shrink-0" />
                         <span className="text-corporate-dark">{feature}</span>
                       </div>
                     ))}
@@ -108,7 +108,7 @@ export default function ServicesPage() {
                   ) : (
                     <a
                       href="/contact"
-                      className="btn-primary inline-flex items-center hover:bg-osom-primary/90"
+                      className="btn-primary inline-flex items-center hover:bg-hsechement-red/90"
                     >
                       Demander un devis
                       <ArrowRight className="w-5 h-5 ml-2" />
@@ -118,7 +118,7 @@ export default function ServicesPage() {
 
                 {/* Image/Illustration */}
                 <div className={`${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
-                  <div className="bg-gradient-to-br from-osom-secondary/20 to-osom-primary/20 rounded-2xl p-8 h-80 flex items-center justify-center">
+                  <div className="bg-gradient-to-br from-hsechement-orange/20 to-hsechement-red/20 rounded-2xl p-8 h-80 flex items-center justify-center">
                     <div className="text-8xl opacity-50">
                       {service.icon}
                     </div>
@@ -166,7 +166,7 @@ export default function ServicesPage() {
               }
             ].map((process) => (
               <div key={process.step} className="text-center">
-                <div className="w-16 h-16 bg-osom-primary rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-corporate-dark">
+                <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-white">
                   {process.step}
                 </div>
                 <h3 className="text-xl font-bold text-corporate-dark mb-3">
@@ -192,7 +192,7 @@ export default function ServicesPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-              <div className="w-16 h-16 bg-osom-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -204,8 +204,8 @@ export default function ServicesPage() {
             </div>
 
             <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-              <div className="w-16 h-16 bg-osom-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="w-8 h-8 text-corporate-dark" />
+              <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
                 Travail assuré
@@ -216,7 +216,7 @@ export default function ServicesPage() {
             </div>
 
             <div className="text-center p-6 bg-white rounded-xl shadow-lg">
-              <div className="w-16 h-16 bg-osom-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -231,7 +231,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Final */}
-      <section className="section-padding bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Besoin d&apos;une intervention d&apos;urgence ?

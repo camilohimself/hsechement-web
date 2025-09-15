@@ -66,7 +66,7 @@ export default function AssechementUrgenceNyonPage() {
       />
 
       {/* Hero Section URGENCE Nyon */}
-      <section className="bg-gradient-to-br from-urgent-red to-urgent-red-dark text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🚨</div>
@@ -100,13 +100,13 @@ export default function AssechementUrgenceNyonPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-urgent-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
               >
                 📞 URGENCE NYON
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-urgent-red transition-colors shadow-xl"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
                 Devis Gratuit Nyon
               </a>
@@ -125,7 +125,7 @@ export default function AssechementUrgenceNyonPage() {
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-urgent-red">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Pourquoi H-Séchement à Nyon?
                 </h3>
                 <div className="space-y-4">
@@ -165,11 +165,11 @@ export default function AssechementUrgenceNyonPage() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-urgent-red">
+                <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                   Types d&apos;Interventions Nyon
                 </h3>
                 <div className="space-y-4">
-                  <div className="border border-gray-200 rounded-lg p-4 hover:border-urgent-red/30 transition-colors">
+                  <div className="border border-gray-200 rounded-lg p-4 hover:border-hsechement-red/30 transition-colors">
                     <div className="font-bold flex items-center">
                       <span className="text-xl mr-3">💧</span>
                       Fuites d&apos;Eau Urgence Nyon
@@ -179,7 +179,7 @@ export default function AssechementUrgenceNyonPage() {
                     </div>
                   </div>
 
-                  <div className="border border-gray-200 rounded-lg p-4 hover:border-urgent-red/30 transition-colors">
+                  <div className="border border-gray-200 rounded-lg p-4 hover:border-hsechement-red/30 transition-colors">
                     <div className="font-bold flex items-center">
                       <span className="text-xl mr-3">🏠</span>
                       Inondation Domicile Nyon
@@ -189,7 +189,7 @@ export default function AssechementUrgenceNyonPage() {
                     </div>
                   </div>
 
-                  <div className="border border-gray-200 rounded-lg p-4 hover:border-urgent-red/30 transition-colors">
+                  <div className="border border-gray-200 rounded-lg p-4 hover:border-hsechement-red/30 transition-colors">
                     <div className="font-bold flex items-center">
                       <span className="text-xl mr-3">🏢</span>
                       Commerce/Bureau Nyon
@@ -199,7 +199,7 @@ export default function AssechementUrgenceNyonPage() {
                     </div>
                   </div>
 
-                  <div className="border border-gray-200 rounded-lg p-4 hover:border-urgent-red/30 transition-colors">
+                  <div className="border border-gray-200 rounded-lg p-4 hover:border-hsechement-red/30 transition-colors">
                     <div className="font-bold flex items-center">
                       <span className="text-xl mr-3">🔧</span>
                       Assainissement Nyon
@@ -238,21 +238,21 @@ export default function AssechementUrgenceNyonPage() {
               ))}
             </div>
 
-            <div className="bg-urgent-red/5 rounded-xl p-8 border border-urgent-red/20">
-              <h3 className="text-2xl font-bold mb-6 text-urgent-red">
+            <div className="bg-hsechement-red/5 rounded-xl p-8 border border-hsechement-red/20">
+              <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
                 Temps d&apos;Intervention Garantis Région Nyon
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-urgent-red">≤ 20min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 20min</div>
                   <div className="text-sm text-gray-700">Centre Nyon • Rive</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-urgent-red">≤ 25min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 25min</div>
                   <div className="text-sm text-gray-700">Gland • Rolle • Prangins</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-urgent-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
                   <div className="text-sm text-gray-700">Crans • Eysins • Communes limitrophes</div>
                 </div>
               </div>
@@ -280,7 +280,7 @@ export default function AssechementUrgenceNyonPage() {
                   est arrivé en 18 minutes chrono! Intervention parfaite et assurance
                   a tout pris en charge.&quot;
                 </p>
-                <div className="text-sm text-urgent-red font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   Intervention Nyon Centre - Février 2025
                 </div>
               </div>
@@ -294,7 +294,7 @@ export default function AssechementUrgenceNyonPage() {
                   &quot;Cave inondée suite à rupture canalisation. Équipe très professionnelle,
                   matériel de pointe. Tout sec en 48h, aucun dégât résiduel.&quot;
                 </p>
-                <div className="text-sm text-urgent-red font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   Intervention Gland - Mars 2025
                 </div>
               </div>
@@ -313,7 +313,7 @@ export default function AssechementUrgenceNyonPage() {
 
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Combien de temps pour arriver à Nyon en urgence?
                 </h3>
                 <p className="text-gray-700">
@@ -323,7 +323,7 @@ export default function AssechementUrgenceNyonPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Travaillez-vous avec les assurances à Nyon?
                 </h3>
                 <p className="text-gray-700">
@@ -334,7 +334,7 @@ export default function AssechementUrgenceNyonPage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Quels équipements utilisez-vous à Nyon?
                 </h3>
                 <p className="text-gray-700">
@@ -349,7 +349,7 @@ export default function AssechementUrgenceNyonPage() {
       </section>
 
       {/* CTA Final Nyon */}
-      <section className="section-padding bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
@@ -363,13 +363,13 @@ export default function AssechementUrgenceNyonPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-urgent-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
               >
                 📞 URGENCE NYON
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-urgent-red transition-colors"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
                 Devis Gratuit
               </a>

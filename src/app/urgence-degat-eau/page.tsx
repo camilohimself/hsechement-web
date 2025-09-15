@@ -20,7 +20,7 @@ export default function UrgenceDegatEauPage() {
     <main>
       <LocalSchema specificServices={['assechement-urgence']} />
 
-      <section className="bg-gradient-to-br from-urgent-red to-urgent-red-dark text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🚨</div>
@@ -34,7 +34,7 @@ export default function UrgenceDegatEauPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-urgent-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center animate-bounce"
               >
                 📞 APPELER MAINTENANT
               </a>
@@ -72,21 +72,21 @@ export default function UrgenceDegatEauPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-8 text-urgent-red">
+            <h2 className="text-3xl font-bold text-center mb-8 text-hsechement-red">
               Types d&apos;Urgences que nous traitons
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="border border-urgent-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <div className="border border-hsechement-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4">💧</div>
                 <h3 className="font-bold mb-2">Fuite d&apos;eau majeure</h3>
                 <p className="text-gray-600">Canalisation percée, robinet cassé</p>
               </div>
-              <div className="border border-urgent-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <div className="border border-hsechement-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4">🏠</div>
                 <h3 className="font-bold mb-2">Inondation domicile</h3>
                 <p className="text-gray-600">Appartement, maison inondée</p>
               </div>
-              <div className="border border-urgent-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+              <div className="border border-hsechement-red/20 rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
                 <div className="text-4xl mb-4">🔧</div>
                 <h3 className="font-bold mb-2">Dégât machines</h3>
                 <p className="text-gray-600">Lave-linge, lave-vaisselle</p>

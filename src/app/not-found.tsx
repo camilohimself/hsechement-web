@@ -21,7 +21,7 @@ export default function NotFound() {
       <div className="container-custom">
         <div className="max-w-2xl mx-auto text-center">
           {/* 404 Visual */}
-          <div className="text-8xl font-bold text-osom-secondary/20 mb-8">
+          <div className="text-8xl font-bold text-hsechement-orange/20 mb-8">
             404
           </div>
 
@@ -53,7 +53,7 @@ export default function NotFound() {
           </div>
 
           {/* CTA Urgence */}
-          <div className="bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white rounded-2xl p-8 shadow-2xl">
+          <div className="bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white rounded-2xl p-8 shadow-2xl">
             <h2 className="text-2xl font-bold mb-4">
               🚨 Une urgence dégât d&apos;eau ?
             </h2>
@@ -64,7 +64,7 @@ export default function NotFound() {
 
             <a
               href={`tel:${CONTACT.emergencyPhone}`}
-              className="inline-block bg-white text-urgent-red px-8 py-4 rounded-full font-bold text-xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
+              className="inline-block bg-white text-hsechement-red px-8 py-4 rounded-full font-bold text-xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
             >
               <Phone className="w-6 h-6 mr-3 inline animate-bounce-phone" />
               {CONTACT.emergencyPhone}

@@ -69,7 +69,7 @@ export default function AssechementUrgenceLausannePage() {
       />
 
       {/* Hero Section URGENCE Lausanne */}
-      <section className="bg-gradient-to-br from-urgent-red to-urgent-red-dark text-white section-padding relative overflow-hidden">
+      <section className="bg-gradient-to-br from-hsechement-red to-hsechement-red/90 text-white section-padding relative overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="text-center max-w-5xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🚨</div>
@@ -103,13 +103,13 @@ export default function AssechementUrgenceLausannePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-urgent-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
+                className="bg-white text-hsechement-red px-8 py-4 rounded-full font-black text-xl hover:bg-gray-100 transition-colors shadow-xl flex items-center justify-center animate-bounce"
               >
                 📞 APPEL URGENCE LAUSANNE
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-urgent-red transition-colors shadow-xl"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
                 Devis Gratuit
               </a>
@@ -136,7 +136,7 @@ export default function AssechementUrgenceLausannePage() {
 
             <div className="grid lg:grid-cols-3 gap-8 mb-12">
               <div className="bg-gray-50 rounded-xl p-8 text-center">
-                <div className="bg-urgent-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">⚡</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Intervention Express Lausanne</h3>
@@ -144,13 +144,13 @@ export default function AssechementUrgenceLausannePage() {
                   <strong>Moins de 30 minutes</strong> pour rejoindre n&apos;importe quel point de Lausanne.
                   Du Centre-ville à Ouchy, de Chailly à Renens.
                 </p>
-                <div className="text-sm text-urgent-red font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   Zones couvertes: {CODE_POSTAL}
                 </div>
               </div>
 
               <div className="bg-gray-50 rounded-xl p-8 text-center">
-                <div className="bg-urgent-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">👥</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Équipe Locale Lausanne</h3>
@@ -158,13 +158,13 @@ export default function AssechementUrgenceLausannePage() {
                   <strong>Connaissance parfaite</strong> du réseau d&apos;eau lausannois.
                   Interventions déjà réalisées dans tous les quartiers.
                 </p>
-                <div className="text-sm text-urgent-red font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   {COMPANY.experience} d&apos;expérience région
                 </div>
               </div>
 
               <div className="bg-gray-50 rounded-xl p-8 text-center">
-                <div className="bg-urgent-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                <div className="bg-hsechement-red/10 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
                   <span className="text-3xl">✅</span>
                 </div>
                 <h3 className="text-xl font-bold mb-4">Agréé Assurances Lausanne</h3>
@@ -172,7 +172,7 @@ export default function AssechementUrgenceLausannePage() {
                   <strong>Prise en charge directe</strong> par votre assurance.
                   Partenariats avec les principales compagnies suisses.
                 </p>
-                <div className="text-sm text-urgent-red font-semibold">
+                <div className="text-sm text-hsechement-red font-semibold">
                   Devis gratuit • Facturation directe
                 </div>
               </div>
@@ -231,21 +231,21 @@ export default function AssechementUrgenceLausannePage() {
               ))}
             </div>
 
-            <div className="bg-urgent-red/5 rounded-xl p-8 border border-urgent-red/20">
-              <h3 className="text-2xl font-bold mb-4 text-urgent-red">
+            <div className="bg-hsechement-red/5 rounded-xl p-8 border border-hsechement-red/20">
+              <h3 className="text-2xl font-bold mb-4 text-hsechement-red">
                 Temps d&apos;Intervention Garantis Lausanne
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-urgent-red">≤ 20min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 20min</div>
                   <div className="text-sm text-gray-700">Centre-ville • Flon • Ouchy</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-urgent-red">≤ 25min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 25min</div>
                   <div className="text-sm text-gray-700">Chailly • Montbenon • Sauvabelin</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-urgent-red">≤ 30min</div>
+                  <div className="text-3xl font-bold text-hsechement-red">≤ 30min</div>
                   <div className="text-sm text-gray-700">Renens • Prilly • Bussigny</div>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function AssechementUrgenceLausannePage() {
 
             <div className="grid lg:grid-cols-2 gap-8 mb-12">
               <div className="space-y-6">
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-urgent-red/30 transition-colors">
+                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
                   <div className="flex items-start">
                     <div className="text-3xl mr-4">🏢</div>
                     <div>
@@ -273,14 +273,14 @@ export default function AssechementUrgenceLausannePage() {
                         Intervention spécialisée bureaux, commerces, restaurants du centre-ville lausannois.
                         Minimisation des arrêts d&apos;activité.
                       </p>
-                      <div className="text-sm text-urgent-red font-semibold">
+                      <div className="text-sm text-hsechement-red font-semibold">
                         Secteurs: Centre • Flon • Gare
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-urgent-red/30 transition-colors">
+                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
                   <div className="flex items-start">
                     <div className="text-3xl mr-4">🏠</div>
                     <div>
@@ -289,14 +289,14 @@ export default function AssechementUrgenceLausannePage() {
                         Assèchement appartements, maisons, villas dans tous les quartiers lausannois.
                         Respect total de votre intimité.
                       </p>
-                      <div className="text-sm text-urgent-red font-semibold">
+                      <div className="text-sm text-hsechement-red font-semibold">
                         Zones: Ouchy • Chailly • Sauvabelin • Montbenon
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-urgent-red/30 transition-colors">
+                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
                   <div className="flex items-start">
                     <div className="text-3xl mr-4">🏫</div>
                     <div>
@@ -305,7 +305,7 @@ export default function AssechementUrgenceLausannePage() {
                         Service dédié écoles, hôpitaux, administrations lausannoises.
                         Interventions discrètes en heures creuses.
                       </p>
-                      <div className="text-sm text-urgent-red font-semibold">
+                      <div className="text-sm text-hsechement-red font-semibold">
                         Références: CHUV • UNIL • Ville de Lausanne
                       </div>
                     </div>
@@ -314,7 +314,7 @@ export default function AssechementUrgenceLausannePage() {
               </div>
 
               <div className="space-y-6">
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-urgent-red/30 transition-colors">
+                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
                   <div className="flex items-start">
                     <div className="text-3xl mr-4">💧</div>
                     <div>
@@ -323,14 +323,14 @@ export default function AssechementUrgenceLausannePage() {
                         Intervention immédiate fuites, ruptures canalisations, inondations.
                         Équipes d&apos;astreinte permanente sur Lausanne.
                       </p>
-                      <div className="text-sm text-urgent-red font-semibold">
+                      <div className="text-sm text-hsechement-red font-semibold">
                         Hotline: {CONTACT.emergencyPhone}
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-urgent-red/30 transition-colors">
+                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
                   <div className="flex items-start">
                     <div className="text-3xl mr-4">🔧</div>
                     <div>
@@ -339,14 +339,14 @@ export default function AssechementUrgenceLausannePage() {
                         Traitement moisissures, désinfection, remise en état après dégâts d&apos;eau.
                         Normes sanitaires strictes respectées.
                       </p>
-                      <div className="text-sm text-urgent-red font-semibold">
+                      <div className="text-sm text-hsechement-red font-semibold">
                         Certifications: ISO • SUVA • Protection santé
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-urgent-red/30 transition-colors">
+                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
                   <div className="flex items-start">
                     <div className="text-3xl mr-4">📊</div>
                     <div>
@@ -355,7 +355,7 @@ export default function AssechementUrgenceLausannePage() {
                         Détection fuites non destructive, thermographie, mesures d&apos;humidité.
                         Rapports détaillés pour assurances.
                       </p>
-                      <div className="text-sm text-urgent-red font-semibold">
+                      <div className="text-sm text-hsechement-red font-semibold">
                         Technologies: Caméra thermique • Détecteurs ultrasoniques
                       </div>
                     </div>
@@ -377,7 +377,7 @@ export default function AssechementUrgenceLausannePage() {
 
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Combien de temps pour arriver à Lausanne en cas d&apos;urgence?
                 </h3>
                 <p className="text-gray-700">
@@ -388,7 +388,7 @@ export default function AssechementUrgenceLausannePage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Intervenez-vous la nuit et le weekend à Lausanne?
                 </h3>
                 <p className="text-gray-700">
@@ -399,7 +399,7 @@ export default function AssechementUrgenceLausannePage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Quels quartiers de Lausanne couvrez-vous exactement?
                 </h3>
                 <p className="text-gray-700">
@@ -410,7 +410,7 @@ export default function AssechementUrgenceLausannePage() {
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-sm">
-                <h3 className="text-xl font-bold mb-3 text-urgent-red">
+                <h3 className="text-xl font-bold mb-3 text-hsechement-red">
                   Mon assurance prend-elle en charge à Lausanne?
                 </h3>
                 <p className="text-gray-700">
@@ -425,7 +425,7 @@ export default function AssechementUrgenceLausannePage() {
       </section>
 
       {/* CTA Final Lausanne */}
-      <section className="section-padding bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
@@ -454,13 +454,13 @@ export default function AssechementUrgenceLausannePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={`tel:${CONTACT.emergencyPhone}`}
-                className="bg-white text-urgent-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
+                className="bg-white text-hsechement-red px-12 py-4 rounded-full font-black text-2xl hover:bg-gray-100 transition-colors shadow-xl animate-pulse"
               >
                 📞 APPELER MAINTENANT
               </a>
               <a
                 href="/contact"
-                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-urgent-red transition-colors"
+                className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
                 Devis Gratuit Lausanne
               </a>

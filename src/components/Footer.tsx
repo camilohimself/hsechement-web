@@ -13,8 +13,8 @@ export default function Footer() {
           {/* Informations entreprise */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-osom-primary to-osom-secondary rounded-lg flex items-center justify-center">
-                <span className="text-lg font-bold text-corporate-dark">H</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-hsechement-red to-hsechement-orange rounded-lg flex items-center justify-center">
+                <span className="text-lg font-bold text-white">H</span>
               </div>
               <div className="font-bold text-xl">{COMPANY.name}</div>
             </div>
@@ -26,11 +26,11 @@ export default function Footer() {
 
             <div className="space-y-2 text-sm">
               <div className="flex items-center">
-                <Clock className="w-4 h-4 mr-2 text-osom-primary" />
+                <Clock className="w-4 h-4 mr-2 text-hsechement-orange" />
                 <span>Service 24h/7j</span>
               </div>
               <div className="flex items-center">
-                <MapPin className="w-4 h-4 mr-2 text-osom-primary" />
+                <MapPin className="w-4 h-4 mr-2 text-hsechement-orange" />
                 <span>Intervention sous 30 min</span>
               </div>
             </div>
@@ -38,14 +38,14 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-osom-primary">
+            <h3 className="font-bold text-lg mb-4 text-hsechement-orange">
               Nos Services
             </h3>
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link
                   href="/services"
-                  className="hover:text-osom-primary transition-colors"
+                  className="hover:text-hsechement-orange transition-colors"
                 >
                   Assèchement d&apos;urgence
                 </Link>
@@ -53,7 +53,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="hover:text-osom-primary transition-colors"
+                  className="hover:text-hsechement-orange transition-colors"
                 >
                   Dégât d&apos;eau appartement
                 </Link>
@@ -61,7 +61,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="hover:text-osom-primary transition-colors"
+                  className="hover:text-hsechement-orange transition-colors"
                 >
                   Inondation cave/sous-sol
                 </Link>
@@ -69,7 +69,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="hover:text-osom-primary transition-colors"
+                  className="hover:text-hsechement-orange transition-colors"
                 >
                   Recherche de fuites
                 </Link>
@@ -77,7 +77,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/urgence-degat-eau"
-                  className="hover:text-urgent-red transition-colors font-semibold"
+                  className="hover:text-hsechement-red transition-colors font-semibold"
                 >
                   🚨 Service d&apos;urgence
                 </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
 
           {/* Zones couvertes */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-osom-primary">
+            <h3 className="font-bold text-lg mb-4 text-hsechement-orange">
               Zones d&apos;intervention
             </h3>
             <ul className="space-y-2 text-gray-300">
@@ -95,7 +95,7 @@ export default function Footer() {
                 <li key={area.slug}>
                   <Link
                     href={`/assechement-urgence-${area.slug}`}
-                    className="hover:text-osom-primary transition-colors"
+                    className="hover:text-hsechement-orange transition-colors"
                   >
                     {area.city}
                   </Link>
@@ -104,7 +104,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-osom-primary transition-colors text-sm"
+                  className="hover:text-hsechement-red transition-colors text-sm"
                 >
                   + autres communes...
                 </Link>
@@ -114,13 +114,13 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-bold text-lg mb-4 text-osom-primary">
+            <h3 className="font-bold text-lg mb-4 text-hsechement-orange">
               Contact Urgence
             </h3>
 
             <div className="space-y-4">
               {/* Téléphone urgence */}
-              <div className="bg-urgent-red rounded-lg p-4 text-center">
+              <div className="bg-hsechement-red rounded-lg p-4 text-center">
                 <div className="text-sm mb-1">Urgence 24h/7j</div>
                 <Link
                   href={`tel:${CONTACT.emergencyPhone}`}
@@ -134,16 +134,16 @@ export default function Footer() {
               {/* Autres contacts */}
               <div className="space-y-2 text-gray-300 text-sm">
                 <div className="flex items-center">
-                  <Mail className="w-4 h-4 mr-2 text-osom-secondary" />
+                  <Mail className="w-4 h-4 mr-2 text-hsechement-orange" />
                   <Link
                     href={`mailto:${CONTACT.email}`}
-                    className="hover:text-osom-secondary transition-colors"
+                    className="hover:text-hsechement-orange transition-colors"
                   >
                     {CONTACT.email}
                   </Link>
                 </div>
                 <div className="flex items-start">
-                  <MapPin className="w-4 h-4 mr-2 text-osom-secondary mt-0.5" />
+                  <MapPin className="w-4 h-4 mr-2 text-hsechement-orange mt-0.5" />
                   <span>{CONTACT.address}</span>
                 </div>
               </div>
@@ -160,13 +160,13 @@ export default function Footer() {
             </div>
 
             <div className="flex space-x-6 text-gray-400 text-sm">
-              <Link href="/mentions-legales" className="hover:text-osom-primary transition-colors">
+              <Link href="/mentions-legales" className="hover:text-hsechement-red transition-colors">
                 Mentions légales
               </Link>
-              <Link href="/confidentialite" className="hover:text-osom-primary transition-colors">
+              <Link href="/confidentialite" className="hover:text-hsechement-red transition-colors">
                 Confidentialité
               </Link>
-              <Link href="/plan-site" className="hover:text-osom-primary transition-colors">
+              <Link href="/plan-site" className="hover:text-hsechement-red transition-colors">
                 Plan du site
               </Link>
             </div>
@@ -176,7 +176,7 @@ export default function Footer() {
               <Link
                 href="https://osom.ch"
                 target="_blank"
-                className="text-osom-primary hover:underline"
+                className="text-hsechement-orange hover:underline"
               >
                 OSOM
               </Link>

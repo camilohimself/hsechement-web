@@ -38,7 +38,7 @@ export default function PhoneSticky() {
       <div className="md:hidden fixed bottom-4 left-4 right-4 z-50 no-print">
         <button
           onClick={handleCall}
-          className="w-full bg-urgent-red text-white px-4 py-4 rounded-full font-bold text-lg shadow-2xl hover:bg-urgent-red-dark transition-all duration-300 animate-pulse-urgent"
+          className="w-full bg-hsechement-red text-white px-4 py-4 rounded-full font-bold text-lg shadow-2xl hover:bg-hsechement-red/90 transition-all duration-300 animate-pulse-urgent"
           style={{
             boxShadow: '0 10px 25px rgba(220, 38, 38, 0.4)'
           }}
@@ -52,7 +52,7 @@ export default function PhoneSticky() {
       <div className="hidden md:block fixed right-6 bottom-6 z-50 no-print">
         <button
           onClick={handleCall}
-          className="bg-urgent-red text-white p-4 rounded-full shadow-2xl hover:bg-urgent-red-dark hover:scale-110 transition-all duration-300 group"
+          className="bg-hsechement-red text-white p-4 rounded-full shadow-2xl hover:bg-hsechement-red/90 hover:scale-110 transition-all duration-300 group"
           title="Appel d'urgence"
           style={{
             boxShadow: '0 8px 20px rgba(220, 38, 38, 0.3)'

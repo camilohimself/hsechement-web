@@ -20,7 +20,7 @@ export default function EntreprisePage() {
     <main>
       <LocalSchema />
 
-      <section className="bg-gradient-to-br from-corporate-gray-bg to-osom-secondary/10 section-padding">
+      <section className="bg-gradient-to-br from-corporate-gray-bg to-hsechement-orange/10 section-padding">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-corporate-dark mb-6">
@@ -44,21 +44,21 @@ export default function EntreprisePage() {
             </p>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="bg-osom-secondary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-hsechement-orange/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🏠</span>
                 </div>
                 <h3 className="font-bold text-lg mb-2">Intervention Rapide</h3>
                 <p className="text-gray-600">Service 24h/7j dans toute la Suisse romande</p>
               </div>
               <div className="text-center">
-                <div className="bg-osom-secondary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-hsechement-orange/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🛠️</span>
                 </div>
                 <h3 className="font-bold text-lg mb-2">Équipement Professionnel</h3>
                 <p className="text-gray-600">Matériel de pointe pour un assèchement efficace</p>
               </div>
               <div className="text-center">
-                <div className="bg-osom-secondary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-hsechement-orange/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">✅</span>
                 </div>
                 <h3 className="font-bold text-lg mb-2">Agréé Assurances</h3>

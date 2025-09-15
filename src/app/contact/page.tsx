@@ -30,7 +30,7 @@ export default function ContactPage() {
               Contactez H-Séchement
             </h1>
             <p className="text-xl md:text-2xl text-corporate-gray mb-8">
-              Service d&apos;urgence disponible <span className="font-bold text-urgent-red">24h/24, 7j/7</span> en Suisse romande
+              Service d&apos;urgence disponible <span className="font-bold text-hsechement-red">24h/24, 7j/7</span> en Suisse romande
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function ContactPage() {
             {/* Urgence - Focus sur le téléphone */}
             <div className="space-y-8">
               {/* CTA Urgence principal - TRÈS VISIBLE */}
-              <div className="bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white rounded-2xl p-8 shadow-2xl">
+              <div className="bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white rounded-2xl p-8 shadow-2xl">
                 <div className="text-center">
                   <h2 className="text-3xl font-bold mb-4">
                     🚨 URGENCE DÉGÂT D&apos;EAU
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     <div className="text-sm mb-2 text-white/80">Appelez maintenant:</div>
                     <a
                       href={`tel:${CONTACT.emergencyPhone}`}
-                      className="inline-block bg-white text-urgent-red px-8 py-4 rounded-full font-bold text-3xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
+                      className="inline-block bg-white text-hsechement-red px-8 py-4 rounded-full font-bold text-3xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
                     >
                       <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
                       {CONTACT.emergencyPhone}
@@ -87,14 +87,14 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   {/* Téléphone normal */}
                   <div className="flex items-center space-x-4 p-4 bg-corporate-gray-bg rounded-lg">
-                    <div className="w-12 h-12 bg-osom-secondary rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-hsechement-orange rounded-full flex items-center justify-center">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <div className="text-sm text-corporate-gray">Téléphone</div>
                       <a
                         href={`tel:${CONTACT.phone}`}
-                        className="font-bold text-lg text-corporate-dark hover:text-osom-secondary transition-colors"
+                        className="font-bold text-lg text-corporate-dark hover:text-hsechement-orange transition-colors"
                       >
                         {CONTACT.phone}
                       </a>
@@ -103,14 +103,14 @@ export default function ContactPage() {
 
                   {/* Email */}
                   <div className="flex items-center space-x-4 p-4 bg-corporate-gray-bg rounded-lg">
-                    <div className="w-12 h-12 bg-osom-primary rounded-full flex items-center justify-center">
-                      <Mail className="w-6 h-6 text-corporate-dark" />
+                    <div className="w-12 h-12 bg-hsechement-red rounded-full flex items-center justify-center">
+                      <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <div className="text-sm text-corporate-gray">Email</div>
                       <a
                         href={`mailto:${CONTACT.email}`}
-                        className="font-bold text-lg text-corporate-dark hover:text-osom-secondary transition-colors"
+                        className="font-bold text-lg text-corporate-dark hover:text-hsechement-orange transition-colors"
                       >
                         {CONTACT.email}
                       </a>
@@ -119,7 +119,7 @@ export default function ContactPage() {
 
                   {/* Adresse */}
                   <div className="flex items-center space-x-4 p-4 bg-corporate-gray-bg rounded-lg">
-                    <div className="w-12 h-12 bg-osom-secondary rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-hsechement-orange rounded-full flex items-center justify-center">
                       <MapPin className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -150,7 +150,7 @@ export default function ContactPage() {
                       id="firstName"
                       name="firstName"
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                       placeholder="Votre prénom"
                     />
                   </div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                       id="lastName"
                       name="lastName"
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                       placeholder="Votre nom"
                     />
                   </div>
@@ -179,7 +179,7 @@ export default function ContactPage() {
                     id="phone"
                     name="phone"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                     placeholder="+41 XX XXX XX XX"
                   />
                 </div>
@@ -193,7 +193,7 @@ export default function ContactPage() {
                     id="email"
                     name="email"
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                     placeholder="votre@email.ch"
                   />
                 </div>
@@ -205,7 +205,7 @@ export default function ContactPage() {
                   <select
                     id="city"
                     name="city"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                   >
                     <option value="">Sélectionnez votre commune</option>
                     {LOCAL_AREAS.map((area) => (
@@ -224,7 +224,7 @@ export default function ContactPage() {
                   <select
                     id="service"
                     name="service"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                   >
                     <option value="">Sélectionnez un service</option>
                     <option value="urgence">🚨 Urgence dégât d&apos;eau</option>
@@ -243,7 +243,7 @@ export default function ContactPage() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-osom-secondary focus:border-transparent transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-hsechement-orange focus:border-transparent transition-colors"
                     placeholder="Décrivez votre situation ou vos besoins..."
                   ></textarea>
                 </div>
@@ -286,14 +286,14 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Horaires */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg">
-              <div className="w-16 h-16 bg-osom-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
                 Disponibilité
               </h3>
               <div className="text-corporate-gray">
-                <div className="font-semibold text-urgent-red">Urgences: 24h/24, 7j/7</div>
+                <div className="font-semibold text-hsechement-red">Urgences: 24h/24, 7j/7</div>
                 <div className="mt-2">Devis/Conseils:</div>
                 <div>Lun-Ven: 8h-18h</div>
                 <div>Sam: 9h-16h</div>
@@ -302,8 +302,8 @@ export default function ContactPage() {
 
             {/* Zone d'intervention */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg">
-              <div className="w-16 h-16 bg-osom-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <MapPin className="w-8 h-8 text-corporate-dark" />
+              <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4">
+                <MapPin className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
                 Zone d&apos;intervention
@@ -319,7 +319,7 @@ export default function ContactPage() {
 
             {/* Devis */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg">
-              <div className="w-16 h-16 bg-osom-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <FileText className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -379,7 +379,7 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Final */}
-      <section className="section-padding bg-gradient-to-r from-urgent-red to-urgent-red-dark text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Une urgence ne peut pas attendre
@@ -391,7 +391,7 @@ export default function ContactPage() {
 
           <a
             href={`tel:${CONTACT.emergencyPhone}`}
-            className="inline-block bg-white text-urgent-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
+            className="inline-block bg-white text-hsechement-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
           >
             <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
             APPEL D&apos;URGENCE: {CONTACT.emergencyPhone}

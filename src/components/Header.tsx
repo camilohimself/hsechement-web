@@ -30,7 +30,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-40">
       {/* Top bar info - Desktop uniquement */}
-      <div className="hidden md:block bg-osom-secondary text-white py-2">
+      <div className="hidden md:block bg-hsechement-orange text-white py-2">
         <div className="container-custom">
           <div className="flex justify-between items-center text-sm">
             <div className="flex items-center space-x-4">
@@ -55,8 +55,8 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-osom-primary to-osom-secondary rounded-lg flex items-center justify-center">
-              <span className="text-2xl font-bold text-corporate-dark">H</span>
+            <div className="w-12 h-12 bg-gradient-to-br from-hsechement-red to-hsechement-orange rounded-lg flex items-center justify-center">
+              <span className="text-2xl font-bold text-white">H</span>
             </div>
             <div>
               <div className="font-bold text-xl text-corporate-dark">
@@ -74,7 +74,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-corporate-dark hover:text-osom-secondary transition-colors font-medium"
+                className="text-corporate-dark hover:text-hsechement-orange transition-colors font-medium"
               >
                 {item.name}
               </Link>
@@ -92,7 +92,7 @@ export default function Header() {
             <Link
               href={`tel:${CONTACT.phone}`}
               onClick={handleCallClick}
-              className="bg-urgent-red text-white p-3 rounded-full hover:bg-urgent-red-dark transition-colors shadow-lg hover:shadow-xl"
+              className="bg-hsechement-red text-white p-3 rounded-full hover:bg-hsechement-red/90 transition-colors shadow-lg hover:shadow-xl"
             >
               <Phone className="w-6 h-6" />
             </Link>
@@ -104,7 +104,7 @@ export default function Header() {
             <Link
               href={`tel:${CONTACT.phone}`}
               onClick={handleCallClick}
-              className="bg-urgent-red text-white p-2 rounded-full"
+              className="bg-hsechement-red text-white p-2 rounded-full"
             >
               <Phone className="w-5 h-5" />
             </Link>
@@ -131,7 +131,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block text-corporate-dark hover:text-osom-secondary font-medium"
+                  className="block text-corporate-dark hover:text-hsechement-orange font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -148,7 +148,7 @@ export default function Header() {
                 <div className="font-bold text-lg text-corporate-dark">
                   {CONTACT.phone}
                 </div>
-                <div className="text-sm text-osom-secondary mt-1">
+                <div className="text-sm text-hsechement-orange mt-1">
                   Intervention sous 30 minutes
                 </div>
               </div>
