@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Assèchement d'Urgence Lausanne | Dégât d'Eau 24h/7j - Intervention 30min`,
-  description: `🚨 URGENCE dégât d'eau Lausanne? Intervention en 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j agréé assurances. Devis gratuit immédiat.`,
+  title: `Assèchement d&apos;Urgence Lausanne | Dégât d'Eau 24h/7j - Intervention 30min`,
+  description: `🚨 URGENCE dégât d&apos;eau Lausanne? Intervention en 30min dans tout Lausanne (${CODE_POSTAL}). Service professionnel 24h/7j agréé assurances. Devis gratuit immédiat.`,
   openGraph: {
-    title: `Dégât d'Eau Lausanne | Assèchement d'Urgence 24h/7j`,
+    title: `Dégât d'Eau Lausanne | Assèchement d&apos;Urgence 24h/7j`,
     description: `Intervention urgence assèchement Lausanne en 30min. Service professionnel 24h/7j dans tout Lausanne et région. Agréé assurances.`,
     url: `${BASE_URL}/assechement-urgence-lausanne`,
   },
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
 const lausanneBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "H-Séchement Lausanne - Assèchement d'Urgence",
-  "description": "Service d'assèchement d'urgence à Lausanne. Intervention rapide 24h/7j pour dégâts d'eau, inondations, fuites. Équipe professionnelle agréée assurances.",
+  "name": "H-Séchement Lausanne - Assèchement d&apos;Urgence",
+  "description": "Service d'assèchement d&apos;urgence à Lausanne. Intervention rapide 24h/7j pour dégâts d&apos;eau, inondations, fuites. Équipe professionnelle agréée assurances.",
   "url": `${BASE_URL}/assechement-urgence-lausanne`,
   "telephone": CONTACT.emergencyPhone,
   "email": CONTACT.email,
@@ -254,112 +254,336 @@ export default function AssechementUrgenceLausannePage() {
         </div>
       </section>
 
-      {/* Services Spécifiques Lausanne */}
+      {/* Services Détaillés Lausanne */}
       <section className="section-padding bg-white">
         <div className="container-custom">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-corporate-dark">
-              Nos Services Assèchement à Lausanne
-            </h2>
+          <h2 className="text-4xl font-bold text-center mb-16 text-corporate-dark">
+            Services d&apos;Urgence Assèchement à Lausanne
+          </h2>
 
-            <div className="grid lg:grid-cols-2 gap-8 mb-12">
-              <div className="space-y-6">
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
-                  <div className="flex items-start">
-                    <div className="text-3xl mr-4">🏢</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Bâtiments Commerciaux Lausanne</h3>
-                      <p className="text-gray-700 mb-3">
-                        Intervention spécialisée bureaux, commerces, restaurants du centre-ville lausannois.
-                        Minimisation des arrêts d&apos;activité.
-                      </p>
-                      <div className="text-sm text-hsechement-red font-semibold">
-                        Secteurs: Centre • Flon • Gare
-                      </div>
+          {/* Détection de Fuites Lausanne */}
+          <div className="mb-20 border-b border-gray-200 pb-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              <div>
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mr-4 text-white">
+                    <span className="text-2xl">🔍</span>
+                  </div>
+                  <div>
+                    <h3 className="text-3xl font-bold text-corporate-dark mb-2">
+                      Détection de Fuites Lausanne
+                    </h3>
+                    <p className="text-xl text-hsechement-orange font-semibold">
+                      Protégez votre habitation des dégâts des eaux
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-hsechement-red/10 text-hsechement-red px-4 py-2 rounded-lg text-center font-semibold mb-6">
+                  🚨 Service d&apos;urgence 24h/7j à Lausanne
+                </div>
+
+                <p className="text-lg text-corporate-gray mb-8 leading-relaxed">
+                  Notre service de détection de fuites à Lausanne utilise des technologies de pointe pour identifier et localiser
+                  précisément toute fuite dans votre habitation lausannoise. Intervention rapide dans tous les quartiers:
+                  Centre-ville, Ouchy, Chailly, Flon, Renens.
+                </p>
+
+                <div className="mb-8">
+                  <h4 className="text-xl font-bold text-corporate-dark mb-4 flex items-center">
+                    ⚠️ Problèmes traités à Lausanne
+                  </h4>
+                  <div className="grid grid-cols-1 gap-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Dommages structurels bâtiments lausannois</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Moisissures dans appartements Lausanne</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Factures d&apos;eau élevées Grand Lausanne</span>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
-                  <div className="flex items-start">
-                    <div className="text-3xl mr-4">🏠</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Résidences Lausanne</h3>
-                      <p className="text-gray-700 mb-3">
-                        Assèchement appartements, maisons, villas dans tous les quartiers lausannois.
-                        Respect total de votre intimité.
-                      </p>
-                      <div className="text-sm text-hsechement-red font-semibold">
-                        Zones: Ouchy • Chailly • Sauvabelin • Montbenon
-                      </div>
+                <div>
+                  <h4 className="text-xl font-bold text-corporate-dark mb-4 flex items-center">
+                    ✅ Nos avantages Lausanne
+                  </h4>
+                  <div className="grid grid-cols-1 gap-3">
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Intervention en 30min à Lausanne</span>
                     </div>
-                  </div>
-                </div>
-
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
-                  <div className="flex items-start">
-                    <div className="text-3xl mr-4">🏫</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Institutions Lausanne</h3>
-                      <p className="text-gray-700 mb-3">
-                        Service dédié écoles, hôpitaux, administrations lausannoises.
-                        Interventions discrètes en heures creuses.
-                      </p>
-                      <div className="text-sm text-hsechement-red font-semibold">
-                        Références: CHUV • UNIL • Ville de Lausanne
-                      </div>
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Agréé toutes assurances suisses</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Connaissance réseau eau Lausanne</span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="space-y-6">
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
-                  <div className="flex items-start">
-                    <div className="text-3xl mr-4">💧</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Urgences Eau Lausanne 24h/7j</h3>
-                      <p className="text-gray-700 mb-3">
-                        Intervention immédiate fuites, ruptures canalisations, inondations.
-                        Équipes d&apos;astreinte permanente sur Lausanne.
-                      </p>
-                      <div className="text-sm text-hsechement-red font-semibold">
-                        Hotline: {CONTACT.emergencyPhone}
+              <div>
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+                  <h4 className="text-2xl font-bold text-corporate-dark mb-6 text-center">
+                    Technologies Détection Lausanne
+                  </h4>
+
+                  <div className="grid grid-cols-1 gap-4 mb-8">
+                    <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">
+                          🌡️
+                        </div>
+                        <span className="font-semibold text-corporate-dark">Caméra thermique</span>
                       </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">
+                          📹
+                        </div>
+                        <span className="font-semibold text-corporate-dark">Caméra endoscopique</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">
+                          💧
+                        </div>
+                        <span className="font-semibold text-corporate-dark">Détecteur d&apos;humidité</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">
+                          👁️
+                        </div>
+                        <span className="font-semibold text-corporate-dark">Produit fluorescent</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <CTAUrgence variant="section" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Assèchement Expert Lausanne */}
+          <div className="mb-20 border-b border-gray-200 pb-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              <div className="lg:order-2">
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mr-4 text-white">
+                    <span className="text-2xl">💨</span>
+                  </div>
+                  <div>
+                    <h3 className="text-3xl font-bold text-corporate-dark mb-2">
+                      Assèchement Expert Lausanne
+                    </h3>
+                    <p className="text-xl text-hsechement-orange font-semibold">
+                      Restauration Rapide et Durable
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-hsechement-red/10 text-hsechement-red px-4 py-2 rounded-lg text-center font-semibold mb-6">
+                  🚨 Intervention urgente dans tout Lausanne
+                </div>
+
+                <p className="text-lg text-corporate-gray mb-8 leading-relaxed">
+                  L&apos;assèchement professionnel à Lausanne est essentiel après tout dégât d&apos;eau. Notre équipe spécialisée
+                  intervient rapidement dans tous les quartiers lausannois avec des méthodes avancées pour éliminer
+                  toute trace d&apos;humidité et prévenir les dommages secondaires.
+                </p>
+
+                <div className="mb-8">
+                  <h4 className="text-xl font-bold text-corporate-dark mb-4">
+                    ⚠️ Risques traités Lausanne
+                  </h4>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Humidité persistante murs lausannois</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Moisissures secondaires appartements</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Détérioration structures Lausanne</span>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
-                  <div className="flex items-start">
-                    <div className="text-3xl mr-4">🔧</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Assainissement Lausanne</h3>
-                      <p className="text-gray-700 mb-3">
-                        Traitement moisissures, désinfection, remise en état après dégâts d&apos;eau.
-                        Normes sanitaires strictes respectées.
-                      </p>
-                      <div className="text-sm text-hsechement-red font-semibold">
-                        Certifications: ISO • SUVA • Protection santé
+                <div>
+                  <h4 className="text-xl font-bold text-corporate-dark mb-4">
+                    ✅ Garanties Lausanne
+                  </h4>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Résultats durables certifiés</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Suivi post-intervention</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Équipement professionnel</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:order-1">
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+                  <h4 className="text-2xl font-bold text-corporate-dark mb-6 text-center">
+                    Méthodes Assèchement Lausanne
+                  </h4>
+
+                  <div className="grid grid-cols-1 gap-4 mb-8">
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">💨</div>
+                        <span className="font-semibold text-corporate-dark">Assèchement périphérique</span>
                       </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">⚡</div>
+                        <span className="font-semibold text-corporate-dark">Panneaux radiants infrarouges</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">💧</div>
+                        <span className="font-semibold text-corporate-dark">Déshumidificateurs industriels</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">🌪️</div>
+                        <span className="font-semibold text-corporate-dark">Ventilateurs industriels</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <CTAUrgence variant="section" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Assainissement Lausanne */}
+          <div className="mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              <div>
+                <div className="flex items-center mb-6">
+                  <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mr-4 text-white">
+                    <span className="text-2xl">🛡️</span>
+                  </div>
+                  <div>
+                    <h3 className="text-3xl font-bold text-corporate-dark mb-2">
+                      Assainissement Lausanne
+                    </h3>
+                    <p className="text-xl text-hsechement-orange font-semibold">
+                      Environnement Sain Long Terme
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-lg text-corporate-gray mb-8 leading-relaxed">
+                  L&apos;assainissement après dégât d&apos;eau à Lausanne va bien au-delà du simple séchage. Notre processus
+                  complet garantit un environnement 100% sain dans votre habitation lausannoise, avec traitement
+                  professionnel des bactéries, moisissures et odeurs.
+                </p>
+
+                <div className="mb-8">
+                  <h4 className="text-xl font-bold text-corporate-dark mb-4">
+                    ⚠️ Risques sanitaires Lausanne
+                  </h4>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Bactéries invisibles air lausannois</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Spores moisissures cachées</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <div className="w-2 h-2 bg-hsechement-red rounded-full mt-3 flex-shrink-0" />
+                      <span className="text-corporate-gray">Odeurs persistantes humidité</span>
                     </div>
                   </div>
                 </div>
 
-                <div className="border border-gray-200 rounded-xl p-6 hover:border-hsechement-red/30 transition-colors">
-                  <div className="flex items-start">
-                    <div className="text-3xl mr-4">📊</div>
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Expertise Technique Lausanne</h3>
-                      <p className="text-gray-700 mb-3">
-                        Détection fuites non destructive, thermographie, mesures d&apos;humidité.
-                        Rapports détaillés pour assurances.
-                      </p>
-                      <div className="text-sm text-hsechement-red font-semibold">
-                        Technologies: Caméra thermique • Détecteurs ultrasoniques
+                <div>
+                  <h4 className="text-xl font-bold text-corporate-dark mb-4">
+                    ✅ Certifications Lausanne
+                  </h4>
+                  <div className="space-y-3">
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Environnement certifié 100% sain</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Garantie qualité professionnelle</span>
+                    </div>
+                    <div className="flex items-start space-x-3">
+                      <span className="text-hsechement-orange mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-corporate-gray font-medium">Remise en état esthétique</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+                  <h4 className="text-2xl font-bold text-corporate-dark mb-6 text-center">
+                    Processus Assainissement Lausanne
+                  </h4>
+
+                  <div className="grid grid-cols-1 gap-4 mb-8">
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">🛡️</div>
+                        <span className="font-semibold text-corporate-dark">Décontamination surfaces</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">🧽</div>
+                        <span className="font-semibold text-corporate-dark">Élimination moisissures</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">💨</div>
+                        <span className="font-semibold text-corporate-dark">Neutralisation odeurs</span>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-sm">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-hsechement-orange/10 rounded-full flex items-center justify-center text-hsechement-orange">🏠</div>
+                        <span className="font-semibold text-corporate-dark">Remise en état complète</span>
                       </div>
                     </div>
                   </div>
+
+                  <CTAUrgence variant="section" />
                 </div>
               </div>
             </div>
