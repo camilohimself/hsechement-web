@@ -1,0 +1,147 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* === H-SÉCHEMENT FONTS === */
+@font-face {
+  font-family: 'Cera PRO';
+  src: url('/fonts/CeraPRO-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera PRO';
+  src: url('/fonts/CeraPRO-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera PRO';
+  src: url('/fonts/CeraPRO-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === BASE STYLES === */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cera PRO', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #2d2d2d;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* === CUSTOM COMPONENTS === */
+@layer components {
+  .btn-primary {
+    @apply bg-osom-primary text-corporate-dark px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-yellow-400 hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-osom-secondary text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-teal-600 hover:shadow-lg;
+  }
+
+  .btn-urgent {
+    @apply bg-urgent-red text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-urgent-red-dark hover:shadow-2xl hover:scale-105 animate-pulse-urgent;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .card-shadow {
+    @apply shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+}
+
+/* === PHONE ANIMATION === */
+@keyframes bounce-phone {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-bounce-phone {
+  animation: bounce-phone 2s infinite;
+}
+
+/* === STICKY CTA MOBILE === */
+.sticky-cta-mobile {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 1000;
+  box-shadow: 0 10px 25px rgba(220, 38, 38, 0.3);
+}
+
+/* === HERO CTA DESKTOP === */
+.hero-cta-desktop {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.hero-cta-desktop:hover {
+  transform: scale(1.05);
+}
+
+/* === PERFORMANCE OPTIMIZATIONS === */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* === PRINT STYLES === */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  p, li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
