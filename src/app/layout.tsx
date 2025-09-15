@@ -28,22 +28,14 @@ export const metadata: Metadata = {
     siteName: 'H-Séchement',
     locale: 'fr_CH',
     type: 'website',
-    images: [
-      {
-        url: `${BASE_URL}/images/og-image.jpg`,
-        width: 1200,
-        height: 630,
-        alt: 'H-Séchement - Assèchement urgence Suisse romande',
-      },
-    ],
+    // Images OG temporairement supprimées pour éviter 404s
   },
 
-  // Twitter Card
+  // Twitter Card optimisé
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: DEFAULT_SEO.title,
     description: DEFAULT_SEO.description,
-    images: [`${BASE_URL}/images/og-image.jpg`],
   },
 
   // Autres métadonnées
@@ -86,50 +78,17 @@ export default function RootLayout({
   return (
     <html lang="fr-CH">
       <head>
-        {/* Preload critical fonts */}
-        <link
-          rel="preload"
-          href="/fonts/CeraPRO-Regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-        <link
-          rel="preload"
-          href="/fonts/CeraPRO-Bold.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
+        {/* Fonts optimisées avec fallback système pour performance */}
 
-        {/* DNS Prefetch pour les domaines externes */}
+        {/* DNS Prefetch optimisé */}
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//www.google-analytics.com" />
-        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-        {/* Google Analytics - À configurer */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'GA_MEASUREMENT_ID', {
-                page_title: document.title,
-                page_location: window.location.href,
-              });
-            `,
-          }}
-        />
+        {/* Google Analytics - Temporairement désactivé pour optimisation performance */}
       </head>
 
       <body className={`${inter.className} antialiased`}>
