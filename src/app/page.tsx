@@ -3,7 +3,7 @@ import { Clock, CheckCircle, Phone, Users, Award, Shield } from 'lucide-react';
 import CTAUrgence from '@/components/CTAUrgence';
 import LocalSchema from '@/components/LocalSchema';
 import HeroAlternatingText from '@/components/HeroAlternatingText';
-import { COMPANY, SERVICES, TESTIMONIALS, LOCAL_AREAS, BASE_URL } from '@/data/site-config';
+import { COMPANY, SERVICES, TESTIMONIALS, LOCAL_AREAS, BASE_URL, CONTACT } from '@/data/site-config';
 
 // SEO metadata pour la homepage
 export const metadata: Metadata = {
@@ -273,7 +273,8 @@ export default function HomePage() {
 
           <div className="max-w-md mx-auto">
             <a
-              href={`tel:+41791234567`}
+              href={`tel:${CONTACT.emergencyPhone}`}
+              aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
               className="inline-block w-full bg-white text-hsechement-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl hover:scale-105 transform duration-300 text-center"
             >
               <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />

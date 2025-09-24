@@ -124,7 +124,7 @@ export default function Footer() {
                 <div className="text-sm mb-1">Urgence 24h/7j</div>
                 <Link
                   href={`tel:${CONTACT.emergencyPhone}`}
-                  className="font-bold text-xl hover:underline flex items-center justify-center"
+                  className="font-bold text-xl hover:underline flex items-center justify-center numeric"
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   {CONTACT.emergencyPhone}
@@ -165,6 +165,9 @@ export default function Footer() {
               </Link>
               <Link href="/confidentialite" className="hover:text-hsechement-red transition-colors">
                 Confidentialité
+              </Link>
+              <Link href="/faq" className="hover:text-hsechement-red transition-colors">
+                FAQ
               </Link>
               <Link href="/plan-site" className="hover:text-hsechement-red transition-colors">
                 Plan du site

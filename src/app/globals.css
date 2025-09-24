@@ -2,30 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* === H-SÉCHEMENT FONTS === */
-@font-face {
-  font-family: 'Cera PRO';
-  src: url('/fonts/CeraPRO-Light.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cera PRO';
-  src: url('/fonts/CeraPRO-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Cera PRO';
-  src: url('/fonts/CeraPRO-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+/* === Fonts ===
+   Inter est chargé via next/font dans layout.tsx.
+   Les fontes Cera PRO sont désactivées dans le MVP (fichiers non fournis).
+*/
 
 /* === BASE STYLES === */
 * {
@@ -37,7 +17,6 @@ html {
 }
 
 body {
-  font-family: 'Cera PRO', Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: #2d2d2d;
   background-color: #ffffff;
@@ -69,6 +48,14 @@ body {
 
   .card-shadow {
     @apply shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+}
+
+/* === NUMERIC UTILS === */
+@layer utilities {
+  .numeric {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
   }
 }
 

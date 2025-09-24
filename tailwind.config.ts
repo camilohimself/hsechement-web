@@ -19,7 +19,13 @@ const config: Config = {
             light: '#F8F9FA',   // Gris clair sections
             medium: '#6B7280',   // Gris texte secondaire
           }
-        }
+        },
+        // Palette corporate utilisée dans les composants (classes text-corporate-*, bg-corporate-*)
+        corporate: {
+          dark: '#272932',
+          gray: '#6B7280',
+        },
+        'corporate-gray-bg': '#F8F9FA',
       },
       fontFamily: {
         'cera': ['Cera PRO', 'Arial', 'Helvetica', 'sans-serif'],

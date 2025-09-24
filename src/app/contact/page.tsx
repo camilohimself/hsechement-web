@@ -58,7 +58,8 @@ export default function ContactPage() {
                     <div className="text-sm mb-2 text-white/80">Appelez maintenant:</div>
                     <a
                       href={`tel:${CONTACT.emergencyPhone}`}
-                      className="inline-block bg-white text-hsechement-red px-8 py-4 rounded-full font-bold text-3xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300"
+                      aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
+                      className="inline-block bg-white text-hsechement-red px-8 py-4 rounded-full font-bold text-3xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl transform hover:scale-105 duration-300 numeric"
                     >
                       <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
                       {CONTACT.emergencyPhone}
@@ -94,7 +95,8 @@ export default function ContactPage() {
                       <div className="text-sm text-corporate-gray">Téléphone</div>
                       <a
                         href={`tel:${CONTACT.phone}`}
-                        className="font-bold text-lg text-corporate-dark hover:text-hsechement-orange transition-colors"
+                        aria-label={`Appeler H-Sèchement au ${CONTACT.phone}`}
+                        className="font-bold text-lg text-corporate-dark hover:text-hsechement-orange transition-colors numeric"
                       >
                         {CONTACT.phone}
                       </a>

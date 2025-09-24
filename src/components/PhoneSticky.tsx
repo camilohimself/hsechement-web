@@ -38,13 +38,14 @@ export default function PhoneSticky() {
       <div className="md:hidden fixed bottom-4 left-4 right-4 z-50 no-print">
         <button
           onClick={handleCall}
+          aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
           className="w-full bg-hsechement-red text-white px-4 py-4 rounded-full font-bold text-lg shadow-2xl hover:bg-hsechement-red/90 transition-all duration-300 animate-pulse-urgent"
           style={{
             boxShadow: '0 10px 25px rgba(220, 38, 38, 0.4)'
           }}
         >
           <Phone className="w-6 h-6 mr-3 inline animate-bounce-phone" />
-          URGENCE • {CONTACT.emergencyPhone}
+          URGENCE • <span className="numeric">{CONTACT.emergencyPhone}</span>
         </button>
       </div>
 
@@ -52,6 +53,7 @@ export default function PhoneSticky() {
       <div className="hidden md:block fixed right-6 bottom-6 z-50 no-print">
         <button
           onClick={handleCall}
+          aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
           className="bg-hsechement-red text-white p-4 rounded-full shadow-2xl hover:bg-hsechement-red/90 hover:scale-110 transition-all duration-300 group"
           title="Appel d'urgence"
           style={{
@@ -63,7 +65,7 @@ export default function PhoneSticky() {
 
         {/* Tooltip desktop */}
         <div className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-          Appel urgence: {CONTACT.emergencyPhone}
+          Appel urgence: <span className="numeric">{CONTACT.emergencyPhone}</span>
           <div className="absolute left-full top-1/2 transform -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
         </div>
       </div>

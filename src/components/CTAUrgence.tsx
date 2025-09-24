@@ -44,13 +44,14 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
 
             <button
               onClick={handleCall}
+              aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
               className="btn-urgent w-full text-xl py-6 mb-4 hover:scale-105 transition-transform"
             >
               <Phone className="w-6 h-6 mr-3 inline" />
               APPELER MAINTENANT
             </button>
 
-            <p className="text-white text-lg font-semibold">
+            <p className="text-white text-lg font-semibold numeric">
               {CONTACT.emergencyPhone}
             </p>
 
@@ -75,7 +76,8 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
       <div className={`sticky-cta-mobile md:hidden ${className}`}>
         <button
           onClick={handleCall}
-          className="btn-urgent w-full py-4 text-lg font-bold shadow-2xl"
+          aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
+          className="btn-urgent w-full py-4 text-lg font-bold shadow-2xl numeric"
         >
           <Phone className="w-5 h-5 mr-2 inline animate-bounce-phone" />
           APPEL URGENCE - {CONTACT.emergencyPhone}
@@ -99,7 +101,8 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
 
       <button
         onClick={handleCall}
-        className="bg-white text-hsechement-red px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors w-full"
+        aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
+        className="bg-white text-hsechement-red px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors w-full numeric"
       >
         <Phone className="w-5 h-5 mr-2 inline" />
         {CONTACT.emergencyPhone}

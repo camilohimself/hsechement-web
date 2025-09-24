@@ -350,10 +350,11 @@ export default function ServicesPage() {
           <div className="max-w-md mx-auto">
             <a
               href={`tel:${CONTACT.emergencyPhone}`}
+              aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
               className="inline-block w-full bg-white text-hsechement-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl hover:scale-105 transform duration-300"
             >
               <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
-              APPELER {CONTACT.emergencyPhone}
+              APPELER <span className="numeric">{CONTACT.emergencyPhone}</span>
             </a>
           </div>
         </div>

@@ -1,7 +1,8 @@
-'use client';
+"use client";
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Phone, Menu, X, MapPin, Clock } from 'lucide-react';
 import { CONTACT, COMPANY } from '@/data/site-config';
 
@@ -55,8 +56,19 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-hsechement-red to-hsechement-orange rounded-lg flex items-center justify-center">
-              <span className="text-2xl font-bold text-white">H</span>
+            {/* Fallback monogram while logo loads or absent */}
+            <div className="relative w-12 h-12">
+              <div className="absolute inset-0 bg-gradient-to-br from-hsechement-red to-hsechement-orange rounded-lg flex items-center justify-center overflow-hidden">
+                <span className="text-2xl font-bold text-white">H</span>
+              </div>
+              <Image
+                src="/images/logo.png"
+                alt={`${COMPANY.name} – Logo`}
+                fill
+                sizes="48px"
+                className="object-contain rounded-lg"
+                priority
+              />
             </div>
             <div>
               <div className="font-bold text-xl text-corporate-dark">
@@ -85,13 +97,14 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <div className="text-right">
               <div className="text-sm text-corporate-gray">Urgence 24h/7j</div>
-              <div className="font-bold text-lg text-corporate-dark">
+              <div className="font-bold text-lg text-corporate-dark numeric">
                 {CONTACT.phone}
               </div>
             </div>
             <Link
               href={`tel:${CONTACT.phone}`}
               onClick={handleCallClick}
+              aria-label={`Appeler H-Sèchement au ${CONTACT.phone}`}
               className="bg-hsechement-red text-white p-3 rounded-full hover:bg-hsechement-red/90 transition-colors shadow-lg hover:shadow-xl"
             >
               <Phone className="w-6 h-6" />
@@ -104,6 +117,7 @@ export default function Header() {
             <Link
               href={`tel:${CONTACT.phone}`}
               onClick={handleCallClick}
+              aria-label={`Appeler H-Sèchement au ${CONTACT.phone}`}
               className="bg-hsechement-red text-white p-2 rounded-full"
             >
               <Phone className="w-5 h-5" />
@@ -145,7 +159,7 @@ export default function Header() {
                 <div className="text-sm text-corporate-gray mb-1">
                   Service d&apos;urgence 24h/7j
                 </div>
-                <div className="font-bold text-lg text-corporate-dark">
+                <div className="font-bold text-lg text-corporate-dark numeric">
                   {CONTACT.phone}
                 </div>
                 <div className="text-sm text-hsechement-orange mt-1">
