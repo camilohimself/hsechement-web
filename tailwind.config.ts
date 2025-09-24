@@ -13,7 +13,7 @@ const config: Config = {
         hsechement: {
           red: '#D50309',        // Rouge bouton CTA original
           orange: '#FF9900',     // Orange navigation original
-          dark: '#272932',       // Gris foncé footer original
+          dark: '#2A2D3A',       // Gris foncé header exact (plus foncé pour logo)
           white: '#FFFFFF',      // Blanc arrière-plan
           gray: {
             light: '#F8F9FA',   // Gris clair sections
@@ -22,7 +22,7 @@ const config: Config = {
         },
         // Palette corporate utilisée dans les composants (classes text-corporate-*, bg-corporate-*)
         corporate: {
-          dark: '#272932',
+          dark: '#2A2D3A',       // Aligné avec hsechement-dark
           gray: '#6B7280',
         },
         'corporate-gray-bg': '#F8F9FA',

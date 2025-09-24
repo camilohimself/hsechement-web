@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Clock, CheckCircle, Phone, Users, Award, Shield, AlertTriangle } from 'lucide-react';
 import ServiceIcon from '@/components/ServiceIcon';
 import ChantierGallery from '@/components/ChantierGallery';
@@ -27,17 +28,31 @@ export default function HomePage() {
       {/* Schema markup pour SEO local */}
       <LocalSchema />
 
-      {/* Hero Section - Focus desktop 75% */}
-      <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 section-padding overflow-hidden">
-        <div className="container-custom">
+      {/* Hero Section - Photo background professionnel */}
+      <section className="relative section-padding overflow-hidden">
+        {/* Background photo H-Séchement */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/gallery/H12.jpg"
+            alt="Technicien H-Séchement professionnel en intervention"
+            fill
+            className="object-cover object-center"
+            priority
+            sizes="100vw"
+          />
+          {/* Overlay pour lisibilité */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        </div>
+
+        <div className="container-custom relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-            {/* Contenu principal */}
-            <div>
+            {/* Contenu principal - Texte blanc sur photo */}
+            <div className="text-white">
               <HeroAlternatingText />
 
-              <p className="text-xl md:text-2xl text-corporate-gray mb-8">
-                <strong className="text-corporate-dark">Intervention en 30 minutes</strong>
+              <p className="text-xl md:text-2xl text-white/90 mb-8">
+                <strong className="text-white">Intervention en 30 minutes</strong>
                 <br />
                 Service professionnel 24h/24, 7j/7
               </p>
@@ -46,19 +61,19 @@ export default function HomePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
-                  <span className="text-corporate-dark">Intervention en 30 min</span>
+                  <span className="text-white">Intervention en 30 min</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
-                  <span className="text-corporate-dark">Service 24h/7j</span>
+                  <span className="text-white">Service 24h/7j</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
-                  <span className="text-corporate-dark">Agréé assurances</span>
+                  <span className="text-white">Agréé assurances</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
-                  <span className="text-corporate-dark">Suisse romande</span>
+                  <span className="text-white">Suisse romande</span>
                 </div>
               </div>
 
@@ -74,9 +89,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-
-        {/* Background decoration */}
-        <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-blue-200/30 to-transparent pointer-events-none" />
       </section>
 
       {/* Services Section */}

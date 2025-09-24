@@ -29,7 +29,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-40">
+    <header className="bg-corporate-dark shadow-lg sticky top-0 z-40">
       {/* Top bar info - Desktop uniquement */}
       <div className="hidden md:block bg-hsechement-orange text-white py-2">
         <div className="container-custom">
@@ -62,7 +62,7 @@ export default function Header() {
                 <span className="text-2xl font-bold text-white">H</span>
               </div>
               <Image
-                src="/images/logo.png"
+                src="/images/logo-image-1-removebg-preview-300x161.webp"
                 alt={`${COMPANY.name} – Logo`}
                 fill
                 sizes="48px"
@@ -71,10 +71,10 @@ export default function Header() {
               />
             </div>
             <div>
-              <div className="font-bold text-xl text-corporate-dark">
+              <div className="font-bold text-xl text-white">
                 {COMPANY.name}
               </div>
-              <div className="text-sm text-corporate-gray">
+              <div className="text-sm text-gray-300">
                 Assèchement urgence
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-corporate-dark hover:text-hsechement-orange transition-colors font-medium"
+                className="text-white hover:text-hsechement-orange transition-colors font-medium"
               >
                 {item.name}
               </Link>
@@ -96,8 +96,8 @@ export default function Header() {
           {/* CTA Téléphone desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="text-right">
-              <div className="text-sm text-corporate-gray">Urgence 24h/7j</div>
-              <div className="font-bold text-lg text-corporate-dark numeric">
+              <div className="text-sm text-gray-300">Urgence 24h/7j</div>
+              <div className="font-bold text-lg text-white numeric">
                 {CONTACT.phone}
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function Header() {
             {/* Bouton menu */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 text-corporate-dark"
+              className="p-2 text-white"
             >
               {isMenuOpen ? (
                 <X className="w-6 h-6" />
@@ -139,13 +139,13 @@ export default function Header() {
 
         {/* Menu mobile */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-4 border-t border-gray-200">
+          <div className="md:hidden mt-4 py-4 border-t border-gray-600">
             <div className="space-y-4">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="block text-corporate-dark hover:text-hsechement-orange font-medium"
+                  className="block text-white hover:text-hsechement-orange font-medium"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -154,12 +154,12 @@ export default function Header() {
             </div>
 
             {/* Info urgence mobile */}
-            <div className="mt-6 p-4 bg-corporate-gray-bg rounded-lg">
+            <div className="mt-6 p-4 bg-gray-800 rounded-lg">
               <div className="text-center">
-                <div className="text-sm text-corporate-gray mb-1">
+                <div className="text-sm text-gray-300 mb-1">
                   Service d&apos;urgence 24h/7j
                 </div>
-                <div className="font-bold text-lg text-corporate-dark numeric">
+                <div className="font-bold text-lg text-white numeric">
                   {CONTACT.phone}
                 </div>
                 <div className="text-sm text-hsechement-orange mt-1">

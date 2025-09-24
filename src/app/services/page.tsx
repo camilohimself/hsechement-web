@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { Search, Droplets, Shield, CheckCircle, Eye, Thermometer, Camera, Wind, Zap, AlertCircle, Clock, Phone } from 'lucide-react';
 import CTAUrgence from '@/components/CTAUrgence';
 import { COMPANY, CONTACT, BASE_URL } from '@/data/site-config';
@@ -104,17 +105,30 @@ const services = [
 export default function ServicesPage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-50 to-blue-100 section-padding">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold text-corporate-dark mb-6">
-              <span className="text-hsechement-red">Services d&apos;Urgence</span>
+      {/* Hero Section avec photo */}
+      <section className="relative section-padding overflow-hidden">
+        {/* Background photo équipement */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/gallery/H8.jpg"
+            alt="Équipement professionnel H-Séchement pour assèchement d'urgence"
+            fill
+            className="object-cover object-center"
+            priority
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+        </div>
+
+        <div className="container-custom relative z-10">
+          <div className="text-center mb-16 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <span className="text-white">Services d&apos;Urgence</span>
               <br />
               <span className="text-hsechement-orange">Assèchement Suisse romande</span>
             </h1>
-            <p className="text-xl md:text-2xl text-corporate-gray max-w-4xl mx-auto mb-8">
-              <strong className="text-corporate-dark">Intervention en 30 minutes</strong> pour tous vos dégâts d&apos;eau.
+            <p className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto mb-8">
+              <strong className="text-white">Intervention en 30 minutes</strong> pour tous vos dégâts d&apos;eau.
               <br />
               Technologies de pointe • Service 24h/24 • Agréé assurances
             </p>
@@ -122,15 +136,15 @@ export default function ServicesPage() {
             <div className="flex flex-wrap justify-center gap-8 mb-8">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-6 h-6 text-hsechement-orange" />
-                <span className="text-corporate-dark font-semibold">Détection précise</span>
+                <span className="text-white font-semibold">Détection précise</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-6 h-6 text-hsechement-orange" />
-                <span className="text-corporate-dark font-semibold">Assèchement expert</span>
+                <span className="text-white font-semibold">Assèchement expert</span>
               </div>
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-6 h-6 text-hsechement-orange" />
-                <span className="text-corporate-dark font-semibold">Assainissement total</span>
+                <span className="text-white font-semibold">Assainissement total</span>
               </div>
             </div>
           </div>
@@ -205,6 +219,23 @@ export default function ServicesPage() {
 
                 {/* Technologies et méthodes */}
                 <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
+                  {/* Photo pour certains services */}
+                  {service.id === 'assechement-expert' && (
+                    <div className="relative h-80 rounded-2xl overflow-hidden mb-6">
+                      <Image
+                        src="/images/gallery/H3.jpg"
+                        alt="Équipement d'assèchement professionnel H-Séchement"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                      <div className="absolute bottom-4 left-4 text-white">
+                        <p className="font-semibold">Matériel professionnel sur site</p>
+                      </div>
+                    </div>
+                  )}
+
                   <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
                     <h3 className="text-2xl font-bold text-corporate-dark mb-6 text-center">
                       Technologies & Méthodes

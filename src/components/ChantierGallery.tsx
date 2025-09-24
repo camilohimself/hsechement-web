@@ -9,26 +9,26 @@ interface ChantierGalleryProps {
 const chantierData = [
   {
     id: 1,
-    image: '/images/chantiers/chantier-1.jpg',
-    title: 'Assèchement Appartement',
-    description: 'Dégât d\'eau majeur traité en urgence avec équipement professionnel',
-    tags: ['Urgence', 'Appartement', 'Lausanne'],
-    icon: <Home className="w-5 h-5" />
-  },
-  {
-    id: 2,
-    image: '/images/chantiers/chantier-2.jpg',
-    title: 'Déshumidification Cave',
-    description: 'Traitement complet d\'humidité avec matériel industriel',
-    tags: ['Humidité', 'Cave', 'Traitement'],
+    image: '/images/gallery/H3.jpg',
+    title: 'Équipement Professionnel',
+    description: 'Matériel d\'assèchement industriel déployé pour intervention d\'urgence',
+    tags: ['Matériel Pro', 'Assèchement', 'Urgence'],
     icon: <Wrench className="w-5 h-5" />
   },
   {
+    id: 2,
+    image: '/images/gallery/H6.jpg',
+    title: 'Technicien Expert',
+    description: 'Intervention technique par nos spécialistes certifiés',
+    tags: ['Expert', 'Certifié', 'Professionnel'],
+    icon: <Home className="w-5 h-5" />
+  },
+  {
     id: 3,
-    image: '/images/chantiers/chantier-3.jpg',
-    title: 'Intervention Express',
-    description: 'Intervention réalisée en moins de 30 minutes',
-    tags: ['Express', '30min', 'Efficace'],
+    image: '/images/gallery/H7.jpg',
+    title: 'Intervention Rapide',
+    description: 'Déploiement rapide sur site avec équipement complet',
+    tags: ['Rapide', '24h/7j', 'Complet'],
     icon: <Clock className="w-5 h-5" />
   }
 ];
