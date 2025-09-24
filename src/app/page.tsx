@@ -30,15 +30,13 @@ export default function HomePage() {
 
       {/* Hero Section - Photo background professionnel */}
       <section className="relative py-12 md:py-20 lg:py-24 overflow-hidden min-h-[600px] md:min-h-[700px]">
-        {/* Background photo H-Séchement */}
+        {/* Background photo H-Séchement - HTML direct */}
         <div className="absolute inset-0">
-          <Image
+          <img
             src="/images/gallery/H12.jpg"
             alt="Technicien H-Séchement professionnel en intervention"
-            fill
-            className="object-cover object-center"
-            priority
-            sizes="100vw"
+            className="w-full h-full object-cover object-center"
+            loading="eager"
           />
           {/* Overlay plus léger pour visibilité photo */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />

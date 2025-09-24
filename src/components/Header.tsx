@@ -56,21 +56,17 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            {/* Logo avec fallback */}
-            <div className="relative w-14 h-14">
-              <div className="absolute inset-0 bg-white/10 backdrop-blur-sm rounded-lg p-1">
-                <Image
-                  src="/images/logo.png"
-                  alt={`${COMPANY.name} – Logo`}
-                  fill
-                  sizes="56px"
-                  className="object-contain"
-                  priority
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                  }}
-                />
-              </div>
+            {/* Logo direct HTML */}
+            <div className="w-14 h-14 bg-white/10 backdrop-blur-sm rounded-lg p-1 flex items-center justify-center">
+              <img
+                src="/images/logo.png"
+                alt={`${COMPANY.name} – Logo`}
+                className="max-w-full max-h-full object-contain"
+                loading="eager"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
             </div>
             <div>
               <div className="font-bold text-xl text-white">
