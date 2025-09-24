@@ -29,7 +29,7 @@ export default function HomePage() {
       <LocalSchema />
 
       {/* Hero Section - Photo background professionnel */}
-      <section className="relative section-padding overflow-hidden">
+      <section className="relative py-12 md:py-20 lg:py-24 overflow-hidden min-h-[600px] md:min-h-[700px]">
         {/* Background photo H-Séchement */}
         <div className="absolute inset-0">
           <Image
@@ -40,8 +40,8 @@ export default function HomePage() {
             priority
             sizes="100vw"
           />
-          {/* Overlay pour lisibilité */}
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+          {/* Overlay plus léger pour visibilité photo */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
         </div>
 
         <div className="container-custom relative z-10">
@@ -51,7 +51,7 @@ export default function HomePage() {
             <div className="text-white">
               <HeroAlternatingText />
 
-              <p className="text-xl md:text-2xl text-white/90 mb-8">
+              <p className="text-xl md:text-2xl text-white mb-8 drop-shadow-md">
                 <strong className="text-white">Intervention en 30 minutes</strong>
                 <br />
                 Service professionnel 24h/24, 7j/7

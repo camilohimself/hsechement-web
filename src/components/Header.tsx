@@ -56,17 +56,14 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            {/* Fallback monogram while logo loads or absent */}
-            <div className="relative w-12 h-12">
-              <div className="absolute inset-0 bg-gradient-to-br from-hsechement-red to-hsechement-orange rounded-lg flex items-center justify-center overflow-hidden">
-                <span className="text-2xl font-bold text-white">H</span>
-              </div>
+            {/* Logo avec meilleure visibilité */}
+            <div className="relative w-14 h-14 bg-white/10 backdrop-blur-sm rounded-lg p-1">
               <Image
                 src="/images/logo-image-1-removebg-preview-300x161.webp"
                 alt={`${COMPANY.name} – Logo`}
                 fill
-                sizes="48px"
-                className="object-contain rounded-lg"
+                sizes="56px"
+                className="object-contain"
                 priority
               />
             </div>
@@ -74,7 +71,7 @@ export default function Header() {
               <div className="font-bold text-xl text-white">
                 {COMPANY.name}
               </div>
-              <div className="text-sm text-gray-300">
+              <div className="text-sm text-hsechement-orange font-medium">
                 Assèchement urgence
               </div>
             </div>
