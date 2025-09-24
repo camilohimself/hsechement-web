@@ -13,12 +13,12 @@ export default function HeroAlternatingText() {
     {
       highlight: "Urgence dégât d'eau",
       subtitle: "en Suisse romande ?",
-      icon: "🚨"
+      icon: "AlertTriangle"
     },
     {
       highlight: "Le pro de l'assèchement",
       subtitle: "et assainissement en Suisse romande",
-      icon: "🏆"
+      icon: "Award"
     }
   ];
 

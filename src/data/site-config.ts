@@ -29,7 +29,7 @@ export const SERVICES: Service[] = [
     id: 'assechement-urgence',
     title: 'Assèchement d\'urgence',
     description: 'Intervention immédiate pour stopper les dégâts d\'eau. Pompage, extraction et assèchement professionnel.',
-    icon: '💧',
+    icon: 'Droplets',
     urgent: true,
     features: [
       'Intervention en 30 minutes',
@@ -43,7 +43,7 @@ export const SERVICES: Service[] = [
     id: 'degat-eau-appartement',
     title: 'Dégât d\'eau appartement',
     description: 'Prise en charge complète des dégâts d\'eau en appartement. De l\'urgence à la rénovation.',
-    icon: '🏠',
+    icon: 'Home',
     features: [
       'Arrêt d\'eau d\'urgence',
       'Protection mobilier',
@@ -56,7 +56,7 @@ export const SERVICES: Service[] = [
     id: 'inondation-cave',
     title: 'Inondation cave/sous-sol',
     description: 'Évacuation d\'eau et assèchement spécialisé pour caves et sous-sols inondés.',
-    icon: '⬇️',
+    icon: 'ArrowDown',
     features: [
       'Pompage haute capacité',
       'Assèchement souterrain',
@@ -69,7 +69,7 @@ export const SERVICES: Service[] = [
     id: 'recherche-fuite',
     title: 'Recherche de fuites',
     description: 'Détection précise de fuites avec matériel professionnel. Sans destruction.',
-    icon: '🔍',
+    icon: 'Search',
     features: [
       'Détection non-destructive',
       'Caméra thermique',

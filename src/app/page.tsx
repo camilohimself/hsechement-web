@@ -1,5 +1,7 @@
 import { Metadata } from 'next';
-import { Clock, CheckCircle, Phone, Users, Award, Shield } from 'lucide-react';
+import { Clock, CheckCircle, Phone, Users, Award, Shield, AlertTriangle } from 'lucide-react';
+import ServiceIcon from '@/components/ServiceIcon';
+import ChantierGallery from '@/components/ChantierGallery';
 import CTAUrgence from '@/components/CTAUrgence';
 import LocalSchema from '@/components/LocalSchema';
 import HeroAlternatingText from '@/components/HeroAlternatingText';
@@ -96,7 +98,9 @@ export default function HomePage() {
                 className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
               >
                 <div className="p-6">
-                  <div className="text-4xl mb-4">{service.icon}</div>
+                  <div className="text-hsechement-orange mb-4">
+                    <ServiceIcon iconName={service.icon} className="w-12 h-12" />
+                  </div>
                   <h3 className="text-xl font-bold text-corporate-dark mb-3">
                     {service.title}
                   </h3>
@@ -114,8 +118,9 @@ export default function HomePage() {
                   </ul>
 
                   {service.urgent && (
-                    <div className="bg-hsechement-red/10 text-hsechement-red px-4 py-2 rounded-lg text-center font-semibold">
-                      🚨 Service d&apos;urgence
+                    <div className="bg-hsechement-red/10 text-hsechement-red px-4 py-2 rounded-lg text-center font-semibold flex items-center justify-center">
+                      <AlertTriangle className="w-4 h-4 mr-2" />
+                      Service d&apos;urgence
                     </div>
                   )}
                 </div>
@@ -286,6 +291,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Galerie des chantiers */}
+      <ChantierGallery />
     </>
   );
 }
