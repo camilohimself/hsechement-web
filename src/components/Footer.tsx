@@ -39,7 +39,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h3 className="font-bold text-lg mb-4 text-hsechement-orange">
-              Nos Services
+              Nos services
             </h3>
             <ul className="space-y-2 text-gray-300">
               <li>
@@ -47,7 +47,7 @@ export default function Footer() {
                   href="/services"
                   className="hover:text-hsechement-orange transition-colors"
                 >
-                  Assèchement d&apos;urgence
+                  Assèchement d'urgence
                 </Link>
               </li>
               <li>

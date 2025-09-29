@@ -26,11 +26,11 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
   if (variant === 'hero') {
     return (
       <div className={`hero-cta-desktop ${className}`}>
-        <div className="bg-gradient-to-r from-hsechement-red to-hsechement-red/90 rounded-2xl p-8 shadow-2xl">
+        <div className="bg-gradient-to-r from-hsechement-cta-red to-hsechement-cta-red/90 rounded-2xl p-8 shadow-2xl">
           <div className="text-center">
             <div className="flex justify-center mb-4">
               <div className="bg-white rounded-full p-4 animate-bounce-phone">
-                <Phone className="w-8 h-8 text-hsechement-red" />
+                <Phone className="w-8 h-8 text-hsechement-cta-red" />
               </div>
             </div>
 
@@ -88,7 +88,7 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
 
   // variant === 'section' (default)
   return (
-    <div className={`bg-hsechement-red text-white rounded-xl p-6 text-center ${className}`}>
+    <div className={`bg-hsechement-cta-red text-white rounded-xl p-6 text-center ${className}`}>
       <div className="flex justify-center mb-3">
         <Phone className="w-8 h-8 animate-bounce-phone" />
       </div>
@@ -102,7 +102,7 @@ export default function CTAUrgence({ variant = 'section', className = '' }: CTAU
       <button
         onClick={handleCall}
         aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
-        className="bg-white text-hsechement-red px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors w-full numeric"
+        className="bg-white text-hsechement-cta-red px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors w-full numeric"
       >
         <Phone className="w-5 h-5 mr-2 inline" />
         {CONTACT.emergencyPhone}

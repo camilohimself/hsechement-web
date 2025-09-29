@@ -58,19 +58,19 @@ export default function HomePage() {
               {/* Points forts */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-blue flex-shrink-0" />
                   <span className="text-white">Intervention en 30 min</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-blue flex-shrink-0" />
                   <span className="text-white">Service 24h/7j</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-blue flex-shrink-0" />
                   <span className="text-white">Agréé assurances</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <CheckCircle className="w-6 h-6 text-hsechement-orange flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-hsechement-blue flex-shrink-0" />
                   <span className="text-white">Suisse romande</span>
                 </div>
               </div>
@@ -121,14 +121,14 @@ export default function HomePage() {
                   <ul className="space-y-2 mb-6">
                     {service.features.slice(0, 3).map((feature, index) => (
                       <li key={index} className="flex items-center text-sm">
-                        <CheckCircle className="w-4 h-4 text-hsechement-orange mr-2 flex-shrink-0" />
+                        <CheckCircle className="w-4 h-4 text-hsechement-blue mr-2 flex-shrink-0" />
                         <span>{feature}</span>
                       </li>
                     ))}
                   </ul>
 
                   {service.urgent && (
-                    <div className="bg-hsechement-red/10 text-hsechement-red px-4 py-2 rounded-lg text-center font-semibold flex items-center justify-center">
+                    <div className="bg-hsechement-cta-red/10 text-hsechement-cta-red px-4 py-2 rounded-lg text-center font-semibold flex items-center justify-center">
                       <AlertTriangle className="w-4 h-4 mr-2" />
                       Service d&apos;urgence
                     </div>
@@ -151,7 +151,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-cta-red rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -175,7 +175,7 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-hsechement-red rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-hsechement-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-bold text-corporate-dark mb-2">
@@ -235,7 +235,7 @@ export default function HomePage() {
             <div className="flex items-center justify-center space-x-2 mb-4">
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-hsechement-orange text-2xl">★</span>
+                  <span key={i} className="text-hsechement-blue text-2xl">★</span>
                 ))}
               </div>
               <span className="text-corporate-gray font-semibold">4.9/5 sur Google</span>
@@ -250,7 +250,7 @@ export default function HomePage() {
               >
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <span key={i} className="text-hsechement-orange">★</span>
+                    <span key={i} className="text-hsechement-blue">★</span>
                   ))}
                 </div>
                 <p className="text-corporate-gray italic mb-4">
@@ -276,7 +276,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Final */}
-      <section className="section-padding bg-gradient-to-r from-hsechement-red to-hsechement-red/90 text-white">
+      <section className="section-padding bg-gradient-to-r from-hsechement-cta-red to-hsechement-cta-red/90 text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Une urgence ? N&apos;attendez pas !
@@ -290,7 +290,7 @@ export default function HomePage() {
             <a
               href={`tel:${CONTACT.emergencyPhone}`}
               aria-label={`Appeler d'urgence H-Sèchement au ${CONTACT.emergencyPhone}`}
-              className="inline-block w-full bg-white text-hsechement-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl hover:scale-105 transform duration-300 text-center"
+              className="inline-block w-full bg-white text-hsechement-cta-red px-8 py-6 rounded-full font-bold text-2xl hover:bg-gray-100 transition-colors shadow-xl hover:shadow-2xl hover:scale-105 transform duration-300 text-center"
             >
               <Phone className="w-8 h-8 mr-3 inline animate-bounce-phone" />
               APPELER MAINTENANT

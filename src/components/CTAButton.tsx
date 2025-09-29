@@ -41,15 +41,15 @@ export default function CTAButton({
 
     switch (variant) {
       case 'primary':
-        return `${baseClasses} bg-hsechement-red text-white hover:bg-hsechement-red/90 ${animateClasses}`;
+        return `${baseClasses} bg-hsechement-cta-red text-white hover:bg-hsechement-cta-red/90 ${animateClasses}`;
       case 'secondary':
         return `${baseClasses} bg-hsechement-orange text-white hover:bg-hsechement-orange/90 ${animateClasses}`;
       case 'urgency':
-        return `${baseClasses} bg-white text-hsechement-red hover:bg-gray-100 animate-pulse ${animateClasses}`;
+        return `${baseClasses} bg-white text-hsechement-cta-red hover:bg-gray-100 animate-pulse ${animateClasses}`;
       case 'contact':
-        return `${baseClasses} bg-transparent border-2 border-white text-white hover:bg-white hover:text-hsechement-red`;
+        return `${baseClasses} bg-transparent border-2 border-white text-white hover:bg-white hover:text-hsechement-cta-red`;
       default:
-        return `${baseClasses} bg-hsechement-red text-white hover:bg-hsechement-red/90 ${animateClasses}`;
+        return `${baseClasses} bg-hsechement-cta-red text-white hover:bg-hsechement-cta-red/90 ${animateClasses}`;
     }
   };
 

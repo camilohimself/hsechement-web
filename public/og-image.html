@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OG Image Generator - H-Séchement</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .container {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #FFF 0%, #F8F9FA 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .gradient-bg {
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255,153,0,0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .content {
+            padding: 80px;
+            height: 470px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .drop {
+            width: 80px;
+            height: 100px;
+            background: linear-gradient(135deg, #FF9900 0%, #FF6600 100%);
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: relative;
+        }
+        .wind-lines {
+            position: absolute;
+            right: -40px;
+            top: 30px;
+        }
+        .wind-line {
+            height: 3px;
+            background: #4A90E2;
+            margin: 8px 0;
+            border-radius: 2px;
+        }
+        h1 {
+            font-size: 72px;
+            color: #2A2D3A;
+            margin: 0;
+            font-weight: bold;
+            letter-spacing: -2px;
+        }
+        .tagline {
+            font-size: 36px;
+            color: #6B7280;
+            margin-top: 20px;
+        }
+        .services {
+            display: flex;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        .service-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #4A90E2;
+            font-size: 24px;
+        }
+        .check {
+            width: 30px;
+            height: 30px;
+            background: #4A90E2;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .cta {
+            background: linear-gradient(135deg, #FF9900 0%, #FF6600 100%);
+            color: white;
+            padding: 30px 60px;
+            border-radius: 50px;
+            font-size: 48px;
+            font-weight: bold;
+            display: inline-block;
+            box-shadow: 0 10px 30px rgba(255,102,0,0.3);
+        }
+        .emergency {
+            position: absolute;
+            top: 40px;
+            right: 80px;
+            background: #4A90E2;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gradient-bg"></div>
+        <div class="emergency">24H/7J</div>
+
+        <div class="content">
+            <div>
+                <div class="logo-section">
+                    <div style="position: relative;">
+                        <div class="drop"></div>
+                        <div class="wind-lines">
+                            <div class="wind-line" style="width: 50px;"></div>
+                            <div class="wind-line" style="width: 40px;"></div>
+                            <div class="wind-line" style="width: 50px;"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h1>H-SÉCHEMENT</h1>
+                        <div class="tagline">Urgence dégâts d'eau en Suisse romande</div>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="service-item">
+                        <div class="check">✓</div>
+                        <span>Intervention 30 min</span>
+                    </div>
+                    <div class="service-item">
+                        <div class="check">✓</div>
+                        <span>Assèchement professionnel</span>
+                    </div>
+                    <div class="service-item">
+                        <div class="check">✓</div>
+                        <span>Suisse romande</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta">
+                📞 021 882 29 52
+            </div>
+        </div>
+    </div>
+</body>
+</html>

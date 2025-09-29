@@ -25,13 +25,13 @@ export default function UrgencyBadge({ text, variant = 'alert', className = "" }
 
     switch (variant) {
       case 'alert':
-        return `${baseClasses} bg-hsechement-red/10 text-hsechement-red hover:bg-hsechement-red/20`;
+        return `${baseClasses} bg-hsechement-cta-red/10 text-hsechement-cta-red hover:bg-hsechement-cta-red/20`;
       case 'time':
         return `${baseClasses} bg-hsechement-orange/10 text-hsechement-orange hover:bg-hsechement-orange/20`;
       case 'service':
-        return `${baseClasses} bg-hsechement-red/10 text-hsechement-red`;
+        return `${baseClasses} bg-hsechement-cta-red/10 text-hsechement-cta-red`;
       default:
-        return `${baseClasses} bg-hsechement-red/10 text-hsechement-red`;
+        return `${baseClasses} bg-hsechement-cta-red/10 text-hsechement-cta-red`;
     }
   };
 

@@ -53,7 +53,7 @@ export default function HeroAlternatingText() {
         }`}
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          <span className="text-hsechement-red block drop-shadow-lg">
+          <span className="text-hsechement-cta-red block drop-shadow-lg">
             {currentMessage.highlight}
           </span>
           <span className="text-hsechement-orange block mt-2 drop-shadow-lg">

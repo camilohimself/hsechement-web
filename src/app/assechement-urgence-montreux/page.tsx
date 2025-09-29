@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Humidité Traitement Montreux | Assèchement urgence Riviera - Service premium`,
+  title: `Humidité traitement Montreux | Assèchement urgence Riviera - Service premium`,
   description: `EXPERT humidité Montreux Riviera! ⚡ Traitement professionnel en 30min (${CODE_POSTAL}). Spécialiste climat lacustre. Service premium. Devis gratuit.`,
   openGraph: {
-    title: `Traitement Humidité Montreux | Expert riviera vaudoise`,
+    title: `Traitement humidité Montreux | Expert riviera vaudoise`,
     description: `Spécialiste traitement humidité Montreux. Expert climat Riviera, intervention premium 30min. Service 24h/7j région Montreux-Vevey.`,
     url: `${BASE_URL}/assechement-urgence-montreux`,
   },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 const montreuxBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "H-Séchement Montreux - Traitement Humidité Riviera",
+  "name": "H-Séchement Montreux - Traitement humidité Riviera",
   "description": "Spécialiste traitement humidité à Montreux. Expert climat Riviera vaudoise, intervention premium pour dégâts d'eau, moisissures. Service 24h/7j région lacustre.",
   "url": `${BASE_URL}/assechement-urgence-montreux`,
   "telephone": CONTACT.emergencyPhone,
@@ -71,10 +71,10 @@ export default function AssechementUrgenceMontreuxPage() {
           <div className="text-center max-w-5xl mx-auto">
             <div className="animate-pulse text-6xl mb-6">🎼</div>
             <h1 className="text-4xl md:text-6xl font-black mb-6">
-              Humidité Traitement Montreux
+              Humidité traitement Montreux
             </h1>
             <div className="text-2xl md:text-3xl font-bold mb-4">
-              Assèchement d&apos;Urgence Riviera - Service premium
+              Assèchement d'urgence Riviera - Service premium
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
               Intervention en 30 minutes • 24h/7j • Riviera vaudoise ({CODE_POSTAL})
@@ -120,7 +120,7 @@ export default function AssechementUrgenceMontreuxPage() {
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-corporate-dark">
-              Expert Humidité Climat Riviera
+              Expert humidité climat Riviera
             </h2>
 
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
@@ -231,7 +231,7 @@ export default function AssechementUrgenceMontreuxPage() {
         <div className="container-custom">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-corporate-dark">
-              Zone d&apos;Intervention Riviera Premium
+              Zone d&apos;intervention Riviera premium
             </h2>
             <p className="text-xl text-gray-700 mb-12">
               Service premium humidité 24h/7j dans toute la Riviera vaudoise
@@ -369,7 +369,7 @@ export default function AssechementUrgenceMontreuxPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-corporate-dark">
-              Questions Traitement Humidité Montreux
+              Questions traitement humidité Montreux
             </h2>
 
             <div className="space-y-6">

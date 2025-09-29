@@ -1,0 +1,22 @@
+{
+  "name": "H-Séchement - Urgence Assèchement 24h/7j",
+  "short_name": "H-Séchement",
+  "description": "Service d'urgence pour dégâts d'eau et assèchement en Suisse romande",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FF9900",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

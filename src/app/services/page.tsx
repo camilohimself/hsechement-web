@@ -5,10 +5,10 @@ import CTAUrgence from '@/components/CTAUrgence';
 import { COMPANY, CONTACT, BASE_URL } from '@/data/site-config';
 
 export const metadata: Metadata = {
-  title: 'Services Assèchement urgence | H-Sèchement Suisse romande',
+  title: 'Services assèchement urgence | H-Sèchement Suisse romande',
   description: 'Détection fuites, assèchement expert et assainissement après dégât d\'eau. Technologies avancées, intervention 24h/7j en Suisse romande.',
   openGraph: {
-    title: 'Services Assèchement urgence | H-Sèchement Suisse romande',
+    title: 'Services assèchement urgence | H-Sèchement Suisse romande',
     description: 'Détection fuites, assèchement expert et assainissement. Technologies de pointe pour tous dégâts d\'eau.',
     url: `${BASE_URL}/services`,
   },
@@ -21,7 +21,7 @@ const services = [
   {
     id: 'detection-fuites',
     icon: <Search className="w-8 h-8" />,
-    title: 'Détection de Fuites',
+    title: 'Détection de fuites',
     subtitle: 'Protégez votre habitation des dégâts des eaux',
     description: 'Notre service de détection de fuites est conçu pour identifier et localiser précisément toute fuite, qu\'elle soit visible ou invisible à l\'œil nu. Nous comprenons l\'importance critique de la détection précoce pour prévenir les dommages, économiser vos factures d\'eau et éviter moisissures.',
     problems: [
@@ -47,8 +47,8 @@ const services = [
   {
     id: 'assechement-expert',
     icon: <Wind className="w-8 h-8" />,
-    title: 'Assèchement Expert',
-    subtitle: 'Restauration Rapide et Durable',
+    title: 'Assèchement expert',
+    subtitle: 'Restauration rapide et durable',
     description: 'L\'assèchement est une étape essentielle dans le processus de restauration après une fuite ou un dégât des eaux. Notre équipe spécialisée utilise des méthodes avancées pour éliminer toute trace d\'humidité dans les structures affectées.',
     problems: [
       'Humidité persistante dans les murs',

@@ -103,7 +103,7 @@ export default function Header() {
               href={`tel:${CONTACT.phone}`}
               onClick={handleCallClick}
               aria-label={`Appeler H-Sèchement au ${CONTACT.phone}`}
-              className="bg-hsechement-red text-white p-3 rounded-full hover:bg-hsechement-red/90 transition-colors shadow-lg hover:shadow-xl"
+              className="bg-hsechement-cta-red text-white p-3 rounded-full hover:bg-hsechement-orange transition-colors shadow-lg hover:shadow-xl"
             >
               <Phone className="w-6 h-6" />
             </Link>
@@ -116,7 +116,7 @@ export default function Header() {
               href={`tel:${CONTACT.phone}`}
               onClick={handleCallClick}
               aria-label={`Appeler H-Sèchement au ${CONTACT.phone}`}
-              className="bg-hsechement-red text-white p-2 rounded-full"
+              className="bg-hsechement-cta-red text-white p-2 rounded-full hover:bg-hsechement-orange transition-colors"
             >
               <Phone className="w-5 h-5" />
             </Link>

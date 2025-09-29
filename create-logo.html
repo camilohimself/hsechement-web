@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logo Generator H-Séchement</title>
+</head>
+<body>
+    <canvas id="canvas" width="512" height="512"></canvas>
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Fond blanc
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, 512, 512);
+
+        // Configuration
+        const centerX = 256;
+        const centerY = 200;
+
+        // Créer gradient orange pour la goutte
+        const gradient = ctx.createLinearGradient(200, 150, 312, 250);
+        gradient.addColorStop(0, '#FF9900');
+        gradient.addColorStop(1, '#FF6600');
+
+        // Dessiner goutte d'eau stylisée
+        ctx.beginPath();
+        ctx.moveTo(centerX, centerY - 60);
+        ctx.bezierCurveTo(
+            centerX - 40, centerY - 30,
+            centerX - 40, centerY + 20,
+            centerX, centerY + 60
+        );
+        ctx.bezierCurveTo(
+            centerX + 40, centerY + 20,
+            centerX + 40, centerY - 30,
+            centerX, centerY - 60
+        );
+        ctx.fillStyle = gradient;
+        ctx.fill();
+
+        // Lignes de séchage (bleu)
+        ctx.strokeStyle = '#4A90E2';
+        ctx.lineWidth = 8;
+        ctx.lineCap = 'round';
+
+        // Ligne 1
+        ctx.beginPath();
+        ctx.moveTo(320, 170);
+        ctx.lineTo(370, 170);
+        ctx.stroke();
+
+        // Ligne 2
+        ctx.beginPath();
+        ctx.moveTo(320, 200);
+        ctx.lineTo(360, 200);
+        ctx.stroke();
+
+        // Ligne 3
+        ctx.beginPath();
+        ctx.moveTo(320, 230);
+        ctx.lineTo(370, 230);
+        ctx.stroke();
+
+        // Texte H-SÉCHEMENT
+        ctx.fillStyle = '#2A2D3A';
+        ctx.font = 'bold 48px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('H-SÉCHEMENT', centerX, 320);
+
+        // Tagline
+        ctx.fillStyle = '#6B7280';
+        ctx.font = '24px Arial';
+        ctx.fillText('Urgence 24h/7j', centerX, 360);
+
+        // Téléphone
+        ctx.fillStyle = '#FF9900';
+        ctx.font = 'bold 32px Arial';
+        ctx.fillText('021 882 29 52', centerX, 410);
+
+        // Exporter en base64
+        const dataURL = canvas.toDataURL('image/png');
+        console.log('Logo PNG créé! Copier le data URL ci-dessous:');
+        console.log(dataURL);
+
+        // Afficher le logo
+        document.body.innerHTML = '<img src="' + dataURL + '" /><br><textarea style="width:100%; height:200px;">' + dataURL + '</textarea>';
+    </script>
+</body>
+</html>

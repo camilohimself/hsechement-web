@@ -89,7 +89,7 @@ export default function ChantierGallery({ className = "", showTitle = true }: Ch
                   ))}
                 </div>
 
-                <div className="flex items-center text-sm text-hsechement-red">
+                <div className="flex items-center text-sm text-hsechement-cta-red">
                   <CheckCircle className="w-4 h-4 mr-2" />
                   <span className="font-semibold">Intervention réussie</span>
                 </div>
@@ -104,15 +104,15 @@ export default function ChantierGallery({ className = "", showTitle = true }: Ch
           </p>
           <div className="flex justify-center items-center space-x-8 text-sm text-corporate-gray">
             <div className="flex items-center">
-              <CheckCircle className="w-5 h-5 text-hsechement-orange mr-2" />
+              <CheckCircle className="w-5 h-5 text-hsechement-blue mr-2" />
               <span>Matériel professionnel</span>
             </div>
             <div className="flex items-center">
-              <CheckCircle className="w-5 h-5 text-hsechement-orange mr-2" />
+              <CheckCircle className="w-5 h-5 text-hsechement-blue mr-2" />
               <span>Équipe certifiée</span>
             </div>
             <div className="flex items-center">
-              <CheckCircle className="w-5 h-5 text-hsechement-orange mr-2" />
+              <CheckCircle className="w-5 h-5 text-hsechement-blue mr-2" />
               <span>Résultats garantis</span>
             </div>
           </div>

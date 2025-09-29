@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <!-- Goutte d'eau stylisée en orange gradient -->
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9900;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6600;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Symbole goutte/maison combiné -->
+  <g transform="translate(10, 10)">
+    <!-- Goutte d'eau principale -->
+    <path d="M 20 15 Q 20 5, 25 5 Q 30 5, 30 15 Q 30 25, 25 30 Q 20 25, 20 15"
+          fill="url(#orangeGradient)" opacity="0.9"/>
+
+    <!-- Éléments de séchage (lignes de vent) -->
+    <path d="M 35 12 L 42 12 M 35 18 L 40 18 M 35 24 L 42 24"
+          stroke="url(#blueGradient)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- Texte H-SÉCHEMENT -->
+  <g transform="translate(55, 35)">
+    <!-- H-SÉCHEMENT en police bold -->
+    <text font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2A2D3A">
+      H-SÉCHEMENT
+    </text>
+
+    <!-- Tagline en dessous -->
+    <text font-family="Arial, sans-serif" font-size="10" fill="#6B7280" y="15">
+      Urgence 24h/7j
+    </text>
+  </g>
+</svg>

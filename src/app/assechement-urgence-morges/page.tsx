@@ -11,10 +11,10 @@ const QUARTIERS = [
 ];
 
 export const metadata: Metadata = {
-  title: `Assèchement Morges | Expert Dégât d.eau 24h/7j - Intervention 30min`,
+  title: `Assèchement Morges | Expert dégât d.eau 24h/7j - Intervention 30min`,
   description: `EXPERT assèchement Morges depuis ${COMPANY.founded}! ⚡ Position #1 région Morges (${CODE_POSTAL}). Intervention 30min, agréé assurances. Leader incontesté!`,
   openGraph: {
-    title: `#1 Assèchement Morges | Expert reconnu Dégât d.eau`,
+    title: `#1 Assèchement Morges | Expert reconnu dégât d.eau`,
     description: `LEADER assèchement Morges depuis ${COMPANY.founded}. Expert reconnu dégâts d'eau région Morges. Service premium 30min. Références exceptionnelles.`,
     url: `${BASE_URL}/assechement-urgence-morges`,
   },
@@ -85,7 +85,7 @@ export default function AssechementUrgenceMorgesPage() {
               🏆 EXPERT #1 RÉGION MORGES DEPUIS {COMPANY.founded} 🏆
             </div>
             <p className="text-xl md:text-2xl mb-8 font-bold">
-              Intervention en 30 minutes • 24h/7j • Leader Incontesté ({CODE_POSTAL})
+              Intervention en 30 minutes • 24h/7j • Leader incontesté ({CODE_POSTAL})
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
@@ -116,7 +116,7 @@ export default function AssechementUrgenceMorgesPage() {
                 href="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors shadow-xl"
               >
-                Devis Expert Gratuit
+                Devis expert gratuit
               </a>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function AssechementUrgenceMorgesPage() {
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               <div>
                 <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
-                  🏆 Leadership Incontesté Morges
+                  🏆 Leadership incontesté Morges
                 </h3>
                 <div className="space-y-6">
                   <div className="bg-yellow-50 rounded-xl p-6 border border-yellow-200">
@@ -225,7 +225,7 @@ export default function AssechementUrgenceMorgesPage() {
                   <div className="border border-gray-200 rounded-xl p-6">
                     <div className="flex items-center mb-3">
                       <span className="text-2xl mr-3">🏆</span>
-                      <h4 className="font-bold text-xl">Références Prestigieuses</h4>
+                      <h4 className="font-bold text-xl">Références prestigieuses</h4>
                     </div>
                     <p className="text-gray-700 mb-3">
                       Interventions villa de maître, château, entreprises renommées.
@@ -247,7 +247,7 @@ export default function AssechementUrgenceMorgesPage() {
         <div className="container-custom">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8 text-corporate-dark">
-              Zone d&apos;Excellence Région Morges
+              Zone d'excellence région Morges
             </h2>
             <p className="text-xl text-gray-700 mb-12">
               Service expert disponible 24h/7j dans toute la région morgienne
@@ -270,7 +270,7 @@ export default function AssechementUrgenceMorgesPage() {
 
             <div className="bg-gradient-to-r from-yellow-100 to-amber-100 rounded-xl p-8 border-2 border-yellow-300">
               <h3 className="text-2xl font-bold mb-6 text-hsechement-red">
-                🏆 Temps d&apos;Intervention Expert Morges
+                🏆 Temps d'intervention expert Morges
               </h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
@@ -296,7 +296,7 @@ export default function AssechementUrgenceMorgesPage() {
         <div className="container-custom">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-12 text-corporate-dark">
-              ⭐ Témoignages Clients Premium Morges
+              ⭐ Témoignages clients premium Morges
             </h2>
 
             <div className="grid lg:grid-cols-2 gap-8 mb-8">
@@ -311,7 +311,7 @@ export default function AssechementUrgenceMorgesPage() {
                   Travail de maître, respect total du patrimoine. RECOMMANDE VIVEMENT!&quot;
                 </p>
                 <div className="text-sm text-hsechement-red font-bold">
-                  ⭐ Intervention Premium Villa Historique - Janvier 2025
+                  ⭐ Intervention premium villa historique - Janvier 2025
                 </div>
               </div>
 
@@ -326,14 +326,14 @@ export default function AssechementUrgenceMorgesPage() {
                   aucun arrêt d&apos;activité. Notre partenaire de confiance!&quot;
                 </p>
                 <div className="text-sm text-hsechement-orange font-bold">
-                  🏆 Client Entreprise Fidèle - Mars 2025
+                  🏆 Client entreprise fidèle - Mars 2025
                 </div>
               </div>
             </div>
 
             <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-xl p-8 text-center">
               <h3 className="text-2xl font-bold mb-4 text-gray-800">
-                🏆 Statistiques Excellence Morges
+                🏆 Statistiques excellence Morges
               </h3>
               <div className="grid md:grid-cols-4 gap-6">
                 <div>
@@ -363,13 +363,13 @@ export default function AssechementUrgenceMorgesPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 text-corporate-dark">
-              💎 Expertise Technique Premium Morges
+              💎 Expertise technique premium Morges
             </h2>
 
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-yellow-500">
                 <h3 className="text-xl font-bold mb-3 text-hsechement-red">
-                  🏛️ Spécialiste Patrimoine Morgien
+                  🏛️ Spécialiste patrimoine morgien
                 </h3>
                 <p className="text-gray-700">
                   <strong>Expert reconnu bâtiments historiques Morges.</strong>
@@ -380,7 +380,7 @@ export default function AssechementUrgenceMorgesPage() {
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-amber-500">
                 <h3 className="text-xl font-bold mb-3 text-hsechement-orange">
-                  🏠 Architecture Résidentielle Morges
+                  🏠 Architecture résidentielle Morges
                 </h3>
                 <p className="text-gray-700">
                   <strong>Maîtrise parfaite typologie morgienne:</strong>
@@ -391,7 +391,7 @@ export default function AssechementUrgenceMorgesPage() {
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-gray-500">
                 <h3 className="text-xl font-bold mb-3 text-gray-600">
-                  🔬 Technologies de Pointe
+                  🔬 Technologies de pointe
                 </h3>
                 <p className="text-gray-700">
                   <strong>Équipement professionnel dernière génération:</strong>
@@ -409,7 +409,7 @@ export default function AssechementUrgenceMorgesPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-6">
-              👑 Expert #1 Morges à Votre Service!
+              👑 Expert #1 Morges à votre service!
             </h2>
             <p className="text-xl mb-8">
               Faites confiance au LEADER incontesté de l&apos;assèchement morgien.
@@ -442,7 +442,7 @@ export default function AssechementUrgenceMorgesPage() {
                 href="/contact"
                 className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-hsechement-red transition-colors"
               >
-                Service premium Gratuit
+                Service premium gratuit
               </a>
             </div>
 

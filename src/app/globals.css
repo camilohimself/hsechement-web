@@ -27,7 +27,7 @@ body {
 /* === CUSTOM COMPONENTS === */
 @layer components {
   .btn-primary {
-    @apply bg-hsechement-red text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-hsechement-red/90 hover:shadow-lg;
+    @apply bg-hsechement-orange text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:bg-hsechement-orange/90 hover:shadow-lg;
   }
 
   .btn-secondary {
@@ -35,7 +35,7 @@ body {
   }
 
   .btn-urgent {
-    @apply bg-hsechement-red text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-hsechement-red/90 hover:shadow-2xl hover:scale-105 animate-pulse-urgent;
+    @apply bg-hsechement-cta-red text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-hsechement-cta-red/90 hover:shadow-2xl hover:scale-105 animate-pulse-urgent;
   }
 
   .container-custom {
@@ -110,7 +110,7 @@ body {
 
 /* === SMOOTH FOCUS STATES === */
 .focus-visible-ring {
-  @apply focus-visible:ring-2 focus-visible:ring-hsechement-orange focus-visible:ring-offset-2 focus-visible:outline-none;
+  @apply focus-visible:ring-2 focus-visible:ring-hsechement-blue focus-visible:ring-offset-2 focus-visible:outline-none;
 }
 
 /* === LOADING STATE === */
@@ -132,7 +132,7 @@ body {
   left: 20px;
   right: 20px;
   z-index: 1000;
-  box-shadow: 0 10px 25px rgba(220, 38, 38, 0.3);
+  box-shadow: 0 10px 25px rgba(239, 68, 68, 0.3);
 }
 
 /* === HERO CTA DESKTOP === */

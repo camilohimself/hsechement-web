@@ -9,23 +9,36 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Couleurs exactes H-Séchement (extraites du site original)
+        // NOUVELLE PALETTE H-SÉCHEMENT - Plus douce et professionnelle
         hsechement: {
-          red: '#D50309',        // Rouge bouton CTA original
-          orange: '#FF9900',     // Orange navigation original
-          dark: '#2A2D3A',       // Gris foncé header exact (plus foncé pour logo)
+          // Couleurs principales
+          orange: '#FF9900',     // COULEUR DOMINANTE - Orange chaleureux
+          'orange-dark': '#FF6600',  // Orange plus foncé pour gradients
+          blue: '#4A90E2',       // BLEU COMPLÉMENTAIRE - Confiance & eau
+          'blue-dark': '#357ABD', // Bleu foncé pour accents
+
+          // Rouge UNIQUEMENT pour CTA urgence
+          'cta-red': '#E74C3C',  // Rouge moins agressif (vs #D50309)
+
+          // Neutres
+          dark: '#2A2D3A',       // Gris foncé textes
           white: '#FFFFFF',      // Blanc arrière-plan
           gray: {
             light: '#F8F9FA',   // Gris clair sections
             medium: '#6B7280',   // Gris texte secondaire
+            dark: '#4B5563',     // Gris foncé
           }
         },
-        // Palette corporate utilisée dans les composants (classes text-corporate-*, bg-corporate-*)
+        // Palette corporate pour compatibilité
         corporate: {
-          dark: '#2A2D3A',       // Aligné avec hsechement-dark
+          dark: '#2A2D3A',
           gray: '#6B7280',
+          orange: '#FF9900',
+          blue: '#4A90E2',
         },
         'corporate-gray-bg': '#F8F9FA',
+        'corporate-orange': '#FF9900',
+        'corporate-blue': '#4A90E2',
       },
       fontFamily: {
         'cera': ['Cera PRO', 'Arial', 'Helvetica', 'sans-serif'],

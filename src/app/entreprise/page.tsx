@@ -37,7 +37,7 @@ export default function EntreprisePage() {
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-corporate-dark mb-6">
-              Notre Expertise
+              Notre expertise
             </h2>
             <p className="text-lg text-gray-700 mb-8">
               Depuis {COMPANY.founded}, {COMPANY.name} intervient 24h/7j pour tous vos dégâts d&apos;eau et problèmes d&apos;assèchement en Suisse romande.
