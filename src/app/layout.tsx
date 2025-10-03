@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import PhoneSticky from '@/components/PhoneSticky'
+import ClientComponents from '@/components/ClientComponents'
 import { DEFAULT_SEO, BASE_URL } from '@/data/site-config'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
@@ -121,8 +121,8 @@ export default function RootLayout({
           <Footer />
         </div>
 
-        {/* CTA téléphone sticky */}
-        <PhoneSticky />
+        {/* Composants client: urgence, WhatsApp, téléphone */}
+        <ClientComponents />
 
         {/* Schema.org pour l'entreprise globale */}
         <script

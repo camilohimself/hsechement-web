@@ -58,14 +58,14 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-3">
             {/* Logo direct HTML */}
             <div className="w-14 h-14 bg-white/10 backdrop-blur-sm rounded-lg p-1 flex items-center justify-center">
-              <img
+              <Image
                 src="/images/logo.png"
                 alt={`${COMPANY.name} – Logo`}
-                className="max-w-full max-h-full object-contain"
-                loading="eager"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                }}
+                width={52}
+                height={52}
+                className="object-contain"
+                priority
+                sizes="52px"
               />
             </div>
             <div>

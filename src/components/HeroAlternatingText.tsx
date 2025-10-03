@@ -11,13 +11,13 @@ interface HeroMessage {
 export default function HeroAlternatingText() {
   const messages: HeroMessage[] = [
     {
-      highlight: "Urgence dégât d'eau",
-      subtitle: "en Suisse romande ?",
+      highlight: "Dégât d'eau en urgence ?",
+      subtitle: "Intervention 30 min • 24h/7j",
       icon: "AlertTriangle"
     },
     {
-      highlight: "Le pro de l'assèchement",
-      subtitle: "et assainissement en Suisse romande",
+      highlight: "Assèchement professionnel",
+      subtitle: "Agréé assurances Suisse romande",
       icon: "Award"
     }
   ];
@@ -44,7 +44,7 @@ export default function HeroAlternatingText() {
   const currentMessage = messages[currentIndex];
 
   return (
-    <div className="min-h-[140px] flex flex-col justify-center">
+    <div className="min-h-[160px] md:min-h-[180px] flex flex-col justify-center">
       <div
         className={`transition-all duration-1000 transform ${
           isVisible
@@ -52,11 +52,15 @@ export default function HeroAlternatingText() {
             : 'opacity-0 -translate-y-2'
         }`}
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          <span className="text-hsechement-cta-red block drop-shadow-lg">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          <span className="text-hsechement-cta-red block mb-3" style={{
+            textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(0,0,0,0.6)'
+          }}>
             {currentMessage.highlight}
           </span>
-          <span className="text-hsechement-orange block mt-2 drop-shadow-lg">
+          <span className="text-white block" style={{
+            textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 20px rgba(0,0,0,0.6)'
+          }}>
             {currentMessage.subtitle}
           </span>
         </h1>

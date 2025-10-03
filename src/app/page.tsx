@@ -30,13 +30,18 @@ export default function HomePage() {
 
       {/* Hero Section - Photo background professionnel */}
       <section className="relative py-12 md:py-20 lg:py-24 overflow-hidden min-h-[600px] md:min-h-[700px]">
-        {/* Background photo H-Séchement - HTML direct */}
+        {/* Background photo H-Séchement - Optimisé Next.js */}
         <div className="absolute inset-0">
-          <img
+          <Image
             src="/images/gallery/H12.jpg"
             alt="Technicien H-Séchement professionnel en intervention"
-            className="w-full h-full object-cover object-center"
-            loading="eager"
+            fill
+            className="object-cover object-center"
+            priority
+            quality={90}
+            sizes="100vw"
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
           />
           {/* Overlay plus léger pour visibilité photo */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent" />
